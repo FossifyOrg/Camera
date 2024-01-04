@@ -16,10 +16,10 @@
     <string name="photo_not_saved">Das Foto konnte nicht gespeichert werden</string>
     <string name="setting_resolution_failed">Korrekte Auflösung konnte nicht eingestellt werden</string>
     <string name="video_recording_failed">Videoaufzeichnung fehlgeschlagen, probiere eine andere Auflösung aus</string>
-    <string name="camera_in_use_error">Die Kamera wird von einer anderen Anwendung verwendet, bitte schließen Sie die Anwendung und versuchen Sie es erneut</string>
+    <string name="camera_in_use_error">Die Kamera wird von einer anderen App verwendet, bitte schließe die App und versuche es erneut</string>
     <string name="camera_configure_error">Beim Konfigurieren der Kamera ist ein Fehler aufgetreten</string>
     <string name="camera_disabled_by_admin_error">Kamera wird vom Administrator deaktiviert</string>
-    <string name="camera_dnd_error">Der „Bitte nicht stören“-Modus ist aktiviert. Bitte deaktivieren Sie ihn und versuchen Sie es erneut</string>
+    <string name="camera_dnd_error">Der „Bitte nicht stören“-Modus ist aktiviert. Bitte deaktiviere ihn und versuche es erneut</string>
     <string name="photo_capture_failed">Fotoaufnahme fehlgeschlagen</string>
     <string name="video_capture_insufficient_storage_error">Videoaufzeichnung aufgrund unzureichender Speicherkapazität fehlgeschlagen</string>
     <!-- Camera Screen Icons Content Description -->
@@ -45,7 +45,7 @@
     <string name="turn_flash_off_at_startup">Blitzlicht bei Start ausschalten</string>
     <string name="flip_front_camera_photos_horizontally">Fotos der Frontkamera horizontal drehen</string>
     <string name="keep_settings_visible">Taste für Einstellungen immer sichtbar</string>
-    <string name="always_open_back_camera">Anwendung immer mit der Rückkamera starten</string>
+    <string name="always_open_back_camera">App immer mit der Rückkamera starten</string>
     <string name="save_photo_metadata">Exif-Metadaten in Fotos speichern</string>
     <string name="save_photo_video_location">Foto- und Videostandort speichern</string>
     <string name="photo_compression_quality">Fotokomprimierungsqualität</string>
