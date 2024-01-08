@@ -1,0 +1,4 @@
+* Reescribió la aplicación desde cero, basada en CameraX
+ * Añadido icono monocromo y soporte para selector de idioma en Android 13+
+ * Agregar un botón obtener Simple Phone en la sección Acerca de
+ * Añadido muchas mejoras de traducción, estabilidad y UX
