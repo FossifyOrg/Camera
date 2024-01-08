@@ -1,0 +1,3 @@
+* Corregido un fallo con el foco mal colocado al hacer clic
+ * Uso del tema Material You por defecto en Android 12+.
+ * Añadidas algunas mejoras de UI, traducción y estabilidad

@@ -1,0 +1,3 @@
+Se ha corregido un error que impedía guardar vídeos en tarjetas SD.
+Corrección de la barra de estado que no se ocultaba en algunos dispositivos.
+Mejoras en la interfaz de usuario, la traducción y la estabilidad

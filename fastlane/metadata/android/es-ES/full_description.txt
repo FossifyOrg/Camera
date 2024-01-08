@@ -1,0 +1,26 @@
+Esta práctica aplicación de cámara es utilizable tanto para tomar fotos como para grabar videos. Puede cambiar rápidamente entre la cámara frontal y trasera en esta aplicación de cámara abierta, modificar la ruta de guardado o limitar la resolución de los marcos de fotos. Nunca te perderás los momentos importantes de tu vida. Hay muchos ajustes útiles disponibles para hacerlo aún más personal, adecuado para sus necesidades. Vamos a enumerar algunos de ellos.
+
+El flash se puede encender y apagar o utilizar como una linterna útil, que no se ve a menudo. Puede pellizcar la pantalla para acercar y alejar el zoom o alternar el intercambio horizontal de imágenes durante la captura de fantásticas fotos de retrato. Con esta aplicación puedes enfocarte en el objeto principal de la imagen en lugar de permitir que otros ruidos entren en la imagen. 
+
+Puede cambiar fácilmente la resolución de salida, la calidad o la relación de aspecto con unos pocos clics, como cabría esperar de una aplicación de cámara abierta moderna. Esto se aplica tanto a las fotos como a los videos. La calidad de las imágenes y videos se puede cambiar fácilmente según su requisito.
+
+Después de tomar una foto, verá la nueva miniatura de la foto, pulsando que puede abrir rápidamente en su galería preferida utilizando esta aplicación de cámara abierta. Verá una indicación clara de cuando se captura la foto, lo que garantiza que el archivo se ha guardado.
+
+Si desea iniciar esta sencilla aplicación de cámara abierta al presionar el botón de cámara de hardware de sus dispositivos, es posible que tenga que deshabilitar la aplicación de cámara incorporada en Configuración -> Aplicaciones -> Cámara -> Deshabilitar.
+
+Puede configurarlo para usar los botones de volumen como obturador, o para encender la linterna de forma predeterminada al iniciar.
+
+Tiene varios otros ajustes relacionados con el sonido del obturador, flash, metadatos fotográficos, calidad fotográfica, etc. La ruta del archivo de salida se puede personalizar, por lo que puede decidir dónde desea guardar su contenido multimedia. Es compatible con el almacenamiento interno y las tarjetas SD.
+
+Viene con diseño de material y tema oscuro por defecto, proporciona una gran experiencia de usuario para un uso fácil. La falta de acceso a Internet te da más privacidad, seguridad y estabilidad que otras aplicaciones.
+
+No contiene anuncios ni permisos innecesarios. Es fuente de cámara totalmente abierta, proporciona colores personalizables.
+
+Echa un vistazo a la suite completa de Simple Tools aquí:
+Sitio web: https://www.fossify.org
+
+En Reddit:
+Sitio web: https://www.reddit.com/r/Fossify
+
+Telegram:
+Sitio web: https://t.me/Fossify
