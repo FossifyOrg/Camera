@@ -2,10 +2,6 @@
 <resources>
     <string name="app_name">Enkelt kamera</string>
     <string name="app_launcher_name">Kamera</string>
-    <string name="capture_mode">Capture mode</string>
-    <string name="maximize_quality">Maximize quality</string>
-    <string name="minimize_latency">Minimize latency</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Kamera utilgjengelig</string>
     <string name="camera_open_error">Fikk ikke tilgang til kameraet</string>
     <string name="video_creating_error">Kunne ikke opprette videofilen</string>
@@ -22,24 +18,19 @@
     <string name="camera_dnd_error">Ikke forstyrr-modus er aktivert. Deaktiver og prøv på nytt</string>
     <string name="photo_capture_failed">Kunne ikke ta bilde</string>
     <string name="video_capture_insufficient_storage_error">Videoinnspilling mislyktes på grunn av utilstrekkelig lagring</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Aktivere/deaktivere bilde-/videomodus</string>
     <string name="change_resolution">Endre oppløsning</string>
     <string name="view_last_media">Vis medier som ble tatt sist</string>
     <string name="toggle_camera">Veksle mellom front-/bakkamera</string>
     <string name="toggle_flash">Aktivere/deaktivere lommelykt modus</string>
-    <string name="toggle_timer">Toggle the timer mode</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Hvilket bildekomprimeringsnivå bør jeg bruke\?</string>
     <string name="faq_1_text">Det avhenger av hva du vil. Til alminnelige formål anbefales 75%-80%. Fremdeles god kvalitet, men vesentlig redusert filstørrelse sammenlignet med 100%.</string>
-    <!-- Settings -->
     <string name="save_photos">Lagre bilder og videoer i</string>
     <string name="show_preview">Vis bildeforhåndsvisning etter knipsing</string>
     <string name="shutter_sound">Lukkerlyd</string>
     <string name="back_camera">Oppløsninger for kamera på baksiden</string>
     <string name="front_camera">Frontkameraoppløsninger</string>
     <string name="photo">Bilde</string>
-    <string name="video">Video</string>
     <string name="focus_before_capture">Fokuser før knipsing</string>
     <string name="volume_buttons_as_shutter">Bruk lydstyrkeknapper som lukker</string>
     <string name="turn_flash_off_at_startup">Skru av blitz ved programstart</string>
@@ -47,11 +38,6 @@
     <string name="keep_settings_visible">Behold innstillingsknappene synlig</string>
     <string name="always_open_back_camera">Alltid åpne programmet med kameraet på baksiden</string>
     <string name="save_photo_metadata">Lagre Exif-metadata i bilder</string>
-    <string name="save_photo_video_location">Save photo and video location</string>
     <string name="photo_compression_quality">Bildekompresjonskvalitet</string>
     <string name="shutter">Lukker</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

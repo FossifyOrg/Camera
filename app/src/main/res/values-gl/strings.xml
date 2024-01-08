@@ -5,7 +5,6 @@
     <string name="capture_mode">Modo de captura</string>
     <string name="maximize_quality">Maximizala calidade</string>
     <string name="minimize_latency">Minimizala latencia</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Cámara non dispoñible</string>
     <string name="camera_open_error">Fallou o acceso á cámara</string>
     <string name="video_creating_error">Fallou a creación do ficheiro de vídeo</string>
@@ -22,17 +21,14 @@
     <string name="camera_dnd_error">O modo Non Molestar está activado. Desactívao e inténtao outra vez</string>
     <string name="photo_capture_failed">Fallou a toma da foto</string>
     <string name="video_capture_insufficient_storage_error">A gravación de vídeo fallou por almacenaxe insuficiente</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Alterna o modo foto/vídeo</string>
     <string name="change_resolution">Trocala resolucion</string>
     <string name="view_last_media">Ollalos derradeiros medios capturados</string>
     <string name="toggle_camera">Troca entre a cámara frontal/traseira</string>
     <string name="toggle_flash">Troca a modo lanterna</string>
     <string name="toggle_timer">Cambialo modo do temporizador</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Que calidade de compresión debo escoller para a foto?</string>
     <string name="faq_1_text">Depende do obxectivo. Para uso xeral a maioría das persoas usuarias recomendan entre un 75%-80%, que é un valor bastante bo, pero o tamaño do ficheiro redúcese drasticamente comparado co 100%.</string>
-    <!-- Settings -->
     <string name="save_photos">Gardar fotos e videos en</string>
     <string name="show_preview">Mostrar unha vista previa da foto tras a captura</string>
     <string name="shutter_sound">Son do obturador</string>
@@ -47,11 +43,6 @@
     <string name="keep_settings_visible">Manter visibles os botóns dos axustes</string>
     <string name="always_open_back_camera">Abrir sempre o aplicativo coa cámara traseira</string>
     <string name="save_photo_metadata">Gardar metadatos EXIF da foto</string>
-    <string name="save_photo_video_location">Save photo and video location</string>
     <string name="photo_compression_quality">Calidade da compresión da foto</string>
     <string name="shutter">Obturador</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

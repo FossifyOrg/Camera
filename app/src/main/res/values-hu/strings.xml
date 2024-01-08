@@ -5,7 +5,6 @@
     <string name="capture_mode">Rögzítési mód</string>
     <string name="maximize_quality">Minőség maximalizálása</string>
     <string name="minimize_latency">Késleltetés minimalizálása</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Kamera nem elérhető</string>
     <string name="camera_open_error">Hiba történt a kamera elérésében</string>
     <string name="video_creating_error">Hiba történt a videó fájl létrehozásakor</string>
@@ -22,24 +21,20 @@
     <string name="camera_dnd_error">A Ne zavarjanak üzemmód engedélyezve van. Kérjük, kapcsolja ki és próbálja újra</string>
     <string name="photo_capture_failed">A fényképfelvétel sikertelen</string>
     <string name="video_capture_insufficient_storage_error">A videofelvétel nem sikerült az elégtelen tárhely miatt</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Fotó/videó üzemmód váltása</string>
     <string name="change_resolution">Felbontás módosítása</string>
     <string name="view_last_media">Utoljára rögzített média megtekintése</string>
     <string name="toggle_camera">Elülső/hátsó kamera átkapcsolása</string>
     <string name="toggle_flash">A zseblámpa üzemmód váltása</string>
     <string name="toggle_timer">Időzítési mód be/ki</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Milyen fotótömörítési minőséget kell beállítanom\?</string>
     <string name="faq_1_text">Ez a céltól függ. Általános célokra a legtöbben 75%-80%-ot javasolnak, amikor a kép még mindig nagyon jó minőségű, de a fájlméret drasztikusan csökken a 100%-hoz képest.</string>
-    <!-- Settings -->
     <string name="save_photos">Fényképek és videók mentése</string>
     <string name="show_preview">Fotóelőnézet megjelenítése a fénykép rögzítése után</string>
     <string name="shutter_sound">Záróhang</string>
     <string name="back_camera">Hátsó kamera felbontások</string>
     <string name="front_camera">Elülső kamera felbontások</string>
     <string name="photo">Kép</string>
-    <string name="video">Video</string>
     <string name="focus_before_capture">Fókuszálás a felvétel előtt</string>
     <string name="volume_buttons_as_shutter">A hangerőgombok használata zárként</string>
     <string name="turn_flash_off_at_startup">A vaku kikapcsolása indításkor</string>
@@ -47,11 +42,6 @@
     <string name="keep_settings_visible">Tartsa láthatóvá a beállítási gombokat</string>
     <string name="always_open_back_camera">Mindig a Hátsó kamerával nyissa meg az alkalmazást</string>
     <string name="save_photo_metadata">Fotó adatok mentése</string>
-    <string name="save_photo_video_location">Save photo and video location</string>
     <string name="photo_compression_quality">Fotó tömörítés minősége</string>
     <string name="shutter">Záró</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

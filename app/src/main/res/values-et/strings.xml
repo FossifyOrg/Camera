@@ -5,7 +5,6 @@
     <string name="capture_mode">Pildistamisrežiim</string>
     <string name="maximize_quality">Eelista parimat kvaliteeti</string>
     <string name="minimize_latency">Eelista väiksemat viivitust</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Kaamera pole kasutatav</string>
     <string name="camera_open_error">Kaameraühenduse loomisel tekkis viga</string>
     <string name="video_creating_error">Videofaili loomisel tekkis viga</string>
@@ -22,24 +21,20 @@
     <string name="camera_dnd_error">„Ära häiri“ režiim on sisse lülitatud. Palun lülita see välja ja proovi uuesti</string>
     <string name="photo_capture_failed">Foto jäädvustamine ei õnnestunud</string>
     <string name="video_capture_insufficient_storage_error">Video salvestamine ei õnnestunud ebapiisava salvestusruumi tõttu</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Foto/video režiimi ümberlülitamine</string>
     <string name="change_resolution">Muuda resolutsiooni</string>
     <string name="view_last_media">Vaata viimast salvestatud meediat</string>
     <string name="toggle_camera">Vaheta ees- ja tagakaamera</string>
     <string name="toggle_flash">Lülita taskulambi režiim sisse ja välja</string>
     <string name="toggle_timer">Lülita taimerirežiim sisse ja välja</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Missugust piltide pakkimise kvaliteeti peaksin kasutama\?</string>
     <string name="faq_1_text">See sõltub sinu eesmärkidest. Üldiselt soovitame 75-80-protsendilist pakkimist, mispuhul piltide kvaliteet on jätkuvalt mõistlik, kuid piltide suurus on 100-protsendilise kvaliteediga võrreldes väiksem.</string>
-    <!-- Settings -->
     <string name="save_photos">Fotode ja piltide salvestamise kaust</string>
     <string name="show_preview">Peale pildistamist näita foto eelvaadet</string>
     <string name="shutter_sound">Katiku heli</string>
     <string name="back_camera">Tagakaamera resolutsioonid</string>
     <string name="front_camera">Eeskaamera resolutsioonid</string>
     <string name="photo">Foto</string>
-    <string name="video">Video</string>
     <string name="focus_before_capture">Enne pildistamist teravda pilti</string>
     <string name="volume_buttons_as_shutter">Kasuta helinuppe päästikuna</string>
     <string name="turn_flash_off_at_startup">Käivitamisel lülita välk välja</string>
@@ -50,8 +45,4 @@
     <string name="save_photo_video_location">Salvesta foto ja video asukoht</string>
     <string name="photo_compression_quality">Fotode pakkimise tase</string>
     <string name="shutter">Katik</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

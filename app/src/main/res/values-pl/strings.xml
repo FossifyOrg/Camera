@@ -5,7 +5,6 @@
     <string name="capture_mode">Tryb przechwytywania</string>
     <string name="maximize_quality">Maksymalizuj jakość</string>
     <string name="minimize_latency">Minimalizuj opóźnienie</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Aparat niedostępny</string>
     <string name="camera_open_error">Nie udało się uzyskać dostępu do aparatu</string>
     <string name="video_creating_error">Wystąpił błąd podczas tworzenia pliku wideo</string>
@@ -22,17 +21,14 @@
     <string name="camera_dnd_error">Tryb Nie przeszkadzać jest włączony. Wyłącz go i spróbuj ponownie.</string>
     <string name="photo_capture_failed">Nie udało się zrobić zdjęcia</string>
     <string name="video_capture_insufficient_storage_error">Nagrywanie wideo nie powiodło się z powodu niewystarczającej ilości miejsca</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Przełącz między trybem zdjęcia a wideo</string>
     <string name="change_resolution">Zmień rozdzielczość</string>
     <string name="view_last_media">Wyświetl ostatnio zrobiony plik</string>
     <string name="toggle_camera">Przełącz między przednim a tylnym aparatem</string>
     <string name="toggle_flash">Przełącz na tryb lampy błyskowej</string>
     <string name="toggle_timer">Przełącz na tryb samowyzwalacza</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Jaką jakość kompresji zdjęć powinienem ustawić\?</string>
     <string name="faq_1_text">Zależy to od Twojego celu. Do celów ogólnych większość ludzi zaleca poziom 75-80% — wtedy obraz jest nadal w dobrej jakości, ale rozmiar pliku znacznie zmniejsza się w porównaniu do 100%.</string>
-    <!-- Settings -->
     <string name="save_photos">Zapisuj zdjęcia i wideo w</string>
     <string name="show_preview">Pokazuj podgląd po zrobieniu zdjęcia</string>
     <string name="shutter_sound">Dźwięk migawki</string>
@@ -50,8 +46,4 @@
     <string name="save_photo_video_location">Zapisuj lokalizację zdjęć i wideo</string>
     <string name="photo_compression_quality">Jakość kompresji zdjęć</string>
     <string name="shutter">Migawka</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

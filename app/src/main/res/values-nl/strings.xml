@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Eenvoudige Camera</string>
-    <string name="app_launcher_name">Camera</string>
     <string name="capture_mode">Opnamemodus</string>
     <string name="maximize_quality">Kwaliteit maximaliseren</string>
     <string name="minimize_latency">Vertraging minimaliseren</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Camera niet beschikbaar</string>
     <string name="camera_open_error">Fout opgetreden bij toegang verkrijgen tot de camera</string>
     <string name="video_creating_error">Fout opgetreden bij aanmaken van videobestand</string>
@@ -22,24 +20,20 @@
     <string name="camera_dnd_error">De modus \"Niet storen\" is ingeschakeld. Schakel deze uit en probeer het nog eens.</string>
     <string name="photo_capture_failed">Foto-opname mislukt</string>
     <string name="video_capture_insufficient_storage_error">Video-opname mislukt door onvoldoende opslag</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Foto-/videomodus</string>
     <string name="change_resolution">Resolutie wijzigen</string>
     <string name="view_last_media">Laatste opname bekijken</string>
     <string name="toggle_camera">Camera voor/achter</string>
     <string name="toggle_flash">Zaklampmodus wisselen</string>
     <string name="toggle_timer">Timermodus wijzigen</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Welke kwaliteit voor foto\'s moet ik instellen?</string>
     <string name="faq_1_text">Voor normaal gebruik adviseren de meeste mensen een compressie van 75%-80%. De afbeelding zal dan nog steeds van goede kwaliteit zijn en de bestandsgrootte zal enorm veel kleiner zijn dan met 100%.</string>
-    <!-- Settings -->
     <string name="save_photos">Foto\'s en video\'s opslaan in</string>
     <string name="show_preview">Voorbeeld tonen na het nemen van een foto</string>
     <string name="shutter_sound">Sluitergeluid</string>
     <string name="back_camera">Resoluties camera achterop</string>
     <string name="front_camera">Resoluties camera voorop</string>
     <string name="photo">Foto</string>
-    <string name="video">Video</string>
     <string name="focus_before_capture">Voor opname eerst scherpstellen</string>
     <string name="volume_buttons_as_shutter">Volumeknoppen als sluiterknop gebruiken</string>
     <string name="turn_flash_off_at_startup">Flitser bij opstarten uitschakelen</string>
@@ -47,11 +41,6 @@
     <string name="keep_settings_visible">Knop Instellingen altijd tonen</string>
     <string name="always_open_back_camera">Bij openen app altijd camera achterop activeren</string>
     <string name="save_photo_metadata">EXIF-metadata in foto\'s opslaan</string>
-    <string name="save_photo_video_location">Save photo and video location</string>
     <string name="photo_compression_quality">Kwaliteit foto\'s</string>
     <string name="shutter">Sluiter</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

@@ -2,10 +2,6 @@
 <resources>
     <string name="app_name">Обикновена Камера</string>
     <string name="app_launcher_name">Камера</string>
-    <string name="capture_mode">Capture mode</string>
-    <string name="maximize_quality">Maximize quality</string>
-    <string name="minimize_latency">Minimize latency</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Камерата не е налична</string>
     <string name="camera_open_error">Възникна грешка при достъпа до камерата</string>
     <string name="video_creating_error">Възникна грешка при създаването на видео файла</string>
@@ -22,17 +18,13 @@
     <string name="camera_dnd_error">Режим \"Не безпокойте\" е активен. Моля, деактивирайте и опитайте пак</string>
     <string name="photo_capture_failed">Заснемането на снимка е неуспешно</string>
     <string name="video_capture_insufficient_storage_error">Записът на видео е неуспешен поради недостатъчно място за съхранение</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Превключи в режим на снимки/видео</string>
     <string name="change_resolution">Промени Резолюцията</string>
     <string name="view_last_media">Преглед на последно заснети медии</string>
     <string name="toggle_camera">Превключване на предна/задна камера</string>
     <string name="toggle_flash">Превключване на режим фенерче</string>
-    <string name="toggle_timer">Toggle the timer mode</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Колко трябва да компресирам качеството на снимките\?</string>
     <string name="faq_1_text">Зависи. За общо ползване повечето хора съветват да 75%-80%, като изображението все още е с наистина добро качество, но размерът на файла е драстично намален в сравнение със 100%.</string>
-    <!-- Settings -->
     <string name="save_photos">Запазване на снимки и видеоклипове в</string>
     <string name="show_preview">Показване на предварителен преглед на снимката след заснемане</string>
     <string name="shutter_sound">Звук от затвора</string>
@@ -47,11 +39,6 @@
     <string name="keep_settings_visible">Бутоните за настройки остават видими</string>
     <string name="always_open_back_camera">Приложението винаги се отваря със Задната камера</string>
     <string name="save_photo_metadata">Запазване на снимкови exif метаданни</string>
-    <string name="save_photo_video_location">Save photo and video location</string>
     <string name="photo_compression_quality">Ниво на компресия на снимките</string>
     <string name="shutter">Затвор</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>
