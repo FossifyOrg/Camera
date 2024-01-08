@@ -5,7 +5,6 @@
     <string name="capture_mode">وضع الالتقاط</string>
     <string name="maximize_quality">زيادة الجودة</string>
     <string name="minimize_latency">تقليل التأخير</string>
-    <!-- Errors -->
     <string name="camera_unavailable">الكاميرا غير متاحة</string>
     <string name="camera_open_error">تعذر الوصول إلى الكاميرا</string>
     <string name="video_creating_error">تعذر إنشاء ملف الفيديو</string>
@@ -22,17 +21,14 @@
     <string name="camera_dnd_error">تم تمكين وضع عدم الإزعاج. يرجى تعطيله والمحاولة مرة أخرى</string>
     <string name="photo_capture_failed">فشل التقاط الصور</string>
     <string name="video_capture_insufficient_storage_error">فشل تسجيل الفيديو بسبب عدم كفاية مساحة التخزين</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">تبديل وضع الصور/الفيديو</string>
     <string name="change_resolution">تغيير الدقة</string>
     <string name="view_last_media">عرض آخر الوسائط الملتقطة</string>
     <string name="toggle_camera">تبديل الكاميرا الأمامية / الخلفية</string>
     <string name="toggle_flash">تبديل وضع الفلاش اليدوي</string>
     <string name="toggle_timer">تبديل وضع المؤقت</string>
-    <!-- FAQ -->
     <string name="faq_1_title">ما هي جودة ضغط الصور التي يجب تعيينها؟</string>
     <string name="faq_1_text">ذلك يعتمد على هدفك. لأغراض عامة ينصح معظم الناس باستخدام 75٪ -80٪، عندما تكون الصورة لا تزال ذات نوعية جيدة حقا، ولكن يتم تقليل حجم الملف بشكل كبير مقارنة مع 100٪.</string>
-    <!-- Settings -->
     <string name="save_photos">حفظ الصور ومقاطع الفيديو إلى</string>
     <string name="show_preview">عرض معاينة الصورة بعد التقاطها</string>
     <string name="shutter_sound">صوت الغالق</string>
@@ -50,8 +46,4 @@
     <string name="save_photo_video_location">حفظ موقع الصورة والفيديو</string>
     <string name="photo_compression_quality">جودة ضغط الصور</string>
     <string name="shutter">الغالق</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

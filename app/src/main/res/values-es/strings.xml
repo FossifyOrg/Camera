@@ -5,7 +5,6 @@
     <string name="capture_mode">Modo de captura</string>
     <string name="maximize_quality">Maximiza la calidad</string>
     <string name="minimize_latency">Minimizar la latencia</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Cámara no disponible</string>
     <string name="camera_open_error">Ha ocurrido un error al acceder a la cámara</string>
     <string name="video_creating_error">Ha ocurrido un error creando el archivo de vídeo</string>
@@ -22,24 +21,20 @@
     <string name="camera_dnd_error">El modo \"No molestar\" está activado. Por favor, desactívelo e inténtelo de nuevo</string>
     <string name="photo_capture_failed">Fallo en la captura de fotos</string>
     <string name="video_capture_insufficient_storage_error">La grabación de vídeo ha fallado debido a un almacenamiento insuficiente</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Cambiar modo foto/vídeo</string>
     <string name="change_resolution">Cambiar Resolución</string>
     <string name="view_last_media">Ver últimos archivos capturados</string>
     <string name="toggle_camera">Cambiar cámara frontal/trasera</string>
     <string name="toggle_flash">Cambiar a modo linterna</string>
     <string name="toggle_timer">Alternar el modo de temporizador</string>
-    <!-- FAQ -->
     <string name="faq_1_title">¿Qué calidad de compresión de foto debería establecer?</string>
     <string name="faq_1_text">Depende de tu objetivo. Para propósitos generales, la mayoría de las personas aconsejan usar 75%-80%, y la imagen seguirá siendo de calidad realmente buena, pero el tamaño del archivo es reducido drásticamente comparado con el 100%.</string>
-    <!-- Settings -->
     <string name="save_photos">Guardar fotografías y vídeos en</string>
     <string name="show_preview">Mostrar una vista previa de la foto después de capturar</string>
     <string name="shutter_sound">Sonido del obturador</string>
     <string name="back_camera">Resolución de la cámara trasera</string>
     <string name="front_camera">Resolución de la cámara frontal</string>
     <string name="photo">Foto</string>
-    <string name="video">Video</string>
     <string name="focus_before_capture">Enfocar antes de la captura</string>
     <string name="volume_buttons_as_shutter">Utilizar los botones de volumen como obturador</string>
     <string name="turn_flash_off_at_startup">Apagar flash al iniciar</string>
@@ -50,8 +45,4 @@
     <string name="save_photo_video_location">Guardar la ubicación de las fotos y los vídeos</string>
     <string name="photo_compression_quality">Calidad de compresión de la fotográfica</string>
     <string name="shutter">Obturador</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

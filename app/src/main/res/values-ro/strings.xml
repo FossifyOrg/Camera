@@ -2,10 +2,6 @@
 <resources>
     <string name="app_name">Camera simplă</string>
     <string name="app_launcher_name">Cameră</string>
-    <string name="capture_mode">Capture mode</string>
-    <string name="maximize_quality">Maximize quality</string>
-    <string name="minimize_latency">Minimize latency</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Cameră indisponibilă</string>
     <string name="camera_open_error">A apărut o eroare la accesarea camerei</string>
     <string name="video_creating_error">S-a produs o eroare la crearea fișierului video</string>
@@ -22,24 +18,19 @@
     <string name="camera_dnd_error">Modul Nu deranjați este activat. Vă rugăm să-l dezactivați și să încercați din nou</string>
     <string name="photo_capture_failed">Captură foto eșuată</string>
     <string name="video_capture_insufficient_storage_error">Înregistrarea video a eșuat din cauza stocării insuficiente</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Comutarea modului foto/video</string>
     <string name="change_resolution">Modificarea rezoluției</string>
     <string name="view_last_media">Vizualizați ultimul suport media capturat</string>
     <string name="toggle_camera">Comutarea camerei față/spate</string>
     <string name="toggle_flash">Comutatarea modului lanternă</string>
-    <string name="toggle_timer">Toggle the timer mode</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Ce calitate de compresie a fotografiilor ar trebui să setez?</string>
     <string name="faq_1_text">Depinde de obiectivul dumneavoastră. În general, majoritatea oamenilor recomandă utilizarea a 75%-80%, atunci când calitatea imaginii este foarte bună, dar dimensiunea fișierului este redusă drastic în comparație cu 100%.</string>
-    <!-- Settings -->
     <string name="save_photos">Salvați fotografii și clipuri video pe</string>
     <string name="show_preview">Afișați o previzualizare a fotografiei după captură</string>
     <string name="shutter_sound">Sunetul de declanșare</string>
     <string name="back_camera">Rezoluțiile camerei din spate</string>
     <string name="front_camera">Rezoluțiile camerei frontale</string>
     <string name="photo">Foto</string>
-    <string name="video">Video</string>
     <string name="focus_before_capture">Focalizează înainte de captură</string>
     <string name="volume_buttons_as_shutter">Utilizați butoanele de volum ca declanșator</string>
     <string name="turn_flash_off_at_startup">Dezactivați blițul la pornire</string>
@@ -47,11 +38,6 @@
     <string name="keep_settings_visible">Păstrați vizibile butoanele de setări</string>
     <string name="always_open_back_camera">Deschideți întotdeauna aplicația cu camera din spate</string>
     <string name="save_photo_metadata">Salvați metadatele exif ale fotografiilor</string>
-    <string name="save_photo_video_location">Save photo and video location</string>
     <string name="photo_compression_quality">Calitatea comprimării fotografiilor</string>
     <string name="shutter">Declanșator</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

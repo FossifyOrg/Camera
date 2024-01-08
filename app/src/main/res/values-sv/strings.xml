@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Simple Camera</string>
     <string name="app_launcher_name">Kamera</string>
     <string name="capture_mode">Tagningsläge</string>
     <string name="maximize_quality">Maximera kvalitet</string>
     <string name="minimize_latency">Minimera fördröjning</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Kameran är inte tillgänglig</string>
     <string name="camera_open_error">Ett fel uppstod vid åtkomst till kameran</string>
     <string name="video_creating_error">Ett fel uppstod när videofilen skulle skapas</string>
@@ -22,24 +20,20 @@
     <string name="camera_dnd_error">Läget Stör ej är aktiverat. Inaktivera det och försök igen</string>
     <string name="photo_capture_failed">Det gick inte att ta bilder</string>
     <string name="video_capture_insufficient_storage_error">Videoinspelningen misslyckades på grund av otillräckligt lagringsutrymme</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Växla mellan foto- och videoläget</string>
     <string name="change_resolution">Ändra upplösning</string>
     <string name="view_last_media">Visa senast sparade media</string>
     <string name="toggle_camera">Växla mellan främre/bakre kamera</string>
     <string name="toggle_flash">Växla mellan ficklampans lägen</string>
     <string name="toggle_timer">Växla mellan timerlägena</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Vilken kvalitet för fotokomprimering ska jag ställa in\?</string>
     <string name="faq_1_text">Det beror på ditt mål. För generiska ändamål rekommenderar de flesta att man använder 75-80 %, då bilden fortfarande har riktigt bra kvalitet, men filstorleken minskar drastiskt jämfört med 100 %.</string>
-    <!-- Settings -->
     <string name="save_photos">Spara foton och videor i</string>
     <string name="show_preview">Förhandsgranska foton efter att de har tagits</string>
     <string name="shutter_sound">Slutarljud</string>
     <string name="back_camera">Bakre kamerans upplösningar</string>
     <string name="front_camera">Främre kamerans upplösningar</string>
     <string name="photo">Foto</string>
-    <string name="video">Video</string>
     <string name="focus_before_capture">Fokusera före tagning</string>
     <string name="volume_buttons_as_shutter">Använd volymknapparna som slutare</string>
     <string name="turn_flash_off_at_startup">Stäng av blixten vid start</string>
@@ -50,8 +44,4 @@
     <string name="save_photo_video_location">Spara platser för foton och videor</string>
     <string name="photo_compression_quality">Fotokomprimeringskvalitet</string>
     <string name="shutter">Slutare</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

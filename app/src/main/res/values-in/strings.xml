@@ -5,7 +5,6 @@
     <string name="capture_mode">Mode tangkapan</string>
     <string name="maximize_quality">Tingkatkan kualitas</string>
     <string name="minimize_latency">Kurangi latensi</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Kamera tidak tersedia</string>
     <string name="camera_open_error">Terjadi kesalahan saat mengakses kamera</string>
     <string name="video_creating_error">Terjadi kesalahan saat membuat berkas video</string>
@@ -22,24 +21,20 @@
     <string name="camera_dnd_error">Mode Jangan Ganggu diaktifkan. Silakan nonaktifkan dan coba lagi</string>
     <string name="photo_capture_failed">Gagal mengambil foto</string>
     <string name="video_capture_insufficient_storage_error">Gagal merekam video karena penyimpanan tidak cukup</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Ubah mode foto/video</string>
     <string name="change_resolution">Ubah Resolusi</string>
     <string name="view_last_media">Lihat media yang terakhir kali ditangkap</string>
     <string name="toggle_camera">Ubah kamera depan/belakang</string>
     <string name="toggle_flash">Saklar mode senter</string>
     <string name="toggle_timer">Saklar mode pewaktu</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Kualitas kompresi foto mana yang harus saya gunakan?</string>
     <string name="faq_1_text">Tergantung tujuan anda. Untuk hal-hal yang umum direkomendasikan menggunakan 75%-80%, kualitas gambar masih sangat bagus, tetapi ukuran berkas berkurang signifikan dibandingkan dengan 100%.</string>
-    <!-- Settings -->
     <string name="save_photos">Simpan foto dan video ke</string>
     <string name="show_preview">Tampilkan pratinjau setelah mengambil foto</string>
     <string name="shutter_sound">Suara rana</string>
     <string name="back_camera">Resolusi kamera belakang</string>
     <string name="front_camera">Resolusi kamera depan</string>
     <string name="photo">Foto</string>
-    <string name="video">Video</string>
     <string name="focus_before_capture">Fokus sebelum mengambil foto</string>
     <string name="volume_buttons_as_shutter">Gunakan tombol volume sebagai rana</string>
     <string name="turn_flash_off_at_startup">Matikan blitz saat memulai</string>
@@ -47,11 +42,6 @@
     <string name="keep_settings_visible">Selalu tampilkan tombol pengaturan</string>
     <string name="always_open_back_camera">Selalu buka aplikasi dengan kamera belakang</string>
     <string name="save_photo_metadata">Simpan metadata exif foto</string>
-    <string name="save_photo_video_location">Save photo and video location</string>
     <string name="photo_compression_quality">Kualitas kompresi foto</string>
     <string name="shutter">Rana</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

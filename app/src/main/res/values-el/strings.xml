@@ -5,7 +5,6 @@
     <string name="capture_mode">Λειτουργία καταγραφής</string>
     <string name="maximize_quality">Μέγιστη ποιότητα</string>
     <string name="minimize_latency">Ελαχιστοποίηση καθυστέρησης</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Μη διαθέσιμη κάμερα</string>
     <string name="camera_open_error">Παρουσιάστηκε σφάλμα κατά την πρόσβαση στην κάμερα</string>
     <string name="video_creating_error">Παρουσιάστηκε σφάλμα κατά τη δημιουργία αρχείου βίντεο</string>
@@ -22,20 +21,14 @@
     <string name="camera_dnd_error">"Η λειτουργία \"Μην ενοχλείτε\" είναι ενεργοποιημένη. Παρακαλώ απενεργοποιήστε και δοκιμάστε ξανά</string>
     <string name="photo_capture_failed">Αποτυχία λήψης φωτογραφιών</string>
     <string name="video_capture_insufficient_storage_error">Η εγγραφή βίντεο απέτυχε λόγω ανεπαρκούς αποθηκευτικού χώρου</string>
-
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Εναλλαγή λειτουργίας φωτο/βίντεο</string>
     <string name="change_resolution">Αλλαγή ανάλυσης</string>
     <string name="view_last_media">Προβολή των τελευταίων αποθηκευμένων πολυμέσων</string>
     <string name="toggle_camera">Εναλλαγή εμπρός/πίσω κάμερας</string>
     <string name="toggle_flash">Εναλλαγή λειτουργίας φακού</string>
     <string name="toggle_timer">Εναλλαγή λειτουργίας χρονοδιακόπτη</string>
-
-    <!-- FAQ -->
     <string name="faq_1_title">Ποια ποιότητα συμπίεσης φωτογραφιών πρέπει να ορίσω;</string>
     <string name="faq_1_text">Εξαρτάται από το στόχο σας. Για γενικούς σκοπούς, οι περισσότεροι συμβουλεύουν τη χρήση του 75%-80%, όταν η εικόνα εξακολουθεί να είναι πραγματικά καλής ποιότητας, αλλά το μέγεθος του αρχείου μειώνεται δραστικά σε σύγκριση με το 100%.</string>
-
-    <!-- Settings -->
     <string name="save_photos">Αποθήκευση φωτογραφιών και βίντεο σε</string>
     <string name="show_preview">Εμφάνιση προεπισκόπησης φωτογραφίας μετά τη σύλληψη</string>
     <string name="shutter_sound">Ήχος κλείστρου</string>
@@ -53,8 +46,4 @@
     <string name="save_photo_video_location">Αποθήκευση τοποθεσίας φωτογραφιών και βίντεο</string>
     <string name="photo_compression_quality">Ποιότητα συμπίεσης φωτογραφιών</string>
     <string name="shutter">Κλείστρο</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

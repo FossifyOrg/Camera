@@ -5,7 +5,6 @@
     <string name="capture_mode">Режим съёмки</string>
     <string name="maximize_quality">Максимальное качество</string>
     <string name="minimize_latency">Минимальная задержка</string>
-    <!-- Errors -->
     <string name="camera_unavailable">Камера недоступна</string>
     <string name="camera_open_error">Невозможно получить доступ к камере</string>
     <string name="video_creating_error">Невозможно создать видеофайл</string>
@@ -22,17 +21,14 @@
     <string name="camera_dnd_error">Включён режим \"Не беспокоить\", отключите и повторите попытку</string>
     <string name="photo_capture_failed">Не удалось сделать снимок</string>
     <string name="video_capture_insufficient_storage_error">Запись видео не удалась из-за нехватки памяти</string>
-    <!-- Camera Screen Icons Content Description -->
     <string name="toggle_photo_video">Переключить режим фото/видео</string>
     <string name="change_resolution">Изменить разрешение</string>
     <string name="view_last_media">Просмотр последнего снимка</string>
     <string name="toggle_camera">Переключить переднюю/заднюю камеру</string>
     <string name="toggle_flash">Переключить режим фонарика</string>
     <string name="toggle_timer">Переключить режим таймера</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Какое качество сжатия фото нужно установить?</string>
     <string name="faq_1_text">Это зависит от вашей цели. В общем случае большинство людей советуют использовать 75%-80%, тогда изображение всё ещё действительно хорошего качества, но размер файла резко уменьшается по сравнению со 100%.</string>
-    <!-- Settings -->
     <string name="save_photos">Сохранять фото и видео в</string>
     <string name="show_preview">Показывать сделанное фото</string>
     <string name="shutter_sound">Звук затвора</string>
@@ -50,8 +46,4 @@
     <string name="save_photo_video_location">Сохранять место съёмки фото и видео</string>
     <string name="photo_compression_quality">Качество фото после сжатия</string>
     <string name="shutter">Затвор</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>
