@@ -4,7 +4,6 @@
     <string name="change_resolution">Thay đổi độ phân giải</string>
     <string name="faq_1_text">Nó phụ thuộc vào mục tiêu của bạn. Với mục đích chung, hầu hết mọi người khuyên nên sử dụng 75%-80%, khi hình ảnh vẫn có chất lượng thực sự tốt nhưng kích thước tệp bị giảm đáng kể so với 100%.</string>
     <string name="front_camera">Độ phân giải camera trước</string>
-    <string name="video">Video</string>
     <string name="flip_front_camera_photos_horizontally">Lật ảnh camera trước theo chiều ngang</string>
     <string name="volume_buttons_as_shutter">Sử dụng nút âm lượng làm nút chụp</string>
     <string name="maximize_quality">Tối đa hóa chất lượng</string>
