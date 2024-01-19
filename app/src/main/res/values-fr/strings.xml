@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Appareil photo simple</string>
+    <string name="app_name">Fossify Camera</string>
     <string name="app_launcher_name">Appareil photo</string>
     <string name="capture_mode">Mode capture</string>
     <string name="maximize_quality">Maximiser la qualité</string>
