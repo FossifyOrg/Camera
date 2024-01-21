@@ -1,4 +1,4 @@
-* Ajout d'un mode "torche toujours allumée
+* Ajout d'un mode "torche toujours allumée"
  * Permettre de basculer le mode de capture entre la latence minimale et la qualité maximale
  * Permettre de changer l'état de la caméra avec des gestes uniquement dans la partie inférieure
- * Ajout de nombreuses améliorations au niveau de la traduction, de la stabilité et de l'interface utilisateur.
+ * Ajout de nombreuses améliorations au niveau de la traduction, de la stabilité et de l'interface utilisateur
