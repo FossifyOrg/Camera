@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Appareil photo simple</string>
+    <string name="app_name">Fossify Camera</string>
     <string name="app_launcher_name">Appareil photo</string>
     <string name="capture_mode">Mode capture</string>
     <string name="maximize_quality">Maximiser la qualité</string>
@@ -45,4 +45,5 @@
     <string name="save_photo_video_location">Enregistrer l\'emplacement des photos et des vidéos</string>
     <string name="photo_compression_quality">Qualité de compression des photos</string>
     <string name="shutter">Obturateur</string>
+    <string name="photo">Photo</string>
 </resources>

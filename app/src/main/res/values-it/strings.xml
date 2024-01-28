@@ -45,4 +45,5 @@
     <string name="save_photo_video_location">Salva la posizione di foto e video</string>
     <string name="photo_compression_quality">Qualità della compressione delle foto</string>
     <string name="shutter">Otturatore</string>
+    <string name="video">Video</string>
 </resources>

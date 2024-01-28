@@ -9,7 +9,7 @@
     <string name="camera_open_error">Dogodila se greška prilikom pristupanja kameri</string>
     <string name="video_creating_error">Dogodila se greška prilikom izrade video datoteke</string>
     <string name="video_mode_error">Mijenjanje na modus videa nije uspjelo</string>
-    <string name="save_error_internal_storage">Dogodila se greška, mapa za spremanje promijenjena je u interno spremište</string>
+    <string name="save_error_internal_storage">Dogodila se greška, mapa za spremanje je promijenjena u internu memoriju</string>
     <string name="camera_switch_error">Mijenjanje kamere nije uspjelo</string>
     <string name="click_to_resume_preview">Pritisni sliku za nastavljanje pregleda</string>
     <string name="photo_not_saved">Fotografija se nije mogla spremiti</string>
@@ -37,11 +37,13 @@
     <string name="photo">Foto</string>
     <string name="focus_before_capture">Fokusiraj prije slikanja</string>
     <string name="volume_buttons_as_shutter">Koristi gumbe za glasnoću kao otvor objektiva</string>
-    <string name="turn_flash_off_at_startup">Deaktiviraj bljeskalicu prilikom pokretanja</string>
+    <string name="turn_flash_off_at_startup">Isključi bljeskalicu pri pokretanju</string>
     <string name="flip_front_camera_photos_horizontally">Preokreni slike prednje kamere vodoravno</string>
     <string name="keep_settings_visible">Ostavi gumbe postavki vidljivima</string>
     <string name="always_open_back_camera">Otvori aplikaciju uvijek pomoću stražnje kamere</string>
     <string name="save_photo_metadata">Spremi exif metapodatke fotografije</string>
     <string name="photo_compression_quality">Kvaliteta kompresije fotografije</string>
     <string name="shutter">Otvor objektiva</string>
+    <string name="video">Video</string>
+    <string name="save_photo_video_location">Spremi lokaciju fotografije i videa</string>
 </resources>

@@ -45,4 +45,5 @@
     <string name="save_photo_metadata">Gardar metadatos EXIF da foto</string>
     <string name="photo_compression_quality">Calidade da compresión da foto</string>
     <string name="shutter">Obturador</string>
+    <string name="save_photo_video_location">Gardar localización da foto e vídeo</string>
 </resources>
