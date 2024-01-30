@@ -41,7 +41,7 @@
     <string name="turn_flash_off_at_startup">Вимикати спалах при запуску</string>
     <string name="flip_front_camera_photos_horizontally">Орієнтувати горизонтально фото з фронтальної камери</string>
     <string name="keep_settings_visible">Завжди показувати панель налаштувань</string>
-    <string name="always_open_back_camera">Завжди активувати задню камеру під час запуску додатка</string>
+    <string name="always_open_back_camera">Завжди активувати задню камеру під час запуску застосунку</string>
     <string name="save_photo_metadata">Зберігати метадані EXIF</string>
     <string name="save_photo_video_location">Зберігати місцезнаходження фото та відео</string>
     <string name="photo_compression_quality">Якість фото після стиснення</string>
