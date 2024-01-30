@@ -44,4 +44,6 @@
     <string name="save_photo_metadata">Shranite exif metapodatke fotografije</string>
     <string name="photo_compression_quality">Kakovost stiskanja fotografij</string>
     <string name="shutter">Zaklopka</string>
+    <string name="save_photo_video_location">Shrani lokacijo fotografij in videoposnetkov</string>
+    <string name="toggle_timer">Vklop/izklop načina časovnika</string>
 </resources>
