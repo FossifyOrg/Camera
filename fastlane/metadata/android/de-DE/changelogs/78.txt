@@ -1,0 +1,4 @@
+* Die App wurde von Grund auf neu geschrieben, basierend auf CameraX
+ * Monochrom-Symbole und Unterstützung für die Sprachauswahl unter Android 13+ hinzugefügt
+ * Im „Über“-Bereich wurde ein „Besorge dir Fossify Phone“-Button hinzugefügt
+ * Viele Verbesserungen bei Übersetzung, Stabilität und UX hinzugefügt
