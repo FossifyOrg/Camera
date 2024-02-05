@@ -1,2 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="photo_not_saved">फ़ोटो सहेजा नहीं जा सका</string>
+    <string name="camera_switch_error">कैमरा स्विच करना विफल रहा</string>
+    <string name="camera_configure_error">कैमरा कॉन्फ़िगर करते समय एक त्रुटि उत्पन्न हुई</string>
+    <string name="change_resolution">रिज़ॉल्यूशन बदलें</string>
+    <string name="camera_dnd_error">परेशान न करें मोड सक्षम है। कृपया अक्षम करें और पुनः प्रयास करें</string>
+    <string name="video_capture_insufficient_storage_error">अपर्याप्त संग्रहण के कारण वीडियो रिकॉर्डिंग विफल रही</string>
+    <string name="app_name">Simple Camera</string>
+    <string name="capture_mode">कब्जा प्रकार</string>
+    <string name="maximize_quality">गुणवत्ता अधिकतम करें</string>
+    <string name="camera_open_error">कैमरे तक पहुंचने में त्रुटि उत्पन्न हुई</string>
+    <string name="minimize_latency">विलंबता को कम करें</string>
+    <string name="camera_unavailable">कैमरा अनुपलब्ध</string>
+    <string name="video_creating_error">वीडियो फ़ाइल बनाते समय कोई त्रुटि उत्पन्न हुई</string>
+    <string name="video_mode_error">वीडियो मोड पर स्विच करना विफल रहा</string>
+    <string name="save_error_internal_storage">एक त्रुटि उत्पन्न हुई, सेव फ़ोल्डर को आंतरिक संग्रहण में बदल दिया गया</string>
+    <string name="click_to_resume_preview">पूर्वावलोकन फिर से शुरू करने के लिए छवि पर क्लिक करें</string>
+    <string name="toggle_photo_video">फ़ोटो/वीडियो मोड टॉगल करें</string>
+    <string name="camera_disabled_by_admin_error">व्यवस्थापक द्वारा कैमरा अक्षम कर दिया गया है</string>
+    <string name="setting_resolution_failed">उचित रिज़ॉल्यूशन सेट करना विफल रहा</string>
+    <string name="camera_in_use_error">कैमरा किसी अन्य ऐप द्वारा उपयोग में है, कृपया ऐप बंद करें और पुनः प्रयास करें</string>
+    <string name="video_recording_failed">वीडियो रिकॉर्डिंग विफल रही, किसी भिन्न रिज़ॉल्यूशन का उपयोग करने का प्रयास करें</string>
+    <string name="video">वीडियो</string>
+    <string name="focus_before_capture">कैप्चर करने से पहले फोकस करें</string>
+    <string name="volume_buttons_as_shutter">शटर के रूप में वॉल्यूम बटन का उपयोग करें</string>
+    <string name="turn_flash_off_at_startup">स्टार्टअप पर फ़्लैश बंद करें</string>
+    <string name="flip_front_camera_photos_horizontally">फ्रंट कैमरे की तस्वीरों को क्षैतिज रूप से पलटें</string>
+    <string name="keep_settings_visible">सेटिंग बटन दृश्यमान रखें</string>
+    <string name="always_open_back_camera">ऐप को हमेशा बैक कैमरे से खोलें</string>
+    <string name="save_photo_metadata">फोटो exif मेटाडेटा सहेजें</string>
+    <string name="save_photo_video_location">फ़ोटो और वीडियो स्थान सहेजें</string>
+    <string name="photo_compression_quality">फ़ोटो संपीड़न गुणवत्ता</string>
+    <string name="view_last_media">अंतिम कैप्चर किया गया मीडिया देखें</string>
+    <string name="toggle_camera">फ्रंट/बैक कैमरा टॉगल करें</string>
+    <string name="faq_1_text">यह आपके लक्ष्य पर निर्भर करता है. सामान्य उद्देश्यों के लिए अधिकांश लोग 75%-80% का उपयोग करने की सलाह देते हैं, जब छवि अभी भी वास्तव में अच्छी गुणवत्ता वाली होती है, लेकिन फ़ाइल का आकार 100% की तुलना में काफी कम हो जाता है।</string>
+    <string name="app_launcher_name">कैमरा</string>
+    <string name="photo_capture_failed">फ़ोटो कैप्चर विफल रहा</string>
+    <string name="toggle_flash">फ़्लैशलाइट मोड टॉगल करें</string>
+    <string name="toggle_timer">टाइमर मोड टॉगल करें</string>
+    <string name="faq_1_title">मुझे कौन सी फ़ोटो संपीड़न गुणवत्ता सेट करनी चाहिए?</string>
+    <string name="save_photos">फ़ोटो और वीडियो को यहां सहेजें</string>
+    <string name="show_preview">कैप्चर करने के बाद फ़ोटो पूर्वावलोकन दिखाएं</string>
+    <string name="shutter_sound">शटर ध्वनि</string>
+    <string name="back_camera">बैक कैमरा रिज़ॉल्यूशन</string>
+    <string name="front_camera">फ्रंट कैमरा रिज़ॉल्यूशन</string>
+    <string name="photo">तस्वीर</string>
+    <string name="shutter">शटर</string>
+</resources>
