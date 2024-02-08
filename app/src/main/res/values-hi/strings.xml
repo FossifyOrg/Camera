@@ -5,8 +5,8 @@
     <string name="camera_configure_error">कैमरा कॉन्फ़िगर करते समय एक त्रुटि उत्पन्न हुई</string>
     <string name="change_resolution">रिज़ॉल्यूशन बदलें</string>
     <string name="camera_dnd_error">परेशान न करें मोड सक्षम है। कृपया अक्षम करें और पुनः प्रयास करें</string>
-    <string name="video_capture_insufficient_storage_error">अपर्याप्त संग्रहण के कारण वीडियो रिकॉर्डिंग विफल रही</string>
-    <string name="app_name">Simple Camera</string>
+    <string name="video_capture_insufficient_storage_error">अपर्याप्त स्टोरेज के कारण वीडियो रिकॉर्डिंग विफल रही</string>
+    <string name="app_name">Fossify Camera</string>
     <string name="capture_mode">कब्जा प्रकार</string>
     <string name="maximize_quality">गुणवत्ता अधिकतम करें</string>
     <string name="camera_open_error">कैमरे तक पहुंचने में त्रुटि उत्पन्न हुई</string>
@@ -14,8 +14,8 @@
     <string name="camera_unavailable">कैमरा अनुपलब्ध</string>
     <string name="video_creating_error">वीडियो फ़ाइल बनाते समय कोई त्रुटि उत्पन्न हुई</string>
     <string name="video_mode_error">वीडियो मोड पर स्विच करना विफल रहा</string>
-    <string name="save_error_internal_storage">एक त्रुटि उत्पन्न हुई, सेव फ़ोल्डर को आंतरिक संग्रहण में बदल दिया गया</string>
-    <string name="click_to_resume_preview">पूर्वावलोकन फिर से शुरू करने के लिए छवि पर क्लिक करें</string>
+    <string name="save_error_internal_storage">एक त्रुटि उत्पन्न हुई, सेव फ़ोल्डर को इन्टर्नल स्टोरेज में बदल दिया गया</string>
+    <string name="click_to_resume_preview">पूर्वावलोकन फिर से शुरू करने के लिए इमेज पर क्लिक करें</string>
     <string name="toggle_photo_video">फ़ोटो/वीडियो मोड टॉगल करें</string>
     <string name="camera_disabled_by_admin_error">व्यवस्थापक द्वारा कैमरा अक्षम कर दिया गया है</string>
     <string name="setting_resolution_failed">उचित रिज़ॉल्यूशन सेट करना विफल रहा</string>
