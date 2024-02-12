@@ -12,9 +12,9 @@
     <string name="camera_open_error">कैमरे तक पहुंचने में त्रुटि उत्पन्न हुई</string>
     <string name="minimize_latency">विलंबता को कम करें</string>
     <string name="camera_unavailable">कैमरा अनुपलब्ध</string>
-    <string name="video_creating_error">वीडियो फ़ाइल बनाते समय कोई त्रुटि उत्पन्न हुई</string>
+    <string name="video_creating_error">वीडियो फाइल बनाते समय कोई त्रुटि उत्पन्न हुई</string>
     <string name="video_mode_error">वीडियो मोड पर स्विच करना विफल रहा</string>
-    <string name="save_error_internal_storage">एक त्रुटि उत्पन्न हुई, सेव फ़ोल्डर को इन्टर्नल स्टोरेज में बदल दिया गया</string>
+    <string name="save_error_internal_storage">एक त्रुटि उत्पन्न हुई, सेव फोल्डर को इन्टर्नल स्टोरेज में बदल दिया गया</string>
     <string name="click_to_resume_preview">पूर्वावलोकन फिर से शुरू करने के लिए इमेज पर क्लिक करें</string>
     <string name="toggle_photo_video">फ़ोटो/वीडियो मोड टॉगल करें</string>
     <string name="camera_disabled_by_admin_error">व्यवस्थापक द्वारा कैमरा अक्षम कर दिया गया है</string>
