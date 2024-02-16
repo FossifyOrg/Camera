@@ -44,4 +44,6 @@
     <string name="save_photo_metadata">Fotó adatok mentése</string>
     <string name="photo_compression_quality">Fotó tömörítés minősége</string>
     <string name="shutter">Záró</string>
+    <string name="save_photo_video_location">Fénykép és videó helyének mentése</string>
+    <string name="video">Videó</string>
 </resources>
