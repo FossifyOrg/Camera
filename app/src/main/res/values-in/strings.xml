@@ -7,7 +7,7 @@
     <string name="minimize_latency">Kurangi latensi</string>
     <string name="camera_unavailable">Kamera tidak tersedia</string>
     <string name="camera_open_error">Terjadi kesalahan saat mengakses kamera</string>
-    <string name="video_creating_error">Terjadi kesalahan saat membuat berkas video</string>
+    <string name="video_creating_error">Terjadi kesalahan saat membuat file video</string>
     <string name="video_mode_error">Gagal beralih ke mode video</string>
     <string name="save_error_internal_storage">Telah terjadi kesalahan, folder simpan berubah ke penyimpanan internal</string>
     <string name="camera_switch_error">Gagal mengalihkan kamera</string>
@@ -28,7 +28,7 @@
     <string name="toggle_flash">Saklar mode senter</string>
     <string name="toggle_timer">Saklar mode pewaktu</string>
     <string name="faq_1_title">Kualitas kompresi foto mana yang harus saya gunakan?</string>
-    <string name="faq_1_text">Tergantung tujuan anda. Untuk hal-hal yang umum direkomendasikan menggunakan 75%-80%, kualitas gambar masih sangat bagus, tetapi ukuran berkas berkurang signifikan dibandingkan dengan 100%.</string>
+    <string name="faq_1_text">Tergantung tujuan anda. Untuk hal-hal yang umum direkomendasikan menggunakan 75%-80%, kualitas gambar masih sangat bagus, tetapi ukuran file berkurang signifikan dibandingkan dengan 100%.</string>
     <string name="save_photos">Simpan foto dan video ke</string>
     <string name="show_preview">Tampilkan pratinjau setelah mengambil foto</string>
     <string name="shutter_sound">Suara rana</string>
