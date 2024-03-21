@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Kamera Simpel</string>
+    <string name="app_name">Kamera Fossify</string>
     <string name="app_launcher_name">Kamera</string>
     <string name="capture_mode">Mode tangkapan</string>
     <string name="maximize_quality">Tingkatkan kualitas</string>
