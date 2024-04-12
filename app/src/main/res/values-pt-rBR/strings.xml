@@ -8,7 +8,7 @@
     <string name="camera_unavailable">Câmera indisponível</string>
     <string name="camera_open_error">Ocorreu um erro ao acessar a câmera</string>
     <string name="video_creating_error">Ocorreu um erro ao criar o arquivo de vídeo</string>
-    <string name="video_mode_error">A mudança para o modo vídeo falhou</string>
+    <string name="video_mode_error">A mudança para o modo de vídeo falhou</string>
     <string name="save_error_internal_storage">Ocorreu um erro, a pasta para salvar arquivos foi alterada para o armazenamento interno</string>
     <string name="camera_switch_error">Erro ao mudar de câmera</string>
     <string name="click_to_resume_preview">Clique na imagem para retomar a pré-visualização</string>
