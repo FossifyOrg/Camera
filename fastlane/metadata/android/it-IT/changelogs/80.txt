@@ -1,0 +1,4 @@
+* Aggiunto una modalità in cui la torcia è sempre accesa
+.* Consenti abilitare/disabilitare la modalità di cattura tra minima latenza e massima qualità
+.* Consenti abilitare/disabilitare gli stati della camera tramite gesti solo nella parte inferiore
+.* Aggiunto molte traduzioni, miglioramenti alla stabilità e all'esperienza utente

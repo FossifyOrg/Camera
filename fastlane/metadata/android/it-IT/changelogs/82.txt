@@ -1,0 +1,2 @@
+* Aggiunto un timer che ritarda lo scatto
+.* Miglioramenti alla stabilita, all'esperienza utente e alle traduzioni
