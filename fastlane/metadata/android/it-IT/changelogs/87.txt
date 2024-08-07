@@ -1,0 +1,2 @@
+* Consenti il salvataggio delle posizioni delle foto e dei video
+.* Aggiunto alcuni miglioramenti all'interfaccia, alle traduzione e alla stabilità
