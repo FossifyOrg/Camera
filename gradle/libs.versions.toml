@@ -15,7 +15,7 @@ gradlePlugins-agp = "8.5.2"
 #build
 app-build-compileSDKVersion = "34"
 app-build-targetSDK = "34"
-app-build-minimumSDK = "29"
+app-build-minimumSDK = "28"
 app-build-javaVersion = "VERSION_17"
 app-build-kotlinJVMTarget = "17"
 #versioning
