@@ -45,4 +45,5 @@
     <string name="save_photo_metadata">写真のEXIFデータを保存する</string>
     <string name="photo_compression_quality">写真の圧縮品質</string>
     <string name="shutter">シャッター</string>
+    <string name="save_photo_video_location">写真と動画の位置情報を保存</string>
 </resources>
