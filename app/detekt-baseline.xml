@@ -1,0 +1,196 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>ComplexCondition:MainActivity.kt$MainActivity$!mIsHardwareShutterHandled &amp;&amp; config.volumeButtonsAsShutter &amp;&amp; (keyCode == KeyEvent.KEYCODE_VOLUME_DOWN || keyCode == KeyEvent.KEYCODE_VOLUME_UP)</ID>
+    <ID>CyclomaticComplexMethod:CameraXPreview.kt$CameraXPreview$@SuppressLint("MissingPermission", "NewApi") private fun startRecording()</ID>
+    <ID>CyclomaticComplexMethod:ImageSaver.kt$ImageSaver$@SuppressLint("RestrictedApi") private fun saveImageToTempFile(): File?</ID>
+    <ID>CyclomaticComplexMethod:PhotoProcessor.kt$PhotoProcessor$override fun doInBackground(vararg params: ByteArray): String</ID>
+    <ID>EmptyFunctionBlock:FocusCircleView.kt$FocusCircleView${}</ID>
+    <ID>FunctionNaming:ImageUtil.kt$ImageUtil$private fun yuv_420_888toNv21(image: ImageProxy): ByteArray</ID>
+    <ID>ImplicitDefaultLocale:MySize.kt$MySize$String.format("%.1f", (width * height.toFloat()) / ONE_MEGA_PIXEL)</ID>
+    <ID>ImplicitDefaultLocale:VideoQuality.kt$VideoQuality$String.format("%.1f", (width * height.toFloat()) / VideoQuality.ONE_MEGA_PIXEL)</ID>
+    <ID>LargeClass:MainActivity.kt$MainActivity : SimpleActivityMediaSavedListenerCameraXPreviewListener</ID>
+    <ID>LongMethod:ImageSaver.kt$ImageSaver$@SuppressLint("RestrictedApi") private fun saveImageToTempFile(): File?</ID>
+    <ID>LongMethod:PhotoProcessor.kt$PhotoProcessor$override fun doInBackground(vararg params: ByteArray): String</ID>
+    <ID>LongMethod:ShadowDrawable.kt$ShadowDrawable$override fun draw(canvas: Canvas)</ID>
+    <ID>LongParameterList:CameraXInitializer.kt$CameraXInitializer$( previewView: PreviewView, listener: CameraXPreviewListener, mediaSoundHelper: MediaSoundHelper, outputUri: Uri?, isThirdPartyIntent: Boolean, initInPhotoMode: Boolean, )</ID>
+    <ID>LongParameterList:CameraXPreview.kt$CameraXPreview$( private val activity: BaseSimpleActivity, private val previewView: PreviewView, private val mediaSoundHelper: MediaSoundHelper, private val mediaOutputHelper: MediaOutputHelper, private val cameraErrorHandler: CameraErrorHandler, private val listener: CameraXPreviewListener, private val isThirdPartyIntent: Boolean, initInPhotoMode: Boolean, )</ID>
+    <ID>LongParameterList:ImageSaver.kt$ImageSaver$( private val contentResolver: ContentResolver, private val image: ImageProxy, private val mediaOutput: MediaOutput.ImageCaptureOutput, private val metadata: Metadata, private val jpegQuality: Int, private val saveExifAttributes: Boolean, private val onImageSaved: (Uri) -&gt; Unit, private val onError: (ImageCaptureException) -&gt; Unit, )</ID>
+    <ID>LongParameterList:ImageSaver.kt$ImageSaver.Companion$( contentResolver: ContentResolver, image: ImageProxy, mediaOutput: MediaOutput.ImageCaptureOutput, metadata: Metadata, jpegQuality: Int, saveExifAttributes: Boolean, onImageSaved: (Uri) -&gt; Unit, onError: (ImageCaptureException) -&gt; Unit, )</ID>
+    <ID>LoopWithTooManyJumpStatements:ImageQualityManager.kt$ImageQualityManager$for</ID>
+    <ID>LoopWithTooManyJumpStatements:MediaActionSound.kt$MediaActionSound$for</ID>
+    <ID>MagicNumber:BitmapUtils.kt$BitmapUtils$128</ID>
+    <ID>MagicNumber:BitmapUtils.kt$BitmapUtils$7</ID>
+    <ID>MagicNumber:BitmapUtils.kt$BitmapUtils$8</ID>
+    <ID>MagicNumber:CameraXPreview.kt$CameraXPreview.&lt;no name provided&gt;$135</ID>
+    <ID>MagicNumber:CameraXPreview.kt$CameraXPreview.&lt;no name provided&gt;$225</ID>
+    <ID>MagicNumber:CameraXPreview.kt$CameraXPreview.&lt;no name provided&gt;$315</ID>
+    <ID>MagicNumber:CameraXPreview.kt$CameraXPreview.&lt;no name provided&gt;$45</ID>
+    <ID>MagicNumber:Config.kt$Config$80</ID>
+    <ID>MagicNumber:Constants.kt$270</ID>
+    <ID>MagicNumber:Constants.kt$90</ID>
+    <ID>MagicNumber:FocusCircleView.kt$FocusCircleView$500L</ID>
+    <ID>MagicNumber:FocusCircleView.kt$FocusCircleView$50f</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity$33</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity$35</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity$39</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity$44</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity$46</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity$52</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity.&lt;no name provided&gt;$1000</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity.&lt;no name provided&gt;$134</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity.&lt;no name provided&gt;$225</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity.&lt;no name provided&gt;$289</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity.&lt;no name provided&gt;$75</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity.&lt;no name provided&gt;$90</ID>
+    <ID>MagicNumber:MySize.kt$MySize$1.9f</ID>
+    <ID>MagicNumber:MySize.kt$MySize$16</ID>
+    <ID>MagicNumber:MySize.kt$MySize$19</ID>
+    <ID>MagicNumber:MySize.kt$MySize$3</ID>
+    <ID>MagicNumber:MySize.kt$MySize$3f</ID>
+    <ID>MagicNumber:MySize.kt$MySize$4</ID>
+    <ID>MagicNumber:MySize.kt$MySize$4f</ID>
+    <ID>MagicNumber:MySize.kt$MySize$5</ID>
+    <ID>MagicNumber:MySize.kt$MySize$5f</ID>
+    <ID>MagicNumber:MySize.kt$MySize$6</ID>
+    <ID>MagicNumber:MySize.kt$MySize$8f</ID>
+    <ID>MagicNumber:MySize.kt$MySize$9f</ID>
+    <ID>MagicNumber:PhotoProcessor.kt$PhotoProcessor$360</ID>
+    <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$100</ID>
+    <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$50</ID>
+    <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$55</ID>
+    <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$60</ID>
+    <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$65</ID>
+    <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$70</ID>
+    <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$75</ID>
+    <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$80</ID>
+    <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$85</ID>
+    <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$90</ID>
+    <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$95</ID>
+    <ID>MagicNumber:ShadowDrawable.kt$ShadowDrawable$255.0f</ID>
+    <ID>MagicNumber:TimerMode.kt$TimerMode.TIMER_10$10000</ID>
+    <ID>MagicNumber:TimerMode.kt$TimerMode.TIMER_3$3000</ID>
+    <ID>MagicNumber:TimerMode.kt$TimerMode.TIMER_5$5000</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$1.9f</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$16</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$19</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$3</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$3f</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$4</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$4f</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$5</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$5f</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$6</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$8f</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality$9f</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality.FHD$1080</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality.FHD$1920</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality.HD$1280</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality.HD$720</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality.SD$480</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality.SD$720</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality.UHD$2160</ID>
+    <ID>MagicNumber:VideoQuality.kt$VideoQuality.UHD$3840</ID>
+    <ID>MaxLineLength:BitmapUtils.kt$BitmapUtils$val upperBound = if (minSideLength &lt; 0) 128 else floor(w / minSideLength).coerceAtMost(floor(h / minSideLength)).toInt()</ID>
+    <ID>MaxLineLength:CameraErrorHandler.kt$CameraErrorHandler$VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE -&gt; context.toast(R.string.video_capture_insufficient_storage_error)</ID>
+    <ID>MaxLineLength:CameraXPreview.kt$CameraXPreview$private</ID>
+    <ID>MaxLineLength:CameraXPreview.kt$CameraXPreview$val scaleGesture = camera?.let { ScaleGestureDetector(activity, PinchToZoomOnScaleGestureListener(it.cameraInfo, it.cameraControl)) }</ID>
+    <ID>MaxLineLength:Config.kt$Config$var path = prefs.getString(SAVE_PHOTOS, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString())</ID>
+    <ID>MaxLineLength:ImageQualityManager.kt$ImageQualityManager$val configMap = characteristics.get(CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP) ?: continue</ID>
+    <ID>MaxLineLength:ImageQualityManager.kt$ImageQualityManager.Companion$private val CAMERA_LENS = arrayOf(CameraCharacteristics.LENS_FACING_FRONT, CameraCharacteristics.LENS_FACING_BACK)</ID>
+    <ID>MaxLineLength:ImageUtil.kt$ImageUtil$require(image.format == ImageFormat.YUV_420_888) { "Incorrect image format of the input image proxy: " + image.format }</ID>
+    <ID>MaxLineLength:ImageUtil.kt$ImageUtil.CodecFailedException$class</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$binding.toggleCamera.setImageResource(if (frontCamera) R.drawable.ic_camera_rear_vector else R.drawable.ic_camera_front_vector)</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$constraintSet.connect(previewView.id, ConstraintSet.BOTTOM, ConstraintSet.PARENT_ID, ConstraintSet.BOTTOM)</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$hasPermission(PERMISSION_WRITE_STORAGE) &amp;&amp; hasPermission(PERMISSION_CAMERA) &amp;&amp; hasPermission(PERMISSION_RECORD_AUDIO)</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$if</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$layoutParams = ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$private</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$private fun isImageCaptureIntent(): Boolean</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$val iconColors = intArrayOf(ContextCompat.getColor(this, com.simplemobiletools.commons.R.color.md_grey_white), primaryColor)</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$val marginBottom = safeInsetBottom + navigationBarHeight + resources.getDimensionPixelSize(com.simplemobiletools.commons.R.dimen.bigger_margin)</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$val uri = if (isPhoto) MediaStore.Images.Media.EXTERNAL_CONTENT_URI else MediaStore.Video.Media.EXTERNAL_CONTENT_URI</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$var hasMediaPermission = hasPermission(PERMISSION_READ_MEDIA_IMAGES) || hasPermission(PERMISSION_READ_MEDIA_VIDEO)</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$}</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity.&lt;no name provided&gt;$override</ID>
+    <ID>MaxLineLength:MediaActionSound.kt$MediaActionSound$else -&gt; Log.e(TAG, "OnLoadCompleteListener() called in wrong state: ${sound.state} for sound: ${sound.mediaSound}")</ID>
+    <ID>MaxLineLength:MediaActionSound.kt$MediaActionSound.Companion$private val SOUNDS = arrayOf(SHUTTER_CLICK, FOCUS_COMPLETE, START_VIDEO_RECORDING, STOP_VIDEO_RECORDING, TIMER_COUNTDOWN, TIMER_COUNTDOWN_2_SECONDS)</ID>
+    <ID>MaxLineLength:MediaOutputHelper.kt$MediaOutputHelper$put(MediaStore.MediaColumns.DATA, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString())</ID>
+    <ID>MaxLineLength:PhotoProcessor.kt$PhotoProcessor$activity.config.savePhotosFolder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString()</ID>
+    <ID>MaxLineLength:PhotoProcessor.kt$PhotoProcessor$document = document?.createFile("", path.substring(path.lastIndexOf('/') + 1)) ?: activity.getDocumentFile(path)</ID>
+    <ID>MaxLineLength:PhotoProcessor.kt$PhotoProcessor$val activity: MainActivity</ID>
+    <ID>MaxLineLength:SettingsActivity.kt$SettingsActivity$OpenDeviceSettingsDialog(activity = this@SettingsActivity, message = getString(com.simplemobiletools.commons.R.string.allow_location_permission))</ID>
+    <ID>MaxLineLength:SettingsActivity.kt$SettingsActivity$faqItems.add(FAQItem(com.simplemobiletools.commons.R.string.faq_2_title_commons, com.simplemobiletools.commons.R.string.faq_2_text_commons))</ID>
+    <ID>MaxLineLength:SettingsActivity.kt$SettingsActivity$faqItems.add(FAQItem(com.simplemobiletools.commons.R.string.faq_6_title_commons, com.simplemobiletools.commons.R.string.faq_6_text_commons))</ID>
+    <ID>MaxLineLength:SettingsActivity.kt$SettingsActivity$findItem(R.id.more_apps_from_us).isVisible = !resources.getBoolean(com.simplemobiletools.commons.R.bool.hide_google_relations)</ID>
+    <ID>MaxLineLength:SettingsActivity.kt$SettingsActivity$it.beGoneIf(settingsUseEnglishHolder.isGone() &amp;&amp; settingsPurchaseThankYouHolder.isGone() &amp;&amp; settingsLanguageHolder.isGone())</ID>
+    <ID>MaxLineLength:SettingsActivity.kt$SettingsActivity$settingsUseEnglishHolder.beVisibleIf((config.wasUseEnglishToggled || Locale.getDefault().language != "en") &amp;&amp; !isTiramisuPlus())</ID>
+    <ID>MaxLineLength:SettingsActivity.kt$SettingsActivity$updateMaterialActivityViews(settingsCoordinator, settingsHolder, useTransparentNavigation = true, useTopSearchMenu = false)</ID>
+    <ID>MaxLineLength:ShadowDrawable.kt$ShadowDrawable$if</ID>
+    <ID>MaxLineLength:ShadowDrawable.kt$ShadowDrawable$obtainStyledAttributes.getColor(R.styleable.ShadowDrawable_android_shadowColor, ContextCompat.getColor(context, com.simplemobiletools.commons.R.color.md_grey_400_dark))</ID>
+    <ID>MaxLineLength:ShadowDrawable.kt$ShadowDrawable$sharedBitmap = Bitmap.createBitmap(SHARED_BITMAP_BUFFER_SIZE, SHARED_BITMAP_BUFFER_SIZE, Bitmap.Config.ARGB_8888)</ID>
+    <ID>MaxLineLength:ShadowDrawable.kt$ShadowDrawable$val shadowRadius = obtainStyledAttributes.getFloat(R.styleable.ShadowDrawable_android_shadowRadius, 0.0f).coerceAtLeast(0.0f)</ID>
+    <ID>MaxLineLength:VideoQualityManager.kt$VideoQualityManager$val selectionIndex = mediaSizeStore.getCurrentSizeIndex(isPhotoCapture = false, isFrontCamera = isFrontCamera).coerceAtLeast(0)</ID>
+    <ID>NestedBlockDepth:ImageQualityManager.kt$ImageQualityManager$fun initSupportedQualities()</ID>
+    <ID>NestedBlockDepth:ImageSaver.kt$ImageSaver$private fun copyTempFileToDestination(tempFile: File)</ID>
+    <ID>NestedBlockDepth:MediaOutputHelper.kt$MediaOutputHelper$fun getImageMediaOutput(): MediaOutput.ImageCaptureOutput</ID>
+    <ID>NestedBlockDepth:MediaOutputHelper.kt$MediaOutputHelper$fun getVideoMediaOutput(): MediaOutput.VideoCaptureOutput</ID>
+    <ID>NestedBlockDepth:MediaOutputHelper.kt$MediaOutputHelper$private fun getUriForFilePath(path: String): Uri?</ID>
+    <ID>NestedBlockDepth:PhotoProcessor.kt$PhotoProcessor$override fun doInBackground(vararg params: ByteArray): String</ID>
+    <ID>NestedBlockDepth:VideoQualityManager.kt$VideoQualityManager$fun initSupportedQualities(cameraProvider: ProcessCameraProvider)</ID>
+    <ID>ReturnCount:ImageSaver.kt$ImageSaver$@SuppressLint("RestrictedApi") private fun saveImageToTempFile(): File?</ID>
+    <ID>ReturnCount:MediaActionSound.kt$MediaActionSound$private fun loadSound(sound: SoundState): Int</ID>
+    <ID>ReturnCount:MediaOutputHelper.kt$MediaOutputHelper$private fun getFileDescriptorMediaOutput(): MediaOutput.FileDescriptorMediaOutput?</ID>
+    <ID>ReturnCount:MediaOutputHelper.kt$MediaOutputHelper$private fun getUriForFilePath(path: String): Uri?</ID>
+    <ID>ReturnCount:PhotoProcessor.kt$PhotoProcessor$override fun doInBackground(vararg params: ByteArray): String</ID>
+    <ID>ReturnCount:PhotoProcessor.kt$PhotoProcessor$private fun rotate(bitmap: Bitmap, degree: Int): Bitmap?</ID>
+    <ID>SwallowedException:BitmapUtils.kt$BitmapUtils$ex: OutOfMemoryError</ID>
+    <ID>SwallowedException:CameraXPreview.kt$CameraXPreview$e: Exception</ID>
+    <ID>SwallowedException:ImageUtil.kt$ImageUtil$e: IOException</ID>
+    <ID>SwallowedException:MediaOutputHelper.kt$MediaOutputHelper$e: Exception</ID>
+    <ID>SwallowedException:PhotoProcessor.kt$PhotoProcessor$e: Exception</ID>
+    <ID>SwallowedException:PhotoProcessor.kt$PhotoProcessor$e: OutOfMemoryError</ID>
+    <ID>ThrowsCount:ImageUtil.kt$ImageUtil$@Throws(CodecFailedException::class) private fun cropJpegByteArray( data: ByteArray, cropRect: Rect, @IntRange(from = 1, to = 100) jpegQuality: Int, ): ByteArray</ID>
+    <ID>TooGenericExceptionCaught:CameraXPreview.kt$CameraXPreview$e: Exception</ID>
+    <ID>TooGenericExceptionCaught:ImageQualityManager.kt$ImageQualityManager$e: Exception</ID>
+    <ID>TooGenericExceptionCaught:MediaOutputHelper.kt$MediaOutputHelper$e: Exception</ID>
+    <ID>TooGenericExceptionCaught:PhotoProcessor.kt$PhotoProcessor$e: Exception</ID>
+    <ID>TooGenericExceptionCaught:VideoQualityManager.kt$VideoQualityManager$e: Exception</ID>
+    <ID>TooManyFunctions:CameraXPreview.kt$CameraXPreview : MyPreviewDefaultLifecycleObserver</ID>
+    <ID>TooManyFunctions:CameraXPreviewListener.kt$CameraXPreviewListener</ID>
+    <ID>TooManyFunctions:MainActivity.kt$MainActivity : SimpleActivityMediaSavedListenerCameraXPreviewListener</ID>
+    <ID>TooManyFunctions:MediaOutputHelper.kt$MediaOutputHelper</ID>
+    <ID>TooManyFunctions:MySize.kt$MySize</ID>
+    <ID>TooManyFunctions:SettingsActivity.kt$SettingsActivity : SimpleActivity</ID>
+    <ID>TooManyFunctions:ShadowDrawable.kt$ShadowDrawable : Drawable</ID>
+    <ID>TooManyFunctions:VideoQuality.kt$VideoQuality</ID>
+    <ID>UnusedPrivateProperty:ImageUtil.kt$ImageUtil$col</ID>
+    <ID>UnusedPrivateProperty:ImageUtil.kt$ImageUtil$row</ID>
+    <ID>UseCheckOrError:CameraXPreview.kt$CameraXPreview$throw IllegalStateException("Camera initialization failed.")</ID>
+    <ID>UseCheckOrError:MainActivity.kt$MainActivity.&lt;no name provided&gt;$throw IllegalStateException("Unsupported tab position ${tab.position}")</ID>
+    <ID>VariableNaming:FocusCircleView.kt$FocusCircleView$private val CIRCLE_DURATION = 500L</ID>
+    <ID>VariableNaming:FocusCircleView.kt$FocusCircleView$private val CIRCLE_RADIUS = 50f</ID>
+    <ID>WildcardImport:CameraXPreview.kt$import android.view.*</ID>
+    <ID>WildcardImport:CameraXPreview.kt$import androidx.camera.core.*</ID>
+    <ID>WildcardImport:CameraXPreview.kt$import androidx.camera.core.ImageCapture.*</ID>
+    <ID>WildcardImport:CameraXPreview.kt$import androidx.camera.video.*</ID>
+    <ID>WildcardImport:CameraXPreview.kt$import com.simplemobiletools.camera.extensions.*</ID>
+    <ID>WildcardImport:CameraXPreview.kt$import com.simplemobiletools.camera.helpers.*</ID>
+    <ID>WildcardImport:ImageSaver.kt$import java.io.*</ID>
+    <ID>WildcardImport:ImageUtil.kt$import android.graphics.*</ID>
+    <ID>WildcardImport:MainActivity.kt$import android.view.*</ID>
+    <ID>WildcardImport:MainActivity.kt$import androidx.core.view.*</ID>
+    <ID>WildcardImport:MainActivity.kt$import androidx.transition.*</ID>
+    <ID>WildcardImport:MainActivity.kt$import com.simplemobiletools.camera.helpers.*</ID>
+    <ID>WildcardImport:MainActivity.kt$import com.simplemobiletools.commons.extensions.*</ID>
+    <ID>WildcardImport:MainActivity.kt$import com.simplemobiletools.commons.helpers.*</ID>
+    <ID>WildcardImport:MediaOutputHelper.kt$import com.simplemobiletools.commons.extensions.*</ID>
+    <ID>WildcardImport:PhotoProcessor.kt$import com.simplemobiletools.commons.extensions.*</ID>
+    <ID>WildcardImport:SettingsActivity.kt$import com.simplemobiletools.commons.dialogs.*</ID>
+    <ID>WildcardImport:SettingsActivity.kt$import com.simplemobiletools.commons.extensions.*</ID>
+    <ID>WildcardImport:SettingsActivity.kt$import com.simplemobiletools.commons.helpers.*</ID>
+    <ID>WildcardImport:ShadowDrawable.kt$import android.graphics.*</ID>
+  </CurrentIssues>
+</SmellBaseline>
