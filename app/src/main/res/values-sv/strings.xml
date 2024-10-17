@@ -44,5 +44,4 @@
     <string name="save_photo_video_location">Spara platser för foton och videor</string>
     <string name="photo_compression_quality">Fotokomprimeringskvalitet</string>
     <string name="shutter">Slutare</string>
-    <string name="video">Video</string>
-</resources>
+    </resources>

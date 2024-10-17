@@ -39,7 +39,6 @@
     <string name="save_photo_metadata">Salvați metadatele exif ale fotografiilor</string>
     <string name="photo_compression_quality">Calitatea comprimării fotografiilor</string>
     <string name="shutter">Declanșator</string>
-    <string name="video">Video</string>
     <string name="capture_mode">Modul de captură</string>
     <string name="maximize_quality">Maximizează calitatea</string>
     <string name="minimize_latency">Minimizează latența</string>

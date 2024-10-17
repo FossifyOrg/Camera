@@ -43,6 +43,5 @@
     <string name="save_photo_metadata">Spremi exif metapodatke fotografije</string>
     <string name="photo_compression_quality">Kvaliteta kompresije fotografije</string>
     <string name="shutter">Otvor objektiva</string>
-    <string name="video">Video</string>
     <string name="save_photo_video_location">Spremi lokaciju fotografije i videa</string>
 </resources>
