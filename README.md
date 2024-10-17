@@ -1,5 +1,5 @@
 # Simple Camera
-<img alt="Logo" src="graphics/icon.png" width="120" />
+<img alt="Logo" src="graphics/icon.webp" width="120" />
 
 This handy camera app is usable for both easy photo taking and video recording. You can also make different photo frames with this aesthetic photo editor and collage maker camera app. You can quickly switch between the front and rear camera in this open camera app, modify the save path or limit the resolution for your photo frames. This open camera app also helps you in defining photo frames so that you can take pictures with high resolution. You will never miss the important moments of your life. There are many helpful settings available to make it even more personal, suited for your needs. Let's list some of them.
 
