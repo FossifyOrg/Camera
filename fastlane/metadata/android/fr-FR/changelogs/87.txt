@@ -1,2 +1,0 @@
-* Permettre l'enregistrement de la localisation pour les photos et les vidéos
- * Amélioration de l'interface utilisateur, de la traduction et de la stabilité

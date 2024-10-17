@@ -1,2 +1,0 @@
-* Añadida una función de temporizador para la captura retardada.
- * Añadidas algunas mejoras de estabilidad, traducción e interfaz de usuario

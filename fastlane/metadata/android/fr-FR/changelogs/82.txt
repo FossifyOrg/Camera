@@ -1,2 +1,0 @@
-* Ajout d'une fonction de temporisation pour la capture différée
- * Amélioration de la stabilité, de la traduction et de l'interface utilisateur

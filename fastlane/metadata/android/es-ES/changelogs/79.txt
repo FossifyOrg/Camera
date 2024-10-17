@@ -1,4 +1,0 @@
-* Añadido un modo de linterna siempre encendida
- * Permitir alternar el modo de captura entre latencia mínima y calidad máxima
- * Permitir cambiar los estados de la cámara con gestos sólo en la parte inferior
- * Añadidas muchas mejoras de traducción, estabilidad y UX

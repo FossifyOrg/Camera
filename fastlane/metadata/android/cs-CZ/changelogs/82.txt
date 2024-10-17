@@ -1,2 +1,0 @@
-* Added a timer function for delayed capturing
- * Added some stability, translation and UI improvements

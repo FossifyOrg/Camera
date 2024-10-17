@@ -1,3 +1,0 @@
-Risolto un errore per cui i video non venivano salvati sulle schede SD
-Corretta la barra di stato che non veniva nascosta su alcuni dispositivi
-Aggiunto alcuni miglioramenti all'interfaccia, alle traduzione e alla stabilità

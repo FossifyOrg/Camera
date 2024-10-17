@@ -1,1 +1,0 @@
-.* Aggiunto alcuni miglioramenti all'interfaccia, alle traduzione e alla stabilità

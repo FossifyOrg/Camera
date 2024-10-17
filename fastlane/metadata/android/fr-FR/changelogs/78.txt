@@ -1,4 +1,0 @@
-* Réécriture de l'application à partir de zéro, basée sur CameraX
- * Ajout d'une icône monochrome et d'un sélecteur de langue sur Android 13+
- * Ajout d'un bouton "Obtenir un téléphone simple" dans la section "A propos"
- * Ajout de nombreuses améliorations au niveau de la traduction, de la stabilité et de l'interface utilisateur

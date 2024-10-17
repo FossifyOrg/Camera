@@ -1,3 +1,0 @@
-Correction d'un problème d'enregistrement des vidéos sur les cartes SD
-Correction de la barre d'état qui n'est pas masquée sur certains appareils
-Ajout de quelques améliorations de l'interface utilisateur, de la traduction et de la stabilité
