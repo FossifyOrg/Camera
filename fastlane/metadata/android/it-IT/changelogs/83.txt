@@ -1,0 +1,3 @@
+* Risolto un errore relativo all'errato posizionamento del focus dopo il tocco
+.* Usa il tema Material You di base su Android 12+
+.* Aggiunto alcuni miglioramenti all'interfaccia, alle traduzione e alla stabilità
