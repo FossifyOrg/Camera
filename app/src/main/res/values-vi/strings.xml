@@ -35,7 +35,6 @@
     <string name="show_preview">Hiển thị bản xem trước ảnh sau khi chụp</string>
     <string name="back_camera">Độ phân giải camera sau</string>
     <string name="shutter_sound">Âm thanh chụp</string>
-    <string name="app_name">Máy ảnh Fossify</string>
     <string name="photo">Ảnh chụp</string>
     <string name="focus_before_capture">Lấy nét trước khi chụp</string>
     <string name="turn_flash_off_at_startup">Tắt đèn flash khi khởi động</string>

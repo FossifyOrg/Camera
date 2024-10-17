@@ -6,7 +6,6 @@
     <string name="change_resolution">रिज़ॉल्यूशन बदलें</string>
     <string name="camera_dnd_error">परेशान न करें मोड सक्षम है। कृपया अक्षम करें और पुनः प्रयास करें</string>
     <string name="video_capture_insufficient_storage_error">अपर्याप्त स्टोरेज के कारण वीडियो रिकॉर्डिंग विफल रही</string>
-    <string name="app_name">Fossify Camera</string>
     <string name="capture_mode">कब्जा प्रकार</string>
     <string name="maximize_quality">गुणवत्ता अधिकतम करें</string>
     <string name="camera_open_error">कैमरे तक पहुंचने में त्रुटि उत्पन्न हुई</string>

@@ -75,7 +75,8 @@ android {
     }
 
     compileOptions {
-        val currentJavaVersionFromLibs = JavaVersion.valueOf(libs.versions.app.build.javaVersion.get().toString())
+        val currentJavaVersionFromLibs =
+            JavaVersion.valueOf(libs.versions.app.build.javaVersion.get())
         sourceCompatibility = currentJavaVersionFromLibs
         targetCompatibility = currentJavaVersionFromLibs
     }
@@ -84,7 +85,7 @@ android {
         kotlinOptions.jvmTarget = project.libs.versions.app.build.kotlinJVMTarget.get()
     }
 
-    namespace = "com.simplemobiletools.camera"
+    namespace = "org.fossify.camera"
 
     lint {
         checkReleaseBuilds = false
@@ -99,7 +100,7 @@ detekt {
 }
 
 dependencies {
-    implementation(libs.simple.tools.commons)
+    implementation(libs.fossify.commons)
     implementation(libs.bundles.androidx.camera)
     implementation(libs.androidx.documentfile)
     implementation(libs.androidx.exifinterface)

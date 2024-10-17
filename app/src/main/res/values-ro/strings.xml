@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Cameră simplă</string>
-    <string name="app_launcher_name">Camera</string>
+    <string name="app_launcher_name">Cameră</string>
     <string name="camera_unavailable">Cameră indisponibilă</string>
     <string name="camera_open_error">A apărut o eroare la accesarea camerei</string>
     <string name="video_creating_error">S-a produs o eroare la crearea fișierului video</string>

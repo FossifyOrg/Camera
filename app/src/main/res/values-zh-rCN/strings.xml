@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">简单相机</string>
     <string name="app_launcher_name">相机</string>
     <string name="capture_mode">拍照模式</string>
     <string name="maximize_quality">最高画质</string>

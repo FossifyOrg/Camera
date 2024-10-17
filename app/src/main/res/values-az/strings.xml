@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sadə Kamera</string>
     <string name="app_launcher_name">Kamera</string>
     <string name="camera_unavailable">Kamera əlçatan deyil</string>
     <string name="camera_open_error">Kameranı açarkən xəta baş verdi</string>

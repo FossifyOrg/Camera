@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">シンプル カメラ</string>
     <string name="app_launcher_name">カメラ</string>
     <string name="capture_mode">撮影モード</string>
     <string name="maximize_quality">品質の最大化</string>

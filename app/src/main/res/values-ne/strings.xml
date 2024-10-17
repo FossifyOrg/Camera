@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">सिम्पल क्यामेरा</string>
     <string name="app_launcher_name">क्यामेरा</string>
     <string name="camera_unavailable">क्यामेरा उपलब्ध छैन</string>
     <string name="camera_open_error">क्यामेरा पहुचहुनमा समस्या आयो</string>

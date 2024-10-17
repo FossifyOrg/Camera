@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Cámara sinxela</string>
     <string name="app_launcher_name">Cámara</string>
     <string name="capture_mode">Modo de captura</string>
     <string name="maximize_quality">Maximizala calidade</string>

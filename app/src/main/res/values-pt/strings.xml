@@ -45,5 +45,4 @@
     <string name="save_photo_video_location">Guardar localização dos vídeos e das fotos</string>
     <string name="photo_compression_quality">Qualidade de compressão da foto</string>
     <string name="shutter">Obturador</string>
-    <string name="app_name">Câmara</string>
 </resources>

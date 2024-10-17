@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">സിമ്പിൾ ക്യാമറ</string>
     <string name="app_launcher_name">ക്യാമറ</string>
     <string name="camera_unavailable">ക്യാമറ ലഭ്യമല്ല</string>
     <string name="camera_open_error">ക്യാമറ ആക്‌സസ് ചെയ്യുന്നതിൽ ഒരു പിശക് സംഭവിച്ചു</string>

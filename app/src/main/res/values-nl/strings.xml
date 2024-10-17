@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Eenvoudige Camera</string>
     <string name="capture_mode">Opnamemodus</string>
     <string name="maximize_quality">Kwaliteit maximaliseren</string>
     <string name="minimize_latency">Vertraging minimaliseren</string>

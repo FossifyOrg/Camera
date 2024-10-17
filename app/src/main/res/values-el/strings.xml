@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Απλή Κάμερα</string>
     <string name="app_launcher_name">Κάμερα</string>
     <string name="capture_mode">Λειτουργία καταγραφής</string>
     <string name="maximize_quality">Μέγιστη ποιότητα</string>
