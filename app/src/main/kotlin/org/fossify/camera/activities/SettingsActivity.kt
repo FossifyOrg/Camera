@@ -149,7 +149,6 @@ class SettingsActivity : SimpleActivity() {
             appNameId = R.string.app_name,
             licenseMask = licenses,
             versionName = BuildConfig.VERSION_NAME,
-            repositoryName = "Camera",
             faqItems = faqItems,
             showFAQBeforeMail = true
         )
