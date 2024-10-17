@@ -91,9 +91,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <org.fossify.commons.views.MyAppCompatCheckbox
+                    <org.fossify.commons.views.MyMaterialSwitch
                         android:id="@+id/settings_use_english"
-                        style="@style/SettingsCheckboxStyle"
+                        style="@style/SettingsSwitchStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/use_english_language" />
@@ -147,9 +147,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <org.fossify.commons.views.MyAppCompatCheckbox
+                    <org.fossify.commons.views.MyMaterialSwitch
                         android:id="@+id/settings_sound"
-                        style="@style/SettingsCheckboxStyle"
+                        style="@style/SettingsSwitchStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/shutter_sound" />
@@ -162,9 +162,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <org.fossify.commons.views.MyAppCompatCheckbox
+                    <org.fossify.commons.views.MyMaterialSwitch
                         android:id="@+id/settings_volume_buttons_as_shutter"
-                        style="@style/SettingsCheckboxStyle"
+                        style="@style/SettingsSwitchStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/volume_buttons_as_shutter" />
@@ -195,9 +195,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <org.fossify.commons.views.MyAppCompatCheckbox
+                    <org.fossify.commons.views.MyMaterialSwitch
                         android:id="@+id/settings_save_photo_metadata"
-                        style="@style/SettingsCheckboxStyle"
+                        style="@style/SettingsSwitchStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/save_photo_metadata" />
@@ -210,9 +210,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <org.fossify.commons.views.MyAppCompatCheckbox
+                    <org.fossify.commons.views.MyMaterialSwitch
                         android:id="@+id/settings_save_photo_video_location"
-                        style="@style/SettingsCheckboxStyle"
+                        style="@style/SettingsSwitchStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/save_photo_video_location" />
@@ -225,9 +225,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <org.fossify.commons.views.MyAppCompatCheckbox
+                    <org.fossify.commons.views.MyMaterialSwitch
                         android:id="@+id/settings_flip_photos"
-                        style="@style/SettingsCheckboxStyle"
+                        style="@style/SettingsSwitchStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/flip_front_camera_photos_horizontally" />
