@@ -1,1 +1,1 @@
-Quick photo and video camera with a flash, customizable aspect ratio
+Lightweight open-source camera app for quick, easy, and secure photography
