@@ -45,5 +45,4 @@
     <string name="save_photo_video_location">Desa la ubicació de les fotos i els vídeos</string>
     <string name="photo_compression_quality">Qualitat de compressió fotogràfica</string>
     <string name="shutter">Obturador</string>
-    <string name="app_name">Fossify Camera</string>
 </resources>
