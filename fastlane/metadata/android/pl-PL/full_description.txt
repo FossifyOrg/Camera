@@ -1,0 +1,18 @@
+Fossify Camera to Twoja podręczna aplikacja do uchwycenia chwil z życia z precyzją i prywatnością. Niezależnie od tego, czy pstrykasz fotki, czy nagrywasz filmy, ta w pełni konfigurowalna, szanująca prywatność aplikacja aparatu została zaprojektowana tak, aby spełniać Twoje potrzeby.<br><br>
+<b>📸 TWOJA PRYWATNOŚĆ, NASZ PRIORYTET:</b><br>
+Dzięki aplikacji Fossify Camera Twoje dane pozostają prywatne. Ciesz się aparatem, który działa bez dostępu do Internetu i natrętnych uprawnień, zapewniając bezpieczeństwo Twoich zdjęć i filmów.<br><br>
+<b>🚀 BEZPROBLEMOWE DZIAŁANIE:</b><br>
+Fossify Camera zapewnia płynny i responsywny interfejs. Przełączaj się między trybami zdjęć i wideo, dostosuj zoom i przełączaj się natychmiast między przednim a tylnym aparatem. Uchwyć chwile bez opóźnień i doświadcz płynnego działania przez cały czas.<br><br>
+<b>🖼️ PEŁNA PERSONALIZACJA:</b><br>
+Spersonalizuj każdy aspekt swojego doświadczenia z aparatem. Dostosuj jakość pliku, ścieżkę zapisu i ustaw rozdzielczość do swoich potrzeb. Możesz nawet dostosować kolory i motywy, aby pasowały do Twojego stylu.<br><br>
+<b>⚡ DYNAMICZNE STEROWANIE:</b><br>
+Z łatwością przełączaj ustawienia — kontroluj lampę błyskową, współczynnik proporcji i zoom bezpośrednio z widoku aparatu. Aplikacja została zaprojektowana z myślą o szybkim dostępie, umożliwiając Ci wydajne uchwycenie chwil dzięki intuicyjnym ustawieniom.<br><br>
+<b>🖼️ MATERIAL DESIGN:</b><br>
+Ciesz się eleganckim, przyjaznym dla użytkownika interfejsem z Material Design i dynamicznym motywem, który dostosowuje się do Twoich preferencji. Niezależnie od tego, czy korzystasz z aplikacji w dzień, czy w nocy, Fossify Camera zapewnia płynne i intuicyjne doświadczenie.<br><br>
+<b>🌐 GWARANCJA OTWARTEGO ŹRÓDŁA:</b><br>
+Fossify Camera została zbudowana na fundamencie otwartego źródła. Dzięki naszemu zaangażowaniu w przejrzystość możesz przeglądać nasz kod na GitHubie i być częścią społeczności ceniącej sobie prywatność i zaufanie.<br><br>
+Fossify Camera oferuje wszystko, czego potrzebujesz, aby bez wysiłku uchwycić chwile, jednocześnie szanując Twoją prywatność.<br><br>
+Odkryj więcej aplikacji od Fossify: https://www.fossify.org<br>
+Kod źródłowy: https://www.github.com/FossifyOrg<br>
+Dołącz do społeczności na Reddicie: https://www.reddit.com/r/Fossify<br>
+Połącz się na Telegramie: https://t.me/Fossify<br>

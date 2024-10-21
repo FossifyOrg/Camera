@@ -1,0 +1,1 @@
+* Fijar nombre de la aplicación en los metadatos

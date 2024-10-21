@@ -44,4 +44,5 @@
     <string name="save_photo_video_location">Foto- und Videostandort speichern</string>
     <string name="photo_compression_quality">Fotokomprimierungsqualität</string>
     <string name="shutter">Verschluss</string>
-    </resources>
+    <string name="video">Video</string>
+</resources>
