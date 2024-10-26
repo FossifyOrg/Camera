@@ -1,0 +1,1 @@
+* Corregeix el nom de l'aplicació a les metadades
