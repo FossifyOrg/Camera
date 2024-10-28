@@ -1,0 +1,1 @@
+* Cambio do nome da app nos metadatos
