@@ -1,0 +1,1 @@
+* Corrige o nome do app nos metadados

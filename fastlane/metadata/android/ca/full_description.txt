@@ -1,0 +1,18 @@
+La Fossify Camera és la vostra aplicació de referència per a capturar els moments de la vida amb precisió i privadesa. Tant si esteu capturant fotos com gravant vídeos, aquesta aplicació de càmera totalment personalitzable i respectuosa amb la privadesa està dissenyada per a satisfer les vostres necessitats.<br><br>
+<b>📸 LA VOSTRA PRIVADESA, LA NOSTRA PRIORITAT:</b><br>
+Amb l'aplicació Fossify Camera, les vostres dades es mantenen privades. Gaudiu d'una càmera que funciona sense accés a Internet ni permisos intrusius, assegurant que les fotos i vídeos es mantinguin segurs.<br><br>
+<b>🚀 RENDIMENT PERFECTE:</b><br>
+La Fossify Camera proporciona una interfície fluida i responsiva. Canvieu entre els modes de foto i vídeo, ajusteu el zoom i canvieu entre les càmeres frontals i posteriors a l'instant. Captureu els moments amb zero retard i experimenteu un rendiment suau en tot moment.<br><br>
+<b>🖼️ PERSONALITZACIÓ COMPLETA:</b><br>
+Personalitzeu tots els aspectes de la vostra experiència amb la càmera. Ajusteu la qualitat de la sortida, personalitzeu el camí de desament i establiu la resolució que s'adapti a les vostres necessitats. Fins i tot podeu personalitzar colors i temes perquè coincideixin amb el vostre estil.<br><br>
+<b>⚡ CONTROLS DINÀMICS:</b><br>
+Canvieu la configuració amb facilitat: controleu el flaix, la relació d'aspecte i el zoom directament des de la vista de càmera. L'aplicació està dissenyada per a un accés ràpid, permetent capturar moments de manera eficient, amb controls intuïtius.<br><br>
+<b>🖼️ MATERIAL DESIGN:</b><br>
+Gaudiu d'una interfície elegant i fàcil d'usar amb el «material design» i un tema dinàmic que s'adapta a les vostres preferències. Tant si utilitzeu l'aplicació durant el dia com a la nit, la Fossify Camera proporciona una experiència suau i intuïtiva.<br><br>
+<b>🌐 GARANTIA DEL CODI OBERT:</b><br>
+La Fossify Camera està construïda sobre una base de codi obert. Amb el nostre compromís amb la transparència, podeu revisar el codi a GitHub i formar part d'una comunitat que valora la privadesa i la confiança.<br><br>
+La Fossify Camera ofereix tot el que cal per a capturar moments sense esforç respectant la vostra privadesa.<br><br>
+Exploreu més aplicacions de Fossify: https://www.fossify.org
+Codi obert: https://www.github.com/FossifyOrg
+Uniu-vos a la comunitat a Reddit: https://www.reddit.com/r/Fossify
+Connecteu a Telegram: https://t.me/Fossify

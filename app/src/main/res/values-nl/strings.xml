@@ -43,4 +43,6 @@
     <string name="photo_compression_quality">Kwaliteit foto\'s</string>
     <string name="shutter">Sluiter</string>
     <string name="save_photo_video_location">Huidige locatie in foto\'s en video\'s opslaan</string>
-    </resources>
+    <string name="app_launcher_name">Camera</string>
+    <string name="video">Video</string>
+</resources>

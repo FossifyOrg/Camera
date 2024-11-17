@@ -44,4 +44,5 @@
     <string name="save_photo_video_location">Salvesta foto ja video asukoht</string>
     <string name="photo_compression_quality">Fotode pakkimise tase</string>
     <string name="shutter">Katik</string>
-    </resources>
+    <string name="video">Video</string>
+</resources>
