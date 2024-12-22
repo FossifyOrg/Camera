@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_launcher_name">Kamara</string>
+    <string name="capture_mode">Kaptura-modua</string>
+    <string name="maximize_quality">Kalitatea maximizatu</string>
+    <string name="minimize_latency">Latentzia minimizatu</string>
+    <string name="camera_unavailable">Kamera ez dago erabilgarri</string>
+    <string name="camera_open_error">Errore bat gertatu da kamerara sartzean</string>
+    <string name="video_creating_error">Errore bat gertatu da bideoa sortzean</string>
+    <string name="video_mode_error">Bideo-modura aldatzeak huts egin du</string>
+    <string name="save_error_internal_storage">Errore bat gertatu da, karpeta gordetzea barne-biltegiratzera aldatu da</string>
+    <string name="camera_switch_error">Kamera aldaketak huts egin du</string>
+    <string name="click_to_resume_preview">Egin klik irudian aurrebista berrabiarazteko</string>
+    <string name="photo_not_saved">Argazkia ezin izan da gorde</string>
+    <string name="setting_resolution_failed">Bereizmen egokia ezartzeak huts egin du</string>
+    <string name="video_recording_failed">Bideo-grabazioak huts egin du, saiatu beste bereizmen bat erabiltzen</string>
+    <string name="camera_in_use_error">Kamera beste aplikazio bat erabiltzen ari da, mesedez, itxi aplikazioa eta saiatu berriro</string>
+</resources>

@@ -26,7 +26,7 @@
     <string name="toggle_camera">Växla mellan främre/bakre kamera</string>
     <string name="toggle_flash">Växla mellan ficklampans lägen</string>
     <string name="toggle_timer">Växla mellan timerlägena</string>
-    <string name="faq_1_title">Vilken kvalitet för fotokomprimering ska jag ställa in\?</string>
+    <string name="faq_1_title">Vilken fotokomprimeringskvalitet ska jag använda?</string>
     <string name="faq_1_text">Det beror på ditt mål. För generiska ändamål rekommenderar de flesta att man använder 75-80 %, då bilden fortfarande har riktigt bra kvalitet, men filstorleken minskar drastiskt jämfört med 100 %.</string>
     <string name="save_photos">Spara foton och videor i</string>
     <string name="show_preview">Förhandsgranska foton efter att de har tagits</string>
@@ -44,4 +44,5 @@
     <string name="save_photo_video_location">Spara platser för foton och videor</string>
     <string name="photo_compression_quality">Fotokomprimeringskvalitet</string>
     <string name="shutter">Slutare</string>
-    </resources>
+    <string name="video">Video</string>
+</resources>
