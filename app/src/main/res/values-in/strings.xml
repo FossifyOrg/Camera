@@ -44,4 +44,5 @@
     <string name="photo_compression_quality">Kualitas kompresi foto</string>
     <string name="shutter">Rana</string>
     <string name="save_photo_video_location">Simpan lokasi foto dan video</string>
-    </resources>
+    <string name="video">Video</string>
+</resources>
