@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_launcher_name">Kamera</string>
+    <string name="capture_mode">Mod pakañ</string>
+    <string name="maximize_quality">Uc\'hekaat ar berzhded</string>
+    <string name="minimize_latency">Bihanaat ar gortozvezh</string>
+    <string name="camera_unavailable">Dihegerz eo ar c\'hamera</string>
+    <string name="camera_open_error">Degouezhet ez eus bet ur fazi en ur haeziñ ar c\'hamera</string>
+</resources>
