@@ -43,4 +43,6 @@
     <string name="save_photo_metadata">Сачувајте екиф метаподатке фотографије</string>
     <string name="photo_compression_quality">Квалитет компресије фотографија</string>
     <string name="shutter">Затварач</string>
+    <string name="save_photo_video_location">Сачувај локацију фотографије и видеа</string>
+    <string name="toggle_timer">Пребаци на режим тајмера</string>
 </resources>

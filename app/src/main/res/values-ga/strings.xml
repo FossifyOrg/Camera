@@ -1,2 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_launcher_name">Ceamara</string>
+    <string name="capture_mode">Modh gabhála</string>
+    <string name="maximize_quality">Uasmhéadaigh cáilíochta</string>
+    <string name="minimize_latency">Íoslaghdaigh latency</string>
+    <string name="camera_open_error">Tharla earráid agus an ceamara á rochtain</string>
+    <string name="video_creating_error">Tharla earráid agus an comhad físe á chruthú</string>
+    <string name="camera_unavailable">Níl an ceamara ar fáil</string>
+    <string name="video_mode_error">Theip ar aistriú go mód físeáin</string>
+    <string name="save_error_internal_storage">Tharla earráid, athraíodh an shábháil fillteán go stóras inmheánach</string>
+    <string name="camera_switch_error">Theip ar athrú ceamara</string>
+    <string name="click_to_resume_preview">Cliceáil ar an íomhá chun réamhamharc a atosú</string>
+    <string name="video_recording_failed">Theip ar an bhfístaifeadadh, bain triail as taifeach eile a úsáid</string>
+    <string name="camera_in_use_error">Tá ceamara in úsáid ag aip eile, dún an aip agus bain triail eile as</string>
+    <string name="camera_disabled_by_admin_error">Tá an ceamara díchumasaithe ag an riarthóir</string>
+    <string name="camera_dnd_error">Tá mód Ná Cuir Isteach cumasaithe. Díchumasaigh agus bain triail eile as</string>
+    <string name="video_capture_insufficient_storage_error">Theip ar an bhfístaifeadadh mar gheall ar easpa stórála</string>
+    <string name="toggle_photo_video">Scoránaigh mód grianghraf/físe</string>
+    <string name="view_last_media">Féach ar na meáin is déanaí a gabhadh</string>
+    <string name="toggle_camera">Scoránaigh ceamara tosaigh/cúl</string>
+    <string name="toggle_flash">Scoránaigh an modh flashlight</string>
+    <string name="toggle_timer">Scoránaigh mód an lasc ama</string>
+    <string name="faq_1_title">Cén caighdeán comhbhrú grianghraf ba cheart dom a shocrú?</string>
+    <string name="save_photos">Sábháil grianghraif agus físeáin a</string>
+    <string name="show_preview">Taispeáin réamhamharc grianghraf tar éis é a ghabháil</string>
+    <string name="shutter_sound">Fuaim cróluas</string>
+    <string name="back_camera">Rúin ceamara cúil</string>
+    <string name="photo">Grianghraf</string>
+    <string name="video">Físeán</string>
+    <string name="front_camera">Rúin ceamara tosaigh</string>
+    <string name="focus_before_capture">Fócas roimh ghabháil</string>
+    <string name="volume_buttons_as_shutter">Úsáid cnaipí toirte mar chomhla</string>
+    <string name="turn_flash_off_at_startup">Múch an flash ag am tosaithe</string>
+    <string name="flip_front_camera_photos_horizontally">Smeach grianghraif ceamara tosaigh go cothrománach</string>
+    <string name="keep_settings_visible">Coinnigh na cnaipí socruithe le feiceáil</string>
+    <string name="always_open_back_camera">Oscail an aip i gcónaí leis an gceamara Cúil</string>
+    <string name="save_photo_metadata">Sábháil meiteashonraí exif grianghraf</string>
+    <string name="save_photo_video_location">Sábháil suíomh grianghraf agus físeáin</string>
+    <string name="photo_compression_quality">Cáilíocht comhbhrú grianghraf</string>
+    <string name="shutter">Comhla</string>
+    <string name="camera_configure_error">Tharla earráid agus an ceamara á chumrú</string>
+    <string name="photo_not_saved">Níorbh fhéidir an grianghraf a shábháil</string>
+    <string name="setting_resolution_failed">Theip ar réiteach ceart a shocrú</string>
+    <string name="photo_capture_failed">Theip ar ghabháil grianghraf</string>
+    <string name="change_resolution">Athrú Rún</string>
+    <string name="faq_1_text">Braitheann sé ar do sprioc. Chun críocha cineálach, molann an chuid is mó daoine 75%-80% a úsáid, nuair a bhíonn an íomhá fós ar chaighdeán fíor-mhaith, ach laghdaítear méid an chomhaid go suntasach i gcomparáid le 100%.</string>
+</resources>

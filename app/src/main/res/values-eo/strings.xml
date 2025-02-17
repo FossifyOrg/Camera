@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="camera_in_use_error">Kameron uzas alia aplikaĵo, fermu aplikaĵon kaj provu ree</string>
+    <string name="camera_in_use_error">Kameraon uzas alia aplikaĵo, fermu aplikaĵon kaj provu ree</string>
     <string name="camera_configure_error">Okazis eraro dum agordado de kamerao</string>
-    <string name="camera_disabled_by_admin_error">Kamero estas elŝaltita de administrulo</string>
+    <string name="camera_disabled_by_admin_error">Kamerao estas elŝaltita de administrulo</string>
     <string name="photo_capture_failed">Fotografado malsukcesis</string>
-    </resources>
+    <string name="app_launcher_name">Kamerao</string>
+</resources>
