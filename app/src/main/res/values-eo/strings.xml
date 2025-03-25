@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="camera_in_use_error">Kameron uzas alia aplikaĵo, fermu aplikaĵon kaj provu ree</string>
+    <string name="camera_in_use_error">Kameraon uzas alia aplikaĵo, fermu aplikaĵon kaj provu ree</string>
     <string name="camera_configure_error">Okazis eraro dum agordado de kamerao</string>
-    <string name="camera_disabled_by_admin_error">Kamero estas elŝaltita de administrulo</string>
+    <string name="camera_disabled_by_admin_error">Kamerao estas elŝaltita de administrulo</string>
     <string name="photo_capture_failed">Fotografado malsukcesis</string>
-    </resources>
+    <string name="app_launcher_name">Kamerao</string>
+    <string name="faq_1_text">Tio dependas de via celo. Por la ĝenerala uzado, oni konsilas uzi 75%-80%, kie la bilda kvalito restas bone, sed la dosiergrando estas ege reduktita komparata al 100%.</string>
+    <string name="show_preview">Montri fotan antaŭrigardon post kapto</string>
+    <string name="capture_mode">Kaptoreĝimo</string>
+    <string name="maximize_quality">Maksimumigi kvaliton</string>
+    <string name="video_creating_error">Okazis eraro dum kreo de la filmetodosiero</string>
+    <string name="photo_not_saved">Ne eblis konservi la foton</string>
+    <string name="camera_dnd_error">Estas ŝaltita la reĝimo \"Ne ĝenu\". Bonvolu malŝalti ĝin kaj provu denove</string>
+    <string name="video_capture_insufficient_storage_error">Malsukcesis la registrado de filmeto pro manko de memoro</string>
+    <string name="toggle_photo_video">Baskuligi reĝimon de foto/filmeto</string>
+    <string name="view_last_media">Montri laste kaptitajn aŭdvidaĵojn</string>
+    <string name="toggle_camera">Baskuligi (mal)antaŭan kameraon</string>
+    <string name="toggle_flash">Baskuligi lanternan reĝimon</string>
+    <string name="toggle_timer">Baskuligi tempomezurilan reĝimon</string>
+    <string name="faq_1_title">Kiun kvaliton de fota densigo devus mi uzi?</string>
+    <string name="save_photos">Konservi fotojn kaj filmetojn en</string>
+    <string name="back_camera">Distingivoj de la malantaŭa kamerao</string>
+    <string name="front_camera">Distingivoj de la antaŭa kamerao</string>
+    <string name="photo">Foto</string>
+    <string name="video">Filmeto</string>
+    <string name="focus_before_capture">Enfokusiĝi antaŭ kapto</string>
+    <string name="volume_buttons_as_shutter">Uzi sonfortecajn butonojn kiel obturilo</string>
+    <string name="turn_flash_off_at_startup">Malŝalti fulmon je startigo</string>
+    <string name="flip_front_camera_photos_horizontally">Inversigi horizontale fotojn de la antaŭa kamerao</string>
+    <string name="shutter">Obturilo</string>
+    <string name="camera_open_error">Okazis eraro dum atingo al la kamerao</string>
+    <string name="minimize_latency">Minimumigi atendotempon</string>
+    <string name="camera_unavailable">Kamerao ne disponeblas</string>
+    <string name="video_mode_error">Malsukcesis ŝanĝo al filmoreĝimo</string>
+    <string name="save_error_internal_storage">Okazis eraro; la konserva dosierujo estis ŝanĝita al la interna memoro</string>
+    <string name="camera_switch_error">Malsukcesis ŝanĝo de kamerao</string>
+    <string name="click_to_resume_preview">Alklaku bildon por daŭrigi antaŭrigardon</string>
+    <string name="setting_resolution_failed">Malsukcesis difini la ĝustan distingivon</string>
+    <string name="video_recording_failed">Malsukcesis registri filmeton. Provu uzi alian distingivon</string>
+    <string name="shutter_sound">Sono de obturilo</string>
+    <string name="keep_settings_visible">Ade montri agordajn butonojn</string>
+    <string name="always_open_back_camera">Ĉiam malfermi la aplikaĵon kun la malantaŭa kamerao</string>
+    <string name="save_photo_metadata">Konservi EXIF-ajn metadatumojn de fotoj</string>
+    <string name="save_photo_video_location">Konservi lokon de fotoj kaj filmetoj</string>
+    <string name="photo_compression_quality">Kvalito de fota densigo</string>
+    <string name="change_resolution">Ŝanĝi distingivon</string>
+</resources>

@@ -43,4 +43,6 @@
     <string name="save_photo_metadata">Tallenna valokuvien Exif-metatiedot</string>
     <string name="photo_compression_quality">Valokuvien pakkauslaatu</string>
     <string name="shutter">Suljin</string>
+    <string name="video">Video</string>
+    <string name="save_photo_video_location">Tallenna kuvien ja videoiden sijainnit</string>
 </resources>

@@ -1,0 +1,18 @@
+Fossify Kamera, hayatın anlarını hassasiyet ve gizlilikle yakalayabileceğiniz uygulamanızdır. İster fotoğraf çekiyor olun, ister videoları kaydediyor olun, bu tamamen özelleştirilebilir, gizliliğe saygılı kamera uygulaması ihtiyaçlarınızı karşılamak için tasarlanmıştır. <br><br>
+<b>📸 GİZLİLİĞİNİZ, ÖNCELİĞİMİZ:</b><br>
+Fossify Kamera uygulamasıyla verileriniz özel kalır. İnternet erişimi veya müdahaleci izinler olmadan çalışan bir kameranın tadını çıkarın, fotoğraflarınızın ve videolarınızın güvende kalmasını sağlayın.<br> <br>
+<b>🚀 KESİNTİSİZ PERFORMANS:</b><br>
+Fossify Kamera akıcı ve duyarlı bir arayüz sağlar. Fotoğraf ve video kipleri arasında geçiş yapın, yakınlaştırmayı ayarlayın ve ön ve arka kameralar arasında anında geçiş yapın. Sıfır gecikme ile anları yakalayın ve her zaman kesintisiz performans yaşayın.<br> <br>
+<b>🖼️ TAMAMIYLA ÖZELLEŞTİRİLEBİLİR:</b><br>
+Kamera deneyiminizin her yönünü kişiselleştirin. Çıktı kalitesini ayarlayın, kaydetme yolunu özelleştirin ve çözünürlüğü ihtiyaçlarınıza uygun olarak ayarlayın. Renkleri ve temaları stilinize uyacak şekilde özelleştirebilirsiniz.<br> <br>
+<b>⚡ DİNAMİK DENETİMLER:</b><br>
+Ayarları kolaylıkla değiştirin - doğrudan kamera görünümünden flaş, en boy oranı ve yakınlaştırma. Uygulama, hızlı erişim için tasarlanmıştır ve sezgisel kontrollerle anları verimli bir şekilde yakalamanıza izin verir.<br><br>
+<b>🖼️ MATERYAL TASARIMI:</b><br>
+Malzeme tasarımı ve tercihlerinize uyum sağlayan dinamik bir tema ile şık, kullanıcı dostu bir arayüzün tadını çıkarın. Uygulamayı gündüz veya gece kullanıyor olun, Fossify Kamera pürüzsüz ve sezgisel bir deneyim sağlar.<br><br>
+<b>🌐 AÇIK KAYNAK GÜVENCESİ:</b><br>
+Fossify Kamera açık kaynaklı bir temel üzerine inşa edilmiştir. Şeffaflığa olan bağlılığımızla, GitHub'daki kodu inceleyebilir ve gizliliğe ve güvene değer veren bir topluluğun parçası olabilirsiniz.<br><br>
+Fossify Kamera, gizliliğinize saygı duyarken anları zahmetsizce yakalamak için ihtiyacınız olan her şeyi sunuyor.<br><br>
+Daha fazla Fossify uygulamalarını keşfedin: https://www.fossify.org<br>
+Açık kaynaklı kod: https://www.github.com/FossifyOrg<br>
+Reddit adresindeki topluluğa katılın: https://www.reddit.com/r/Fossify<br>
+Telegram'a bağlanın: https://t.me/Fossify<br>
