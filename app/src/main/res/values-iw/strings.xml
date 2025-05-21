@@ -29,7 +29,7 @@
     <string name="save_photo_metadata">שמור מטא נתונים של Exif של תמונה</string>
     <string name="photo_compression_quality">איכות דחיסת תמונה</string>
     <string name="shutter">תריס</string>
-    <string name="capture_mode">סוג צילום</string>
+    <string name="capture_mode">מצב צילום</string>
     <string name="maximize_quality">איכות מקסימלית</string>
     <string name="minimize_latency">מינימום זמן השהיה (latency)</string>
     <string name="camera_disabled_by_admin_error">המצלמה מושבתת על ידי מנהל המערכת</string>
