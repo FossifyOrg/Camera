@@ -1,0 +1,20 @@
+Камера Fossify — это ваше приложение для съёмки моментов жизни с точностью и конфиденциальностью. Независимо от того, делаете ли вы снимки или записываете видео, это полностью настраиваемое, уважающее конфиденциальность приложение камеры создано для удовлетворения ваших потребностей.
+
+<b>📸 ВАША КОНФИДЕНЦИАЛЬНОСТЬ ЭТО НАШ ПРИОРИТЕТ:</b>
+С приложением Камера Fossify ваши данные остаются конфиденциальными. Наслаждайтесь камерой, которая работает без доступа в Интернет или навязчивых разрешений, гарантируя, что ваши фотографии и видео останутся в безопасности.
+
+<b>🚀 SEAMLESS PERFORMANCE:</b><br>
+Fossify Camera provides a fluid and responsive interface. Switch between photo and video modes, adjust zoom, and toggle between front and rear cameras instantly. Capture moments with zero lag and experience smooth performance at all times.<br><br>
+<b>🖼️ COMPLETE CUSTOMIZATION:</b><br>
+Personalize every aspect of your camera experience. Adjust the output quality, customize the save path, and set the resolution to suit your needs. You can even customize colors and themes to match your style.<br><br>
+<b>⚡ DYNAMIC CONTROLS:</b><br>
+Toggle settings with ease—control flash, aspect ratio, and zoom directly from the camera view. The app is designed for quick access, letting you capture moments efficiently, with intuitive controls.<br><br>
+<b>🖼️ MATERIAL DESIGN:</b><br>
+Enjoy a sleek, user-friendly interface with material design and a dynamic theme that adapts to your preferences. Whether you're using the app during the day or at night, Fossify Camera provides a smooth and intuitive experience.<br><br>
+<b>🌐 OPEN-SOURCE ASSURANCE:</b><br>
+Fossify Camera is built on an open-source foundation. With our commitment to transparency, you can review the code on GitHub and be part of a community that values privacy and trust.<br><br>
+Fossify Camera offers everything you need to capture moments effortlessly while respecting your privacy.<br><br>
+Ознакомьтесь с другими приложениями от Fossify: https://www.fossify.org
+Исходный код: https://www.github.com/FossifyOrg
+Присоединяйтесь к сообществу на Reddit: https://www.reddit.com/r/Fossify
+Подключайтесь в Telegram: https://t.me/Fossify
