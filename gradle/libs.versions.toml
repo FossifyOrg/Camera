@@ -8,7 +8,7 @@ androidx-document-file = "1.0.1"
 androidx-exif-interface = "1.4.1"
 androidx-window = "1.4.0"
 androidx-camera = "1.4.2"
-androidx-ktx = "2.8.6"
+androidx-ktx = "2.9.0"
 #Fossify
 commons = "54b78551a4"
 #Gradle
