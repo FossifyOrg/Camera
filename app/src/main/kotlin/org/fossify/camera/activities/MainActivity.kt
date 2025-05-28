@@ -646,14 +646,26 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
     private fun animateViews(degrees: Int) = binding.apply {
         val views = arrayOf(
             toggleCamera,
+            layoutTop.toggleTimer,
             layoutTop.toggleFlash,
             layoutTop.changeResolution,
             shutter,
             layoutTop.settings,
-            lastPhotoVideoPreview
+            lastPhotoVideoPreview,
+            layoutTimer.timerOff,
+            layoutTimer.timer3s,
+            layoutTimer.timer5s,
+            layoutTimer.timer10S,
+            layoutFlash.flashOff,
+            layoutFlash.flashAuto,
+            layoutFlash.flashOn,
+            layoutFlash.flashAlwaysOn
         )
         for (view in views) {
             rotate(view, degrees)
+        }
+        mediaSizeToggleGroup?.children?.forEach { child ->
+            rotate(child, degrees)
         }
     }
 
@@ -834,8 +846,15 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
             onSelect.invoke(index, selectedResolution.buttonViewId != clickedViewId)
         }
 
+        val currentDegrees = when (mLastHandledOrientation) {
+            ORIENT_LANDSCAPE_LEFT -> 90
+            ORIENT_LANDSCAPE_RIGHT -> -90
+            else -> 0
+        }
+
         resolutions.forEach {
             val button = createButton(it, onItemClick)
+            button.rotation = currentDegrees.toFloat()
             mediaSizeToggleGroup.addView(button)
         }
 
