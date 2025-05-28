@@ -5,6 +5,8 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.IdRes
 import org.fossify.camera.R
 
+private const val ONE_MEGA_PIXEL = 1000000
+
 enum class VideoQuality(val width: Int, val height: Int) {
     UHD(3840, 2160),
     FHD(1920, 1080),
@@ -14,7 +16,7 @@ enum class VideoQuality(val width: Int, val height: Int) {
     val pixels: Int = width * height
 
     val megaPixels: String =
-        String.format("%.1f", (width * height.toFloat()) / VideoQuality.ONE_MEGA_PIXEL)
+        String.format("%.1f", (width * height.toFloat()) / ONE_MEGA_PIXEL)
 
     val ratio = width / height.toFloat()
 
@@ -73,9 +75,5 @@ enum class VideoQuality(val width: Int, val height: Int) {
 
     fun toResolutionOption(): ResolutionOption {
         return ResolutionOption(buttonViewId = getButtonId(), imageDrawableResId = getImageResId())
-    }
-
-    companion object {
-        private const val ONE_MEGA_PIXEL = 1000000
     }
 }
