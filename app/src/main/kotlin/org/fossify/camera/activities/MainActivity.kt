@@ -649,6 +649,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
             layoutTop.toggleTimer,
             layoutTop.toggleFlash,
             layoutTop.changeResolution,
+            shutter,
             layoutTop.settings,
             lastPhotoVideoPreview,
             layoutTimer.timerOff,
