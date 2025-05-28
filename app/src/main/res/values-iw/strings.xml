@@ -13,7 +13,7 @@
     <string name="video_recording_failed">הקלטת הווידאו נכשלה, נסה להשתמש ברזולוציה אחרת</string>
     <string name="faq_1_title">איזו איכות דחיסת תמונה עלי להגדיר\?</string>
     <string name="faq_1_text">זה תלוי במטרה שלך. למטרות כלליות רוב האנשים ממליצים להשתמש ב-75%-80%, כאשר התמונה עדיין באיכות טובה, אך גודל הקובץ מצטמצם באופן דרסטי בהשוואה ל-100%.</string>
-    <string name="save_photos">בחר נתיב לשמירת</string>
+    <string name="save_photos">בחר נתיב לשמירה</string>
     <string name="show_preview">הצג תצוגה מקדימה של תמונה לאחר הצילום</string>
     <string name="shutter_sound">צליל תריס</string>
     <string name="back_camera">רזולוציות של מצלמה אחורית</string>
