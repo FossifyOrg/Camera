@@ -10,7 +10,7 @@ androidx-window = "1.4.0"
 androidx-camera = "1.4.2"
 androidx-ktx = "2.8.6"
 #Fossify
-commons = "54b78551a4"
+commons = "2.0.1"
 #Gradle
 gradlePlugins-agp = "8.10.0"
 #build
