@@ -9,7 +9,7 @@
     <string name="video_creating_error">Ha ocurrido un error creando el archivo de vídeo</string>
     <string name="video_mode_error">Error al cambiar al modo de video</string>
     <string name="save_error_internal_storage">Ha ocurrido un error, se ha cambiado la carpeta de destino al almacenamiento interno</string>
-    <string name="camera_switch_error">Cámara Simple</string>
+    <string name="camera_switch_error">Error al cambiar de cámara</string>
     <string name="click_to_resume_preview">Haga clic en la imagen para reanudar la vista previa</string>
     <string name="photo_not_saved">No se pudo guardar la imagen</string>
     <string name="setting_resolution_failed">Fallo en la configuración de la resolución apropiada</string>

@@ -531,6 +531,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
             layoutTop.toggleTimer.beVisible()
             layoutTop.toggleTimer.fadeIn()
         }
+        closeOptions()
         setupPreviewImage(true)
         selectPhotoTab()
     }
@@ -541,6 +542,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
             layoutTop.toggleTimer.fadeOut()
             layoutTop.toggleTimer.beGone()
         }
+        closeOptions()
         setupPreviewImage(false)
         selectVideoTab()
     }

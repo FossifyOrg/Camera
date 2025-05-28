@@ -13,7 +13,7 @@
     <string name="video_recording_failed">הקלטת הווידאו נכשלה, נסה להשתמש ברזולוציה אחרת</string>
     <string name="faq_1_title">איזו איכות דחיסת תמונה עלי להגדיר\?</string>
     <string name="faq_1_text">זה תלוי במטרה שלך. למטרות כלליות רוב האנשים ממליצים להשתמש ב-75%-80%, כאשר התמונה עדיין באיכות טובה, אך גודל הקובץ מצטמצם באופן דרסטי בהשוואה ל-100%.</string>
-    <string name="save_photos">שמור תמונות וסרטונים ב</string>
+    <string name="save_photos">בחר נתיב לשמירת</string>
     <string name="show_preview">הצג תצוגה מקדימה של תמונה לאחר הצילום</string>
     <string name="shutter_sound">צליל תריס</string>
     <string name="back_camera">רזולוציות של מצלמה אחורית</string>
@@ -29,4 +29,20 @@
     <string name="save_photo_metadata">שמור מטא נתונים של Exif של תמונה</string>
     <string name="photo_compression_quality">איכות דחיסת תמונה</string>
     <string name="shutter">תריס</string>
+    <string name="capture_mode">מצב צילום</string>
+    <string name="maximize_quality">איכות מקסימלית</string>
+    <string name="minimize_latency">מינימום זמן השהיה (latency)</string>
+    <string name="camera_disabled_by_admin_error">המצלמה מושבתת על ידי מנהל המערכת</string>
+    <string name="camera_in_use_error">המצלמה נמצאת בשימוש על ידי אפליקציה אחרת, אנא סגור את האפליקציה ונסה שוב</string>
+    <string name="camera_dnd_error">מצב \'נא לא להפריע\' מופעל. אנא השבת ונסה שוב</string>
+    <string name="photo_capture_failed">לכידת התמונה נכשלה</string>
+    <string name="video_capture_insufficient_storage_error">הקלטת הווידאו נכשלה עקב חוסר במקום אחסון</string>
+    <string name="toggle_flash">החלף את מצב הפנס</string>
+    <string name="toggle_timer">החלף את מצב הטיימר</string>
+    <string name="change_resolution">שנה רזולוציה</string>
+    <string name="toggle_photo_video">החלף מצב תמונה/וידאו</string>
+    <string name="view_last_media">צפייה במדיה שצולמה לאחרונה</string>
+    <string name="toggle_camera">החלף בין מצלמה קדמית/אחורית</string>
+    <string name="camera_configure_error">אירעה שגיאה במהלך הגדרת המצלמה</string>
+    <string name="save_photo_video_location">שמור את מיקום התמונות והסרטונים</string>
 </resources>
