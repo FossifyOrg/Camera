@@ -58,7 +58,6 @@ class MediaActionSound(private val context: Context) {
         .setAudioAttributes(
             AudioAttributes.Builder()
                 .setUsage(AudioAttributes.USAGE_ASSISTANCE_SONIFICATION)
-                .setFlags(AudioAttributes.FLAG_AUDIBILITY_ENFORCED)
                 .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
                 .build()
         ).build()
@@ -101,7 +100,7 @@ class MediaActionSound(private val context: Context) {
             }
 
             if (soundToBePlayed != null) {
-                playWithSoundPool(soundToBePlayed!!)
+                playWithSoundPool(soundToBePlayed)
             }
             break
         }

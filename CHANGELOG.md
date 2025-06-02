@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Fixed loud shutter sound on some devices ([#97])
+
 ## [1.0.2] - 2025-05-28
 
 ### Changed
@@ -36,3 +40,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [1.0.1]: https://github.com/FossifyOrg/Camera/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/FossifyOrg/Camera/releases/tag/1.0.0
 
+[#97]: https://github.com/FossifyOrg/Camera/issues/97
