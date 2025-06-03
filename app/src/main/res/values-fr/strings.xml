@@ -27,7 +27,7 @@
     <string name="toggle_flash">Activer/désactiver le mode lampe de poche</string>
     <string name="toggle_timer">Basculer le mode de minuterie</string>
     <string name="faq_1_title">Quelle qualité de compression photo devrais-je définir \?</string>
-    <string name="faq_1_text">Tout dépend de votre objectif. Dans le cadre d\'un usage classique, il est recommandé d\'utiliser une compression photo comprise entre 75 et 80 %. Ce qui reste une qualité d\'image tout à fait acceptable, tout en générant une taille de fichier considérablement réduite.</string>
+    <string name="faq_1_text">Tout dépend de votre objectif. Dans le cadre d\'un usage classique, il est recommandé d\'utiliser une compression photo comprise entre 75 et 80 %. Cela réduit considérablement la taille des fichiers, tout en maintenant une qualité d\'image tout à fait acceptable.</string>
     <string name="save_photos">Enregistrer les photos et vidéos vers</string>
     <string name="show_preview">Afficher un aperçu de la photo après la capture</string>
     <string name="shutter_sound">Son de l\'obturateur</string>
