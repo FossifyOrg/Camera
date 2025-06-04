@@ -19,7 +19,7 @@
     <string name="back_camera">רזולוציות של מצלמה אחורית</string>
     <string name="front_camera">רזולוציות של מצלמה קדמית</string>
     <string name="photo">תמונה</string>
-    <string name="video">וידיאו</string>
+    <string name="video">סרטון</string>
     <string name="focus_before_capture">התמקד לפני צילום</string>
     <string name="volume_buttons_as_shutter">השתמש בלחצני עוצמת הקול בתור תריס</string>
     <string name="turn_flash_off_at_startup">כבה את הפלאש בעת ההפעלה</string>
