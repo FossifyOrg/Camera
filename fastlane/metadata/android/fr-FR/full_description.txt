@@ -1,17 +1,17 @@
 Fossify Camera est votre application incontournable pour capturer les moments de la vie avec précision et confidentialité. Que vous preniez des photos ou enregistriez des vidéos, cette application caméra entièrement personnalisable et respectueuse de la vie privée est conçue pour répondre à tous vos besoins.<br><br>
 <b>📸 VOTRE VIE PRIVÉE, NOTRE PRIORITÉ :</b><br>
 Avec l'application Fossify Camera, vos données restent privées. Profitez d'une caméra qui fonctionne sans accès Internet ni autorisations intrusives, garantissant que vos photos et vidéos restent sécurisées.<br><br>
-<b>🚀 PERORMANCE A TOUT MOMENT :</b><br>
+<b>🚀 PERORMANCE À TOUT MOMENT :</b><br>
 Fossify Camera offre une interface fluide et réactive. Alternez facilement entre les modes photo et vidéo, ajustez le zoom et passez instantanément entre les caméras avant et arrière. Capturez des moments sans délai et profitez de performances fluides à tout moment.<br><br>
 <b>🖼️ PERSONNALISATION COMPLÈTE :</b><br>
-Personnalisez chaque aspect de votre expérience avec la caméra : ajustez la qualité de sortie, personnalisez l'emplacement de sauvegarde et définissez la résolution selon vos besoins. Vous pouvez même adapter les couleurs et les thèmes à votre style.<br><br>
+Personnalisez chaque aspect de votre expérience avec l'appareil photo : ajustez la qualité de sortie, personnalisez l'emplacement de sauvegarde et définissez la résolution selon vos besoins. Vous pouvez même adapter les couleurs et les thèmes à votre style.<br><br>
 <b>⚡ CONTRÔLES DYNAMIQUES :</b><br>
-Modifiez les paramètres en toute simplicité : contrôlez le flash, le rapport d'aspect et le zoom directement depuis la vue de la caméra. L'application est avec des accès rapides, vous permettant de capturer efficacement vos moments avec des commandes intuitives.<br><br>
+Modifiez les paramètres en toute simplicité : contrôlez le flash, le rapport d'aspect et le zoom directement depuis la vue de la caméra. L'application est conçue pour un accès rapide, vous permettant de capturer efficacement vos moments avec des commandes intuitives.<br><br>
 <b>🖼️ MATERIAL DESIGN :</b><br>
 Profitez d'une interface utilisateur élégante et conviviale avec une interface Material Design et un thème dynamique qui s'adapte à vos préférences. Que vous utilisiez l'application pendant la journée ou la nuit, Fossify Camera offre une expérience fluide et intuitive. <br><br>
 <b>🌐 LE RESPECT DE L'OPEN-SOURCE :</b><br>
-Fossify Camera est développée sur une base open-source. Avec notre engagement en faveur de la transparence, vous pouvez consulter le code sur GitHub et rejoindre une communauté qui valorise la confidentialité et la confiance. Fossify Camera vous offre tout ce dont vous avez besoin pour capturer vos moments sans effort tout en respectant votre votre vie privée.<br><br>
+Fossify Camera est développée sur une base open-source. Avec notre engagement en faveur de la transparence, vous pouvez consulter le code sur GitHub et rejoindre une communauté qui valorise la confidentialité et la confiance. Fossify Camera vous offre tout ce dont vous avez besoin pour capturer vos moments sans effort tout en respectant votre vie privée.<br><br>
 Retrouvez plus d'applications Fossify : https://www.fossify.org<br>
 Code open-source : https://www.github.com/FossifyOrg<br>
-Rejoignez la communité sur Reddit: https://www.reddit.com/r/Fossify<br>
-Contactez nous sur Telegram: https://t.me/Fossify<br>
+Rejoignez la communité sur Reddit : https://www.reddit.com/r/Fossify<br>
+Contactez nous sur Telegram : https://t.me/Fossify<br>
