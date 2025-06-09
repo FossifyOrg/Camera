@@ -1,0 +1,47 @@
+THIS IS A TEST CHANGELOG FILE.
+
+Changed:
+
+• Updated translations
+• Marked app as beta
+
+Fixed:
+
+• All camera buttons now rotate properly on device rotation
+• Buttons are now properly updated switching between photo and video modes
+
+THIS IS A TEST CHANGELOG FILE.
+
+Changed:
+
+• Updated translations
+• Marked app as beta
+
+Fixed:
+
+• All camera buttons now rotate properly on device rotation
+• Buttons are now properly updated switching between photo and video modes
+
+THIS IS A TEST CHANGELOG FILE.
+
+Changed:
+
+• Updated translations
+• Marked app as beta
+
+Fixed:
+
+• All camera buttons now rotate properly on device rotation
+• Buttons are now properly updated switching between photo and video modes
+
+THIS IS A TEST CHANGELOG FILE.
+
+Changed:
+
+• Updated translations
+• Marked app as beta
+
+Fixed:
+
+• All camera buttons now rotate properly on device rotation
+• Buttons are now properly updated switching between photo and video modes
