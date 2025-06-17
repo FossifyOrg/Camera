@@ -2,3 +2,7 @@ Changed:
 
 • Updated translations
 
+Fixed:
+
+• Fixed loud shutter sound on some devices 
+
