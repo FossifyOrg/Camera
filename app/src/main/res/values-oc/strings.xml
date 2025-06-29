@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_launcher_name">Aparelh de fòto</string>
+    <string name="capture_mode">Mòde de captura</string>
+    <string name="maximize_quality">Maximizar la qualitat</string>
+    <string name="minimize_latency">Minimizar la laténcia</string>
+    <string name="camera_unavailable">Aparelh de fòto indisponible</string>
 </resources>
