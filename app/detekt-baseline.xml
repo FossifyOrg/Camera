@@ -11,13 +11,8 @@
     <ID>ImplicitDefaultLocale:MySize.kt$MySize$String.format("%.1f", (width * height.toFloat()) / ONE_MEGA_PIXEL)</ID>
     <ID>ImplicitDefaultLocale:VideoQuality.kt$VideoQuality$String.format("%.1f", (width * height.toFloat()) / ONE_MEGA_PIXEL)</ID>
     <ID>LargeClass:MainActivity.kt$MainActivity : SimpleActivityMediaSavedListenerCameraXPreviewListener</ID>
-    <ID>LongMethod:ImageSaver.kt$ImageSaver$@SuppressLint("RestrictedApi") private fun saveImageToTempFile(): File?</ID>
-    <ID>LongMethod:PhotoProcessor.kt$PhotoProcessor$override fun doInBackground(vararg params: ByteArray): String</ID>
-    <ID>LongMethod:ShadowDrawable.kt$ShadowDrawable$override fun draw(canvas: Canvas)</ID>
-    <ID>LongParameterList:CameraXInitializer.kt$CameraXInitializer$( previewView: PreviewView, listener: CameraXPreviewListener, mediaSoundHelper: MediaSoundHelper, outputUri: Uri?, isThirdPartyIntent: Boolean, initInPhotoMode: Boolean, )</ID>
     <ID>LongParameterList:CameraXPreview.kt$CameraXPreview$( private val activity: BaseSimpleActivity, private val previewView: PreviewView, private val mediaSoundHelper: MediaSoundHelper, private val mediaOutputHelper: MediaOutputHelper, private val cameraErrorHandler: CameraErrorHandler, private val listener: CameraXPreviewListener, private val isThirdPartyIntent: Boolean, initInPhotoMode: Boolean, )</ID>
     <ID>LongParameterList:ImageSaver.kt$ImageSaver$( private val contentResolver: ContentResolver, private val image: ImageProxy, private val mediaOutput: MediaOutput.ImageCaptureOutput, private val metadata: Metadata, private val jpegQuality: Int, private val saveExifAttributes: Boolean, private val onImageSaved: (Uri) -&gt; Unit, private val onError: (ImageCaptureException) -&gt; Unit, )</ID>
-    <ID>LongParameterList:ImageSaver.kt$ImageSaver.Companion$( contentResolver: ContentResolver, image: ImageProxy, mediaOutput: MediaOutput.ImageCaptureOutput, metadata: Metadata, jpegQuality: Int, saveExifAttributes: Boolean, onImageSaved: (Uri) -&gt; Unit, onError: (ImageCaptureException) -&gt; Unit, )</ID>
     <ID>LoopWithTooManyJumpStatements:ImageQualityManager.kt$ImageQualityManager$for</ID>
     <ID>LoopWithTooManyJumpStatements:MediaActionSound.kt$MediaActionSound$for</ID>
     <ID>MagicNumber:BitmapUtils.kt$BitmapUtils$128</ID>
@@ -33,7 +28,6 @@
     <ID>MagicNumber:FocusCircleView.kt$FocusCircleView$500L</ID>
     <ID>MagicNumber:FocusCircleView.kt$FocusCircleView$50f</ID>
     <ID>MagicNumber:MainActivity.kt$MainActivity$90</ID>
-    <ID>MagicNumber:MainActivity.kt$MainActivity.&lt;no name provided&gt;$1000</ID>
     <ID>MagicNumber:MainActivity.kt$MainActivity.&lt;no name provided&gt;$134</ID>
     <ID>MagicNumber:MainActivity.kt$MainActivity.&lt;no name provided&gt;$225</ID>
     <ID>MagicNumber:MainActivity.kt$MainActivity.&lt;no name provided&gt;$289</ID>
@@ -64,9 +58,6 @@
     <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$90</ID>
     <ID>MagicNumber:SettingsActivity.kt$SettingsActivity$95</ID>
     <ID>MagicNumber:ShadowDrawable.kt$ShadowDrawable$255.0f</ID>
-    <ID>MagicNumber:TimerMode.kt$TimerMode.TIMER_10$10000</ID>
-    <ID>MagicNumber:TimerMode.kt$TimerMode.TIMER_3$3000</ID>
-    <ID>MagicNumber:TimerMode.kt$TimerMode.TIMER_5$5000</ID>
     <ID>MagicNumber:VideoQuality.kt$VideoQuality$1.9f</ID>
     <ID>MagicNumber:VideoQuality.kt$VideoQuality$16</ID>
     <ID>MagicNumber:VideoQuality.kt$VideoQuality$19</ID>
@@ -79,14 +70,6 @@
     <ID>MagicNumber:VideoQuality.kt$VideoQuality$6</ID>
     <ID>MagicNumber:VideoQuality.kt$VideoQuality$8f</ID>
     <ID>MagicNumber:VideoQuality.kt$VideoQuality$9f</ID>
-    <ID>MagicNumber:VideoQuality.kt$VideoQuality.FHD$1080</ID>
-    <ID>MagicNumber:VideoQuality.kt$VideoQuality.FHD$1920</ID>
-    <ID>MagicNumber:VideoQuality.kt$VideoQuality.HD$1280</ID>
-    <ID>MagicNumber:VideoQuality.kt$VideoQuality.HD$720</ID>
-    <ID>MagicNumber:VideoQuality.kt$VideoQuality.SD$480</ID>
-    <ID>MagicNumber:VideoQuality.kt$VideoQuality.SD$720</ID>
-    <ID>MagicNumber:VideoQuality.kt$VideoQuality.UHD$2160</ID>
-    <ID>MagicNumber:VideoQuality.kt$VideoQuality.UHD$3840</ID>
     <ID>MaxLineLength:CameraErrorHandler.kt$CameraErrorHandler$VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE -&gt; context.toast(R.string.video_capture_insufficient_storage_error)</ID>
     <ID>MaxLineLength:ImageUtil.kt$ImageUtil$require(image.format == ImageFormat.YUV_420_888) { "Incorrect image format of the input image proxy: " + image.format }</ID>
     <ID>MaxLineLength:MainActivity.kt$MainActivity$binding.toggleCamera.setImageResource(if (frontCamera) R.drawable.ic_camera_rear_vector else R.drawable.ic_camera_front_vector)</ID>
