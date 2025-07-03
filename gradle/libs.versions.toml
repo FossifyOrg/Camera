@@ -3,6 +3,7 @@
 kotlin = "2.2.0"
 #Detekt
 detekt = "1.23.8"
+detektCompose = "0.4.22"
 #Androidx
 androidx-document-file = "1.1.0"
 androidx-exif-interface = "1.4.1"
@@ -31,6 +32,8 @@ androidx-window = { module = "androidx.window:window", version.ref = "androidx-w
 androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-ktx" }
 androidx-exifinterface = { module = "androidx.exifinterface:exifinterface", version.ref = "androidx-exif-interface" }
 androidx-documentfile = { module = "androidx.documentfile:documentfile", version.ref = "androidx-document-file" }
+#Compose
+compose-detekt = { module = "io.nlopez.compose.rules:detekt", version.ref = "detektCompose" }
 #Fossify
 fossify-commons = { module = "org.fossify:commons", version.ref = "commons" }
 [bundles]
