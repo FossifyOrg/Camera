@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Preference category labels now use sentence case
+- Updated translations
+
 ## [1.0.4] - 2025-06-17
 
 ### Changed
