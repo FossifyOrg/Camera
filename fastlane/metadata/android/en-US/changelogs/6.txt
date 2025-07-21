@@ -1,0 +1,5 @@
+Changed:
+
+• Preference category labels now use sentence case
+• Updated translations
+
