@@ -18,7 +18,7 @@
     <string name="photo_capture_failed">Fotooptagelse mislykkedes</string>
     <string name="video_capture_insufficient_storage_error">Videooptagelse mislykkedes på grund af utilstrækkelig lagerplads</string>
     <string name="faq_1_title">Hvilken fotokomprimeringskvalitet skal jeg anvende\?</string>
-    <string name="faq_1_text">Det afhænger af dit mål. Til almindelige formål anbefaler de fleste at bruge 75-80 %, hvor billedet stadig har en rigtig god kvalitet, men hvor filstørrelsen er reduceret drastisk i forhold til 100 %.</string>
+    <string name="faq_1_text">Det afhænger af dit mål. Til almindelige formål anbefaler de fleste at bruge 75%-80%, hvor billedet stadig har en rigtig god kvalitet, men hvor filstørrelsen er reduceret drastisk i forhold til 100 %.</string>
     <string name="save_photos">Gem fotos og videoer til</string>
     <string name="show_preview">Vis en forhåndsvisning af et foto efter optagelse</string>
     <string name="shutter_sound">Lukkerlyd</string>
@@ -38,4 +38,11 @@
     <string name="maximize_quality">Maksimér kvalitet</string>
     <string name="toggle_photo_video">Skift mellem foto- og videotilstand</string>
     <string name="change_resolution">Skift opløsning</string>
+    <string name="capture_mode">Optagetilstand</string>
+    <string name="view_last_media">Se de senest optagne medier</string>
+    <string name="toggle_camera">Skift for-/bagkamera</string>
+    <string name="toggle_flash">Slå flash til/fra</string>
+    <string name="toggle_timer">Slå timertilstand til/fra</string>
+    <string name="video">Video</string>
+    <string name="save_photo_video_location">Gem foto- og videoplacering</string>
 </resources>
