@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_launcher_name">Cámara</string>
+    <string name="capture_mode">Modo de captura</string>
+    <string name="maximize_quality">Maximice la calidad</string>
+</resources>
