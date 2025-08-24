@@ -41,7 +41,6 @@ class SettingsActivity : SimpleActivity() {
         super.onResume()
         setupToolbar(binding.settingsToolbar, NavigationIcon.Arrow)
 
-        setupPurchaseThankYou()
         setupCustomizeColors()
         setupUseEnglish()
         setupLanguage()
@@ -86,17 +85,9 @@ class SettingsActivity : SimpleActivity() {
         }
     }
 
-    private fun setupPurchaseThankYou() {
-        binding.settingsPurchaseThankYouHolder.beGoneIf(isOrWasThankYouInstalled())
-        binding.settingsPurchaseThankYouHolder.setOnClickListener {
-            launchPurchaseThankYouIntent()
-        }
-    }
-
     private fun setupCustomizeColors() {
-        binding.settingsCustomizeColorsLabel.text = getCustomizeColorsString()
         binding.settingsColorCustomizationHolder.setOnClickListener {
-            handleCustomizeColorsClick()
+            startCustomizationActivity()
         }
     }
 
