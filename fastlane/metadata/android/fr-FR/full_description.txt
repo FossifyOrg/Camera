@@ -2,7 +2,8 @@ Fossify Camera est votre application incontournable pour capturer les moments de
 <b>📸 VOTRE VIE PRIVÉE, NOTRE PRIORITÉ :</b><br>
 Avec l'application Fossify Camera, vos données restent privées. Profitez d'un appareil photo qui fonctionne sans accès Internet ni autorisations intrusives, garantissant que vos photos et vidéos restent sécurisées.<br><br>
 <b>🚀 PERFORMANCE SANS FAILLE :</b><br>
-Fossify Camera offre une interface fluide et réactive. Alternez entre les modes photo et vidéo, ajustez le zoom, et passez instantanément entre les caméras avant et arrière. Capturez des moments sans latence et profitez d'une performance fluide à tout moment.<br><br>
+Fossify Camera offre une interface fluide et réactive. Alternez entre les modes photo et vidéo, ajustez le zoom, et passez instantanément entre les caméras avant et arrière. Capturez des moments sans latence et profitez d'une performance fluide à tout moment.
+<br><br>
 <b>🖼️ PERSONNALISATION COMPLÈTE :</b><br>
 Personnalisez chaque aspect de votre expérience avec l'appareil photo : ajustez la qualité de sortie, personnalisez l'emplacement de sauvegarde et définissez la résolution selon vos besoins. Vous pouvez même adapter les couleurs et les thèmes à votre style.<br><br>
 <b>⚡ CONTRÔLES DYNAMIQUES :</b><br>
