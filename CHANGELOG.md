@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- Support high resolution output modes if the config preference is set to maximize quality. ([#20])
 
 ## [1.1.0] - 2025-07-21
 ### Changed
@@ -39,6 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
+[#20]: https://github.com/FossifyOrg/Camera/issues/20
 [#97]: https://github.com/FossifyOrg/Camera/issues/97
 
 [Unreleased]: https://github.com/FossifyOrg/Camera/compare/1.1.0...HEAD

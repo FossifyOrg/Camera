@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.CameraSelector
 import org.fossify.camera.extensions.config
 import org.fossify.camera.models.CameraSelectorImageQualities
+import org.fossify.camera.models.CaptureMode
 import org.fossify.camera.models.MySize
 import org.fossify.commons.extensions.showErrorToast
 
@@ -32,8 +33,14 @@ class ImageQualityManager(private val activity: AppCompatActivity) {
                         val configMap =
                             characteristics.get(CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP)
                                 ?: continue
-                        val imageSizes = configMap.getOutputSizes(ImageFormat.JPEG)
+                        val standardImageSizes = configMap.getOutputSizes(ImageFormat.JPEG)
                             .map { MySize(it.width, it.height) }
+                        val imageSizes = if (activity.config.captureMode == CaptureMode.MAXIMIZE_QUALITY) {
+                            standardImageSizes + configMap.getHighResolutionOutputSizes(ImageFormat.JPEG)
+                                .map { MySize(it.width, it.height) }
+                        } else {
+                            standardImageSizes
+                        }
                         val cameraSelector = lensFacing.toCameraSelector()
                         imageQualities.add(CameraSelectorImageQualities(cameraSelector, imageSizes))
                     }

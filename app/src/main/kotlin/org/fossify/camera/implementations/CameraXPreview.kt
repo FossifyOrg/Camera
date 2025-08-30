@@ -36,6 +36,11 @@ import androidx.camera.core.Preview
 import androidx.camera.core.UseCase
 import androidx.camera.core.UseCaseGroup
 import androidx.camera.core.ViewPort
+import androidx.camera.core.resolutionselector.ResolutionSelector
+import androidx.camera.core.resolutionselector.ResolutionSelector.PREFER_CAPTURE_RATE_OVER_HIGHER_RESOLUTION
+import androidx.camera.core.resolutionselector.ResolutionSelector.PREFER_HIGHER_RESOLUTION_OVER_CAPTURE_RATE
+import androidx.camera.core.resolutionselector.ResolutionStrategy
+import androidx.camera.core.resolutionselector.ResolutionStrategy.FALLBACK_RULE_CLOSEST_LOWER_THEN_HIGHER
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.camera.video.FallbackStrategy
 import androidx.camera.video.FileDescriptorOutputOptions
@@ -86,6 +91,7 @@ import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.extensions.toast
 import org.fossify.commons.helpers.PERMISSION_ACCESS_FINE_LOCATION
 import org.fossify.commons.helpers.ensureBackgroundThread
+import kotlin.math.abs
 
 class CameraXPreview(
     private val activity: BaseSimpleActivity,
@@ -222,10 +228,10 @@ class CameraXPreview(
         val isFullSize = resolution.isFullScreen
         previewView.scaleType = if (isFullSize) ScaleType.FILL_CENTER else ScaleType.FIT_CENTER
         val rotation = previewView.display.rotation
-        val rotatedResolution = getRotatedResolution(resolution, rotation)
+        val targetResolution = Size(resolution.width, resolution.height)
 
-        val previewUseCase = buildPreview(rotatedResolution, rotation)
-        val captureUseCase = getCaptureUseCase(rotatedResolution, rotation)
+        val previewUseCase = buildPreview(targetResolution, rotation)
+        val captureUseCase = getCaptureUseCase(targetResolution, rotation)
 
         cameraProvider.unbindAll()
         camera = if (isFullSize) {
@@ -258,18 +264,10 @@ class CameraXPreview(
         setFlashlightState(config.flashlightState)
     }
 
-    private fun getRotatedResolution(resolution: MySize, rotationDegrees: Int): Size {
-        return if (rotationDegrees == Surface.ROTATION_0 || rotationDegrees == Surface.ROTATION_180) {
-            Size(resolution.height, resolution.width)
-        } else {
-            Size(resolution.width, resolution.height)
-        }
-    }
-
     private fun buildPreview(resolution: Size, rotation: Int): Preview {
         return Preview.Builder()
             .setTargetRotation(rotation)
-            .setTargetResolution(resolution)
+            .setResolutionSelector(getResolutionSelector(resolution))
             .build().apply {
                 setSurfaceProvider(previewView.surfaceProvider)
             }
@@ -295,7 +293,7 @@ class CameraXPreview(
             .setFlashMode(flashMode)
             .setJpegQuality(config.photoQuality)
             .setTargetRotation(rotation)
-            .setTargetResolution(resolution)
+            .setResolutionSelector(getResolutionSelector(resolution))
             .build()
     }
 
@@ -303,6 +301,26 @@ class CameraXPreview(
         return when (config.captureMode) {
             CaptureMode.MINIMIZE_LATENCY -> CAPTURE_MODE_MINIMIZE_LATENCY
             CaptureMode.MAXIMIZE_QUALITY -> CAPTURE_MODE_MAXIMIZE_QUALITY
+        }
+    }
+
+    private fun getResolutionSelector(resolution: Size): ResolutionSelector {
+        return ResolutionSelector.Builder()
+            .setResolutionStrategy(ResolutionStrategy(resolution, FALLBACK_RULE_CLOSEST_LOWER_THEN_HIGHER))
+            .setResolutionFilter { supportedSizes, rotationDegrees ->
+                // Sort by closest image ratio
+                supportedSizes.sortedBy {
+                    size -> abs(size.width / size.height.toFloat() - resolution.width / resolution.height.toFloat())
+                }
+            }
+            .setAllowedResolutionMode(getAllowedResolutionMode())
+            .build()
+    }
+
+    private fun getAllowedResolutionMode(): Int {
+        return when (config.captureMode) {
+            CaptureMode.MINIMIZE_LATENCY -> PREFER_CAPTURE_RATE_OVER_HIGHER_RESOLUTION
+            CaptureMode.MAXIMIZE_QUALITY -> PREFER_HIGHER_RESOLUTION_OVER_CAPTURE_RATE
         }
     }
 
