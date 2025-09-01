@@ -41,7 +41,7 @@
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/camera/activities/SettingsActivity.kt"
-            line="122"
+            line="113"
             column="13"/>
     </issue>
 
@@ -120,7 +120,7 @@
 
     <issue
         id="AndroidGradlePluginVersion"
-        message="A newer version of com.android.application than 8.11.1 is available: 8.12.0"
+        message="A newer version of com.android.application than 8.11.1 is available: 8.12.2"
         errorLine1="gradlePlugins-agp = &quot;8.11.1&quot;"
         errorLine2="                    ~~~~~~~~">
         <location
@@ -131,7 +131,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.6 is available: 2.9.2"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.6 is available: 2.9.3"
         errorLine1="androidx-ktx = &quot;2.8.6&quot;"
         errorLine2="               ~~~~~~~">
         <location
@@ -160,17 +160,6 @@
             file="src/main/AndroidManifest.xml"
             line="55"
             column="13"/>
-    </issue>
-
-    <issue
-        id="NewerVersionAvailable"
-        message="A newer version of io.nlopez.compose.rules:detekt than 0.4.25 is available: 0.4.26"
-        errorLine1="detektCompose = &quot;0.4.25&quot;"
-        errorLine2="                ~~~~~~~~">
-        <location
-            file="$HOME/work/Camera/Camera/gradle/libs.versions.toml"
-            line="6"
-            column="17"/>
     </issue>
 
     <issue
