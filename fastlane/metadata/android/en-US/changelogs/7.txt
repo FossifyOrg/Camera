@@ -1,0 +1,8 @@
+Added:
+
+• Support high resolution output modes if the config preference is set to maximize quality. 
+
+Changed:
+
+• Updated translations
+
