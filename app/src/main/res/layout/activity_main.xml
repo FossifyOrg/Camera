@@ -144,7 +144,7 @@
         android:layout_height="@dimen/icon_size"
         android:contentDescription="@string/toggle_camera"
         android:padding="@dimen/normal_margin"
-        android:src="@drawable/ic_camera_front_vector"
+        android:src="@drawable/ic_flip_camera_vector"
         app:layout_constraintBottom_toBottomOf="@id/shutter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/shutter"
