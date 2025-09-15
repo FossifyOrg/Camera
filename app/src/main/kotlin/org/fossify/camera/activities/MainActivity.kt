@@ -2,7 +2,6 @@ package org.fossify.camera.activities
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
-import android.app.Activity
 import android.content.Intent
 import android.content.res.ColorStateList
 import android.graphics.Bitmap
@@ -701,8 +700,6 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         }
     }
 
-    override fun onChangeCamera(frontCamera: Boolean) {}
-
     override fun onPhotoCaptureStart() {
         toggleActionButtons(enabled = false)
     }
@@ -733,14 +730,14 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
             Intent().apply {
                 data = uri
                 flags = Intent.FLAG_GRANT_READ_URI_PERMISSION
-                setResult(Activity.RESULT_OK, this)
+                setResult(RESULT_OK, this)
             }
             finish()
         } else if (isVideoCaptureIntent()) {
             Intent().apply {
                 data = uri
                 flags = Intent.FLAG_GRANT_READ_URI_PERMISSION
-                setResult(Activity.RESULT_OK, this)
+                setResult(RESULT_OK, this)
             }
             finish()
         }
@@ -750,7 +747,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         if (isImageCaptureIntent()) {
             Intent().apply {
                 putExtra("data", bitmap)
-                setResult(Activity.RESULT_OK, this)
+                setResult(RESULT_OK, this)
             }
             finish()
         }
@@ -981,7 +978,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         }
 
         if (isImageCaptureIntent()) {
-            setResult(Activity.RESULT_OK)
+            setResult(RESULT_OK)
             finish()
         }
     }
