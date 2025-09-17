@@ -10,11 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Swapped positions of camera switch and image preview buttons ([#157])
 - Updated and animated the switch camera button
-- Updated translations
 
 ## [1.2.0] - 2025-09-09
 ### Added
-- Support high resolution output modes if the config preference is set to maximize quality. ([#20])
+- Support high-resolution output modes if the config preference is set to maximize quality. ([#20])
 
 ### Changed
 - Updated translations
