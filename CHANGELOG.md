@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - Swapped positions of camera switch and image preview buttons ([#157])
+- Updated and animated the switch camera button
 
 ## [1.2.0] - 2025-09-09
 ### Added
