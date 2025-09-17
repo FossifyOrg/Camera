@@ -580,7 +580,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         runOnUiThread {
             if (!isDestroyed) {
                 val options = RequestOptions()
-                    .centerCrop()
+                    .circleCrop()
                     .diskCacheStrategy(DiskCacheStrategy.NONE)
 
                 Glide.with(this)
