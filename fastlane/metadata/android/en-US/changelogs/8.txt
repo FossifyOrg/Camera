@@ -1,0 +1,6 @@
+Changed:
+
+• Swapped positions of camera switch and image preview buttons 
+• Updated and animated the switch camera button
+• Updated translations
+
