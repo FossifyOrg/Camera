@@ -1,7 +1,7 @@
 package org.fossify.camera.activities
 
+import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
-import android.app.Activity
 import android.content.Intent
 import android.content.res.ColorStateList
 import android.graphics.Bitmap
@@ -15,6 +15,7 @@ import android.widget.LinearLayout
 import androidx.constraintlayout.widget.ConstraintSet
 import androidx.core.content.ContextCompat
 import androidx.core.view.*
+import androidx.interpolator.view.animation.FastOutSlowInInterpolator
 import androidx.transition.*
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
@@ -45,11 +46,12 @@ import kotlin.math.abs
 
 class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, CameraXPreviewListener {
     private companion object {
-        const val CAPTURE_ANIMATION_DURATION = 500L
-        const val PHOTO_MODE_INDEX = 1
-        const val VIDEO_MODE_INDEX = 0
+        private const val ANIMATION_DURATION = 500L
+        private const val PHOTO_MODE_INDEX = 1
+        private const val VIDEO_MODE_INDEX = 0
         private const val MIN_SWIPE_DISTANCE_X = 100
         private const val TIMER_2_SECONDS = 2001
+        private const val SWITCH_CAMERA_ROTATION_ANGLE = 180f
     }
 
     private val binding by viewBinding(ActivityMainBinding::inflate)
@@ -372,7 +374,11 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
 
     private fun initButtons() = binding.apply {
         timerText.setFactory { layoutInflater.inflate(R.layout.timer_text, null) }
-        toggleCamera.setOnClickListener { mPreview!!.toggleFrontBackCamera() }
+        toggleCamera.setOnClickListener {
+            animateCameraToggle()
+            mPreview!!.toggleFrontBackCamera()
+        }
+
         lastPhotoVideoPreview.setOnClickListener { showLastMediaPreview() }
 
         layoutTop.apply {
@@ -421,6 +427,15 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         }
 
         setTimerModeIcon(config.timerMode)
+    }
+
+    private fun animateCameraToggle() {
+        ObjectAnimator.ofFloat(binding.toggleCamera, "rotation", 0f, SWITCH_CAMERA_ROTATION_ANGLE)
+            .apply {
+                duration = ANIMATION_DURATION
+                interpolator = FastOutSlowInInterpolator()
+                start()
+            }
     }
 
     private fun selectTimerMode(timerMode: TimerMode) {
@@ -565,7 +580,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         runOnUiThread {
             if (!isDestroyed) {
                 val options = RequestOptions()
-                    .centerCrop()
+                    .circleCrop()
                     .diskCacheStrategy(DiskCacheStrategy.NONE)
 
                 Glide.with(this)
@@ -685,10 +700,6 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         }
     }
 
-    override fun onChangeCamera(frontCamera: Boolean) {
-        binding.toggleCamera.setImageResource(if (frontCamera) R.drawable.ic_camera_rear_vector else R.drawable.ic_camera_front_vector)
-    }
-
     override fun onPhotoCaptureStart() {
         toggleActionButtons(enabled = false)
     }
@@ -709,7 +720,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
 
     override fun shutterAnimation() {
         binding.shutterAnimation.alpha = 1.0f
-        binding.shutterAnimation.animate().alpha(0f).setDuration(CAPTURE_ANIMATION_DURATION).start()
+        binding.shutterAnimation.animate().alpha(0f).setDuration(ANIMATION_DURATION).start()
     }
 
     override fun onMediaSaved(uri: Uri) {
@@ -719,14 +730,14 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
             Intent().apply {
                 data = uri
                 flags = Intent.FLAG_GRANT_READ_URI_PERMISSION
-                setResult(Activity.RESULT_OK, this)
+                setResult(RESULT_OK, this)
             }
             finish()
         } else if (isVideoCaptureIntent()) {
             Intent().apply {
                 data = uri
                 flags = Intent.FLAG_GRANT_READ_URI_PERMISSION
-                setResult(Activity.RESULT_OK, this)
+                setResult(RESULT_OK, this)
             }
             finish()
         }
@@ -736,7 +747,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         if (isImageCaptureIntent()) {
             Intent().apply {
                 putExtra("data", bitmap)
-                setResult(Activity.RESULT_OK, this)
+                setResult(RESULT_OK, this)
             }
             finish()
         }
@@ -967,7 +978,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         }
 
         if (isImageCaptureIntent()) {
-            setResult(Activity.RESULT_OK)
+            setResult(RESULT_OK)
             finish()
         }
     }
