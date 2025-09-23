@@ -24,4 +24,15 @@
     <string name="change_resolution">Aldatu bereizmena</string>
     <string name="view_last_media">Ikusi atzemandako azken multimediak</string>
     <string name="toggle_camera">Aldatu aurreko/atzeko kamera</string>
+    <string name="toggle_flash">Txandakatu linterna modua</string>
+    <string name="toggle_timer">Txandakatu tenporizadore modua</string>
+    <string name="faq_1_title">Zer argazkien konpresio-kalitate ezarri behar dut?</string>
+    <string name="faq_1_text">Zure helburuaren araberakoa da. Orokorrean, jende gehienak gomendatzen du %75-%80 erabiltzea, irudia oraindik oso kalitate onekoa izango da, baina fitxategiaren tamaina izugarri murrizten da %100aren aldean.</string>
+    <string name="save_photos">Gorde argazkiak eta bideoak hemen</string>
+    <string name="show_preview">Erakutsi aurrebista, argazkia egin ondoren</string>
+    <string name="shutter_sound">Obturatzailearen soinua</string>
+    <string name="back_camera">Atzeko kameraren bereizmenak</string>
+    <string name="front_camera">Aurreko kameraren bereizmenak</string>
+    <string name="photo">Argazkia</string>
+    <string name="video">Bideoa</string>
 </resources>
