@@ -39,7 +39,7 @@
     <string name="photo_compression_quality">相片壓縮品質</string>
     <string name="shutter">快門</string>
     <string name="change_resolution">變更解析度</string>
-    <string name="view_last_media">查看最近拍攝的媒體</string>
+    <string name="view_last_media">檢視最近拍攝的媒體</string>
     <string name="toggle_camera">切換前後鏡頭</string>
     <string name="toggle_flash">切換手電筒模式</string>
     <string name="toggle_timer">切換計時器模式</string>
