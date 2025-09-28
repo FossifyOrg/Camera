@@ -1,0 +1,18 @@
+Fossify Camera 是您精準且私密地捕捉生活瞬間的首選應用程式。無論您是拍攝照片還是錄製影片，這款完全可自訂、尊重私隱的相機應用程式都能滿足您的需求。<br><br>
+<b>📸 您的私隱，我們的首要任務：</b><br>
+使用 Fossify Camera 應用程序，您的資料將保持私隱。享受無需網絡存取或侵入權限即可工作的相機，確保您的照片和影片保持安全。<br><br>
+<b>🚀 無縫效能：</b><br>
+Fossify Camera 提供流暢且反應靈敏的介面。在照片和影片模式之間切換、調整變焦以及在前後相機之間即時切換。以零延遲捕捉精彩瞬間，始終體驗流暢的表現。<br><br>
+<b>🖼️完全可自訂：</b><br>
+個性化您相機體驗的各個方面。調整輸出品質、自訂儲存路徑並設定解析度以滿足您的需求。您甚至可以自訂顏色和主題以匹配您的風格。<br><br>
+<b>⚡動態控制：</b><br>
+輕鬆切換設定 - 直接從相機視圖控制閃光燈、寬高比和變焦。該應用程式專為快速存取而設計，讓您透過直觀的控制項高效捕捉精彩瞬間。<br><br>
+<b>🖼️Material Design：</b><br>
+享受時尚、用戶友好的介面，採用 Material Design 並配備適合您喜好的動態主題。無論您是在白天還是晚上使用該應用程序，Fossify Camera 都能提供流暢直觀的體驗。<br><br>
+<b>🌐開源保證：</b><br>
+Fossify Camera 建立在開源基礎之上。憑藉我們對透明度的承諾，您可以在 GitHub 上查看程式碼並成為重視私隱和信任的社群的一部分。<br><br>
+Fossify Camera 提供您輕鬆捕捉瞬間所需的一切，同時尊重您的私隱。<br><br>
+探索更多 Fossify 應用程式：https://www.fossify.org<br>
+開源程式碼：https://www.github.com/FossifyOrg<br>
+加入 Reddit 社群：https://www.reddit.com/r/Fossify<br>
+透過 Telegram 連接：https://t.me/Fossify<br>
