@@ -1,2 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_launcher_name">相機</string>
+    <string name="capture_mode">拍攝模式</string>
+    <string name="maximize_quality">極致畫質</string>
+    <string name="minimize_latency">最短延遲</string>
+    <string name="camera_unavailable">相機無法使用</string>
+    <string name="camera_open_error">開啟相機發生錯誤</string>
+    <string name="video_creating_error">建立影片檔案發生錯誤</string>
+    <string name="video_mode_error">切換到錄影模式失敗</string>
+    <string name="save_error_internal_storage">發生錯誤，儲存資料夾已更改為內部儲存空間</string>
+    <string name="camera_switch_error">切換拍照模式失敗</string>
+    <string name="click_to_resume_preview">點擊圖片回到拍攝預覽</string>
+    <string name="photo_not_saved">相片無法儲存</string>
+    <string name="setting_resolution_failed">設定合適解析度失敗</string>
+    <string name="video_recording_failed">影片錄製失敗，嘗試使用不同的解析度</string>
+    <string name="camera_in_use_error">其他程式正在使用相機，請將那個程式關閉後再試一次</string>
+    <string name="camera_configure_error">配置相機時出錯</string>
+    <string name="camera_disabled_by_admin_error">相機已由管理者停用</string>
+    <string name="camera_dnd_error">零打擾模式已啟用，請將其停用後再試一次</string>
+    <string name="photo_capture_failed">拍照失敗</string>
+    <string name="video_capture_insufficient_storage_error">儲存空間不足，錄影失敗</string>
+    <string name="toggle_photo_video">切換照片/影片模式</string>
+    <string name="change_resolution">變更解析度</string>
+    <string name="view_last_media">檢視最近拍攝的媒體</string>
+    <string name="toggle_camera">切換前後鏡頭</string>
+    <string name="toggle_flash">切換手電筒模式</string>
+    <string name="toggle_timer">切換計時器模式</string>
+    <string name="faq_1_title">我應該設定什麼相片壓縮品質?</string>
+    <string name="faq_1_text">選擇是否要減少延遲時間需視您的目標而定。一般情況下，多數人會推薦設定在 75%-80%，此時您仍能獲得出色的圖像品質，但文件大小將顯著縮減，相較於使用 100% 的設定。</string>
+    <string name="save_photos">相片和影片儲存位置</string>
+    <string name="show_preview">拍攝後顯示相片預覽</string>
+    <string name="shutter_sound">快門聲音</string>
+    <string name="back_camera">後置鏡頭解析度</string>
+    <string name="front_camera">前置鏡頭解析度</string>
+    <string name="photo">相片</string>
+    <string name="video">影片</string>
+    <string name="focus_before_capture">拍攝前對焦</string>
+    <string name="volume_buttons_as_shutter">使用音量鍵作為快門</string>
+    <string name="turn_flash_off_at_startup">啟動時關閉閃光燈</string>
+    <string name="flip_front_camera_photos_horizontally">水平翻轉前相機相片</string>
+    <string name="keep_settings_visible">設定按鈕不消失</string>
+    <string name="always_open_back_camera">開啟程式總是用後鏡頭</string>
+    <string name="save_photo_metadata">儲存相片EXIF資訊</string>
+    <string name="save_photo_video_location">儲存照片和影片位置</string>
+    <string name="photo_compression_quality">相片壓縮品質</string>
+    <string name="shutter">快門</string>
+</resources>
