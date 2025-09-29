@@ -8,7 +8,7 @@ detektCompose = "0.4.27"
 androidx-document-file = "1.1.0"
 androidx-exif-interface = "1.4.1"
 androidx-window = "1.5.0"
-androidx-camera = "1.4.2"
+androidx-camera = "1.5.0"
 androidx-ktx = "2.8.6"
 #Fossify
 commons = "5.2.0"
