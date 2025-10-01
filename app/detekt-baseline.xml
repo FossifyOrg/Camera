@@ -72,7 +72,6 @@
     <ID>MagicNumber:VideoQuality.kt$VideoQuality$9f</ID>
     <ID>MaxLineLength:CameraErrorHandler.kt$CameraErrorHandler$VideoRecordEvent.Finalize.ERROR_INSUFFICIENT_STORAGE -&gt; context.toast(R.string.video_capture_insufficient_storage_error)</ID>
     <ID>MaxLineLength:ImageUtil.kt$ImageUtil$require(image.format == ImageFormat.YUV_420_888) { "Incorrect image format of the input image proxy: " + image.format }</ID>
-    <ID>MaxLineLength:MainActivity.kt$MainActivity$binding.toggleCamera.setImageResource(if (frontCamera) R.drawable.ic_camera_rear_vector else R.drawable.ic_camera_front_vector)</ID>
     <ID>MaxLineLength:MainActivity.kt$MainActivity$if</ID>
     <ID>MaxLineLength:MainActivity.kt$MainActivity$safeInsetBottom + navigationBarHeight + resources.getDimensionPixelSize(org.fossify.commons.R.dimen.bigger_margin)</ID>
     <ID>MaxLineLength:MainActivity.kt$MainActivity$}</ID>
