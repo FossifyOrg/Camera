@@ -1,0 +1,8 @@
+Changed:
+
+• Updated translations
+
+Fixed:
+
+• Fixed app crash when location service is disabled on Android 10 and prior 
+
