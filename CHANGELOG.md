@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Fixed
+- Fixed app crash when location service is disabled on Android 10 and prior ([#177]) 
 
 ## [1.3.0] - 2025-09-17
 ### Changed
