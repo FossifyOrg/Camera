@@ -28,9 +28,9 @@
     <string name="focus_before_capture">Fokuser før optagelse</string>
     <string name="volume_buttons_as_shutter">Brug lydstyrkeknapperne som lukker</string>
     <string name="turn_flash_off_at_startup">Slå blitz fra ved opstart</string>
-    <string name="flip_front_camera_photos_horizontally">Vend billeder fra frontkameraet vandret</string>
-    <string name="keep_settings_visible">Lad indstillingsknapperne være synlige</string>
-    <string name="always_open_back_camera">Åbn altid appen med kameraet på bagsiden</string>
+    <string name="flip_front_camera_photos_horizontally">Vend frontkamera-billeder vandret</string>
+    <string name="keep_settings_visible">Hold indstillingsknapperne synlige</string>
+    <string name="always_open_back_camera">Åbn altid appen med bagkameraet</string>
     <string name="save_photo_metadata">Gem Exif-metadata i fotos</string>
     <string name="photo_compression_quality">Fotokomprimeringskvalitet</string>
     <string name="shutter">Lukker</string>
@@ -41,7 +41,7 @@
     <string name="capture_mode">Optagetilstand</string>
     <string name="view_last_media">Se sidst optagede medier</string>
     <string name="toggle_camera">Skift mellem front-/bagkamera</string>
-    <string name="toggle_flash">Slå flash til/fra</string>
+    <string name="toggle_flash">Slå blitz til/fra</string>
     <string name="toggle_timer">Slå timertilstand til/fra</string>
     <string name="video">Video</string>
     <string name="save_photo_video_location">Gem foto- og videoplacering</string>
