@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_launcher_name">شؽواتگر</string>
+    <string name="capture_mode">هالت زفت</string>
+    <string name="maximize_quality">وارو ترین کیفیت</string>
+    <string name="minimize_latency">و هدقل رسوندن تئخیر</string>
+    <string name="camera_unavailable">شؽواتگر من دسرس نؽ</string>
+    <string name="camera_open_error">ختایی من دسرسی و شؽواتگر پؽش ٱووڌ</string>
+    <string name="video_creating_error">ختایی من وورکل کردن فایل ویدیویی پؽش ٱووڌ</string>
+    <string name="video_mode_error">آلشت و هالت ویدیو مووفق نبی</string>
+    <string name="camera_switch_error">آلشت شؽواتگر مووفق نبی</string>
 </resources>
