@@ -315,8 +315,8 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
                 topMargin = safeInsetTop
             }
 
-            val marginBottom =
-                safeInsetBottom + navigationBarHeight + resources.getDimensionPixelSize(org.fossify.commons.R.dimen.bigger_margin)
+            val systemBarsInsets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars())
+            val marginBottom = systemBarsInsets.bottom + resources.getDimensionPixelSize(org.fossify.commons.R.dimen.bigger_margin)
 
             binding.shutter.updateLayoutParams<ViewGroup.MarginLayoutParams> {
                 bottomMargin = marginBottom
