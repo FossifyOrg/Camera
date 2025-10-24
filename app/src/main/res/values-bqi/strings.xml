@@ -9,4 +9,13 @@
     <string name="video_creating_error">ختایی من وورکل کردن فایل ویدیویی پؽش ٱووڌ</string>
     <string name="video_mode_error">آلشت و هالت ویدیو مووفق نبی</string>
     <string name="camera_switch_error">آلشت شؽواتگر مووفق نبی</string>
+    <string name="click_to_resume_preview">سی ادامه پؽش نشووݩ، ری شؽوات کیلیک کۊنین</string>
+    <string name="photo_not_saved">شؽوات زفت نوابی</string>
+    <string name="camera_configure_error">مجال سامووݩ داڌن شؽواتگر ختایی پؽش ٱووڌ</string>
+    <string name="camera_disabled_by_admin_error">شؽواتگر و دس ٱدمین قیر فعال وابیڌه</string>
+    <string name="photo_capture_failed">گرؽڌن شؽوات شکست خرد</string>
+    <string name="save_photos">زفت کردن شؽواتا وو ویدیو یل من</string>
+    <string name="shutter_sound">آرنگ شاتر</string>
+    <string name="video">ویدیو</string>
+    <string name="shutter">شاتر</string>
 </resources>
