@@ -156,9 +156,11 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         mediaSoundHelper.release()
     }
 
-    override fun onBackPressed() {
-        if (!closeOptions()) {
-            super.onBackPressed()
+    override fun onBackPressedCompat(): Boolean {
+        return if (!closeOptions()) {
+            false
+        } else {
+            true
         }
     }
 
