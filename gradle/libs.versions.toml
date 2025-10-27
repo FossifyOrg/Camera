@@ -11,7 +11,7 @@ androidx-window = "1.5.0"
 androidx-camera = "1.5.1"
 androidx-ktx = "2.9.4"
 #Fossify
-commons = "5.5.0"
+commons = "5.7.0"
 #Gradle
 gradlePlugins-agp = "8.11.1"
 #build
