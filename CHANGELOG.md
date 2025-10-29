@@ -6,9 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2025-10-29
 ### Changed
-
 - Compatibility updates for Android 15 & 16
+- Updated translations
 
 ## [1.3.1] - 2025-10-05
 ### Changed
@@ -67,7 +68,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#157]: https://github.com/FossifyOrg/Camera/issues/157
 [#177]: https://github.com/FossifyOrg/Camera/issues/177
 
-[Unreleased]: https://github.com/FossifyOrg/Camera/compare/1.3.1...HEAD
+[Unreleased]: https://github.com/FossifyOrg/Camera/compare/1.4.0...HEAD
+[1.4.0]: https://github.com/FossifyOrg/Camera/compare/1.3.1...1.4.0
 [1.3.1]: https://github.com/FossifyOrg/Camera/compare/1.3.0...1.3.1
 [1.3.0]: https://github.com/FossifyOrg/Camera/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/FossifyOrg/Camera/compare/1.1.0...1.2.0
