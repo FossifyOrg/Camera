@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_launcher_name">Takamiṛatt</string>
+    <string name="photo">Tawlaft</string>
+    <string name="video">Tavidyut</string>
 </resources>
