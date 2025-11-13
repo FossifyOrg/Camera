@@ -3,4 +3,7 @@
     <string name="app_launcher_name">Takamiṛatt</string>
     <string name="photo">Tawlaft</string>
     <string name="video">Tavidyut</string>
+    <string name="camera_unavailable">Ulac takamirat</string>
+    <string name="camera_open_error">Teḍra-d tuccḍa deg unekcum ɣer tkamiṛat</string>
+    <string name="video_creating_error">Teḍra-d tuccḍa deg tmerna n ufaylu n tvidyut</string>
 </resources>
