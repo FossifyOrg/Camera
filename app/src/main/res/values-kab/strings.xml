@@ -6,4 +6,11 @@
     <string name="camera_unavailable">Ulac takamirat</string>
     <string name="camera_open_error">Teḍra-d tuccḍa deg unekcum ɣer tkamiṛat</string>
     <string name="video_creating_error">Teḍra-d tuccḍa deg tmerna n ufaylu n tvidyut</string>
+    <string name="save_error_internal_storage">Teḍra-d tuccḍa, sekles akaram yettwabeddlen ɣer usekles agensan</string>
+    <string name="camera_switch_error">Asnifel n tkamiṛat ur yeddi ara</string>
+    <string name="click_to_resume_preview">Sit ɣef tugna akken ad tkemleḍ taskant</string>
+    <string name="photo_not_saved">Tawlaft tegguma ad tettwasekles</string>
+    <string name="camera_in_use_error">Takamirat tettwaseqdac s usnas nniḍen, ma ulac aɣilif, mdel asnas sakkin ɛreḍ tikelt nniḍen</string>
+    <string name="camera_dnd_error">Askar Ur Ttcewwil Ara yettwarmed. Ma ulac aɣilif, sens sakin ɛreḍ tikelt nniḍen</string>
+    <string name="photo_capture_failed">Tuṭṭfa n tewlaft ur teddi ara</string>
 </resources>
