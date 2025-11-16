@@ -13,4 +13,7 @@
     <string name="camera_in_use_error">Takamirat tettwaseqdac s usnas nniḍen, ma ulac aɣilif, mdel asnas sakkin ɛreḍ tikelt nniḍen</string>
     <string name="camera_dnd_error">Askar Ur Ttcewwil Ara yettwarmed. Ma ulac aɣilif, sens sakin ɛreḍ tikelt nniḍen</string>
     <string name="photo_capture_failed">Tuṭṭfa n tewlaft ur teddi ara</string>
+    <string name="change_resolution">Beddel Tabadut</string>
+    <string name="view_last_media">Sken-d imidyaten yettwaṭṭfen d ineggura</string>
+    <string name="toggle_flash">Sken/Ffer askar n tesafut</string>
 </resources>
