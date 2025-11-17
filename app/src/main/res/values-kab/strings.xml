@@ -16,4 +16,9 @@
     <string name="change_resolution">Beddel Tabadut</string>
     <string name="view_last_media">Sken-d imidyaten yettwaṭṭfen d ineggura</string>
     <string name="toggle_flash">Sken/Ffer askar n tesafut</string>
+    <string name="toggle_timer">Beddel talɣa uskar n umakud</string>
+    <string name="faq_1_title">D acu-tt tɣara n usekkusem n tugniwin ay yessefk ad sbeddeɣ?</string>
+    <string name="shutter_sound">Imesli n tneffigt</string>
+    <string name="back_camera">Tabadut n tkamiṛat n deffir</string>
+    <string name="front_camera">Tabadut n tkamiṛat n zdat</string>
 </resources>
