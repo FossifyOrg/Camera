@@ -21,4 +21,9 @@
     <string name="shutter_sound">Imesli n tneffigt</string>
     <string name="back_camera">Tabadut n tkamiṛat n deffir</string>
     <string name="front_camera">Tabadut n tkamiṛat n zdat</string>
+    <string name="volume_buttons_as_shutter">Seqdec tiqeffilin n ubleɣ am tneffigt</string>
+    <string name="turn_flash_off_at_startup">Sens aflac deg usenker</string>
+    <string name="flip_front_camera_photos_horizontally">Zzi tkamiṛat n zdat s wudem aglawan</string>
+    <string name="keep_settings_visible">Eǧǧ tiqeffilin n iɣewwaṛen ttbanent-d</string>
+    <string name="always_open_back_camera">Dima leddi asnas s tkamra n deffir</string>
 </resources>
