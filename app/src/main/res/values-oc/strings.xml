@@ -5,4 +5,6 @@
     <string name="maximize_quality">Maximizar la qualitat</string>
     <string name="minimize_latency">Minimizar la laténcia</string>
     <string name="camera_unavailable">Aparelh de fòto indisponible</string>
+    <string name="camera_open_error">Una error s\'es producha pendent l\'accès a la camèra</string>
+    <string name="video_creating_error">Una error s\'es producha al moment de la creacion del fichièr vidèo</string>
 </resources>
