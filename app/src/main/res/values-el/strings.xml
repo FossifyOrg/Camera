@@ -14,7 +14,7 @@
     <string name="photo_not_saved">Δεν ήταν δυνατή η αποθήκευση της φωτογραφίας</string>
     <string name="setting_resolution_failed">Η ρύθμιση της σωστής ανάλυσης απέτυχε</string>
     <string name="video_recording_failed">Η εγγραφή βίντεο απέτυχε, δοκιμάστε να χρησιμοποιήσετε διαφορετική ανάλυση</string>
-    <string name="camera_in_use_error">Η κάμερα χρησιμοποιείται από άλλη εφαρμογή, κλείστε την εφαρμογή και δοκιμάστε ξανά.</string>
+    <string name="camera_in_use_error">Η κάμερα χρησιμοποιείται από άλλη εφαρμογή, κλείστε την εφαρμογή και δοκιμάστε ξανά</string>
     <string name="camera_configure_error">Προέκυψε σφάλμα κατά τη διαμόρφωση της κάμερας</string>
     <string name="camera_disabled_by_admin_error">Η κάμερα είναι απενεργοποιημένη από τον διαχειριστή</string>
     <string name="camera_dnd_error">"Η λειτουργία \"Μην ενοχλείτε\" είναι ενεργοποιημένη. Παρακαλώ απενεργοποιήστε και δοκιμάστε ξανά</string>

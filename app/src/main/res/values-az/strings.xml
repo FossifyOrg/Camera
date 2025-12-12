@@ -8,8 +8,8 @@
     <string name="save_error_internal_storage">Xəta baş verdi, saxlama qovluğu daxili yaddaşa keçdi</string>
     <string name="camera_switch_error">Kameranı dəyişərkən xəta baş verdi</string>
     <string name="click_to_resume_preview">Önbaxışa davam etmək üçün şəkilə toxun</string>
-    <string name="photo_not_saved">Şəkli yaddaşa salmaq olmur</string>
-    <string name="setting_resolution_failed">Uyğun görüntü imkanını seçmək olmur</string>
+    <string name="photo_not_saved">Şəkli yaddaşda saxlanıla bilmədi</string>
+    <string name="setting_resolution_failed">Uyğun görüntü imkanını seçərkən xəta baş verdi</string>
     <string name="video_recording_failed">Video yazmaq olmur, xahiş olunur görüntü imkanını dəyişin</string>
     <string name="faq_1_title">Şəkli hansı keyfiyyətdə yaddaşa salmalıyam?</string>
     <string name="faq_1_text">Ümumiyyətlə, özünüzdən asılıdır. Gündəlik istifadə üçün çoxları 75%-80%\'i tövsiyyə edir, hansı ki, bu parametrdə şəkil hələ də yaxşı görünür, amma fayl ölçüsü 100%\'ə nəzərən kiçilmişdir.</string>
@@ -28,4 +28,21 @@
     <string name="save_photo_metadata">Şəklin haqqında əlavələri saxla</string>
     <string name="photo_compression_quality">Şəkil sıxışdırma keyfiyyəti</string>
     <string name="shutter">Çəkən</string>
+    <string name="capture_mode">Tutma modu</string>
+    <string name="maximize_quality">Keyfiyyəti artırmaq</string>
+    <string name="minimize_latency">Gecikməni azaltmaq</string>
+    <string name="camera_in_use_error">Kamera başqa tətbiq tərəfindən istifadə olunur, xahiş edirik həmin tətbiqi bağlayıb yenidən sınayın</string>
+    <string name="camera_configure_error">Kameranı konfiqurasiya edərkən xəta baş verdi</string>
+    <string name="camera_disabled_by_admin_error">Kamera admin tərəfindən söndürülüb</string>
+    <string name="camera_dnd_error">\"Narahat Etmə\" modu aktivdir. Söndürün və yenidən yoxlayın</string>
+    <string name="photo_capture_failed">Foto çəkmək olmadı</string>
+    <string name="video_capture_insufficient_storage_error">Yetərsiz yaddaşa görə video çəkmək alınmadı</string>
+    <string name="toggle_photo_video">Foto/video moduna keçid</string>
+    <string name="change_resolution">Ölçünü dəyişmək</string>
+    <string name="view_last_media">Ən son çəkilmiş mediaya baxın</string>
+    <string name="toggle_camera">Ön/arxa kameraya keçid</string>
+    <string name="toggle_flash">Fənər moduna keçid</string>
+    <string name="toggle_timer">Taymer moduna keçid</string>
+    <string name="video">Video</string>
+    <string name="save_photo_video_location">Foto və video məkanını yaddaşda saxlayın</string>
 </resources>
