@@ -16,7 +16,7 @@
     <string name="video_recording_failed">Ha fallat la gravació de vídeo, proveu d\'utilitzar una resolució diferent</string>
     <string name="camera_in_use_error">Una altra aplicació està utilitzant la càmera; tanqueu l\'aplicació i torneu-ho a provar</string>
     <string name="camera_configure_error">S\'ha produït un error en configurar la càmera</string>
-    <string name="camera_disabled_by_admin_error">L\'administrador(a) ha desactivat la càmera</string>
+    <string name="camera_disabled_by_admin_error">L\'administrador/a ha desactivat la càmera</string>
     <string name="camera_dnd_error">El mode «No molestar» està habilitat. Desactiveu-lo i torneu-ho a provar</string>
     <string name="photo_capture_failed">La captura de fotos ha fallat</string>
     <string name="video_capture_insufficient_storage_error">La gravació del vídeo ha fallat a causa d\'un emmagatzematge insuficient</string>
@@ -39,7 +39,7 @@
     <string name="volume_buttons_as_shutter">Utilitza els botons de volum com a obturador</string>
     <string name="turn_flash_off_at_startup">Apaga el flaix a l\'inici</string>
     <string name="flip_front_camera_photos_horizontally">Inverteix les fotos de la càmera frontal horitzontalment</string>
-    <string name="keep_settings_visible">Manté els botons de configuració visibles</string>
+    <string name="keep_settings_visible">Mantén els botons de configuració visibles</string>
     <string name="always_open_back_camera">Obre sempre l\'aplicació amb la càmera del darrere</string>
     <string name="save_photo_metadata">Desa les metadades Exif de la foto</string>
     <string name="save_photo_video_location">Desa la ubicació de les fotos i els vídeos</string>
