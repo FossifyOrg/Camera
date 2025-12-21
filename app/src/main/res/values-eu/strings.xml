@@ -35,4 +35,14 @@
     <string name="front_camera">Aurreko kameraren bereizmenak</string>
     <string name="photo">Argazkia</string>
     <string name="video">Bideoa</string>
+    <string name="focus_before_capture">Fokuratu argazkia egin aurretik</string>
+    <string name="volume_buttons_as_shutter">Erabili bolumenaren botoiak obturadore gisa</string>
+    <string name="turn_flash_off_at_startup">Desaktibatu flasha abiaraztean</string>
+    <string name="flip_front_camera_photos_horizontally">Biratu aurreko kameraren argazkiak horizontalean</string>
+    <string name="keep_settings_visible">Mantendu ezarpen botoiak ikusgai</string>
+    <string name="always_open_back_camera">Ireki beti aplikazioa atzeko kamerarekin</string>
+    <string name="save_photo_metadata">Gorde argazkien exif metadatuak</string>
+    <string name="save_photo_video_location">Gorde argazki eta bideoen kokalekua</string>
+    <string name="photo_compression_quality">Argazkien trinkotze kalitatea</string>
+    <string name="shutter">Obturadorea</string>
 </resources>
