@@ -8,7 +8,7 @@
     <string name="camera_open_error">访问相机出错</string>
     <string name="video_creating_error">创建视频文件出错</string>
     <string name="video_mode_error">切换至视频模式失败</string>
-    <string name="save_error_internal_storage">发生错误，保存文件夹改为内置存储</string>
+    <string name="save_error_internal_storage">发生错误，保存文件夹已更改为内部存储空间</string>
     <string name="camera_switch_error">切换相机失败</string>
     <string name="click_to_resume_preview">点击图像来恢复预览</string>
     <string name="photo_not_saved">无法保存照片</string>
