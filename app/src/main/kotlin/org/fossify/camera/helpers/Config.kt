@@ -17,11 +17,10 @@ class Config(context: Context) : BaseConfig(context) {
         get(): String {
             var path = prefs.getString(
                 SAVE_PHOTOS,
-                Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).toString()
+                "${Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)}/Camera"
             )
             if (!File(path).exists() || !File(path).isDirectory) {
-                path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)
-                    .toString()
+                path = "${Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)}/Camera"
                 savePhotosFolder = path
             }
             return path!!
