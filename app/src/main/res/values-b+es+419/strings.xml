@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="toggle_timer">Cambiar el modo de temporizador</string>
+    <string name="faq_1_text">Depende de tu objetivo. Para propósitos generales, la mayoría de las personas aconsejan usar 75%-80%, y la imagen seguirá siendo de buena calidad, pero el tamaño del archivo es reducido drásticamente comparado con el 100%.</string>
+    <string name="save_photos">Guardar fotos y videos en</string>
+    <string name="back_camera">Resolución de la cámara trasera</string>
+    <string name="front_camera">Resolución de la cámara frontal</string>
+    <string name="photo">Foto</string>
+    <string name="video">Video</string>
+    <string name="turn_flash_off_at_startup">Apagar flash al iniciar</string>
+    <string name="flip_front_camera_photos_horizontally">Rotar las fotos de la cámara frontal horizontalmente</string>
+    <string name="keep_settings_visible">Mantener los botones de configuración visibles</string>
+    <string name="always_open_back_camera">Abrir siempre la aplicación con la cámara trasera</string>
+    <string name="minimize_latency">Minimizar latencia</string>
+    <string name="video_creating_error">Ha ocurrido un error creando el archivo de video</string>
+    <string name="video_mode_error">Error al cambiar al modo de video</string>
+    <string name="video_capture_insufficient_storage_error">La grabación del video falló debido a la falta de almacenamiento</string>
+    <string name="toggle_photo_video">Cambiar modo foto/video</string>
+    <string name="change_resolution">Cambiar Resolución</string>
+    <string name="faq_1_title">¿Qué calidad de compresión de foto debería establecer?</string>
+    <string name="show_preview">Mostrar una vista previa de la foto después de capturarla</string>
+    <string name="photo_compression_quality">Calidad de compresión de las fotos</string>
+</resources>
