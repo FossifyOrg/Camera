@@ -3,4 +3,19 @@
     <string name="app_launcher_name">Cámara</string>
     <string name="capture_mode">Modo de captura</string>
     <string name="maximize_quality">Maximice la calidad</string>
+    <string name="camera_unavailable">Cámara no disponible</string>
+    <string name="camera_open_error">Se produjo un error al intentar acceder a la cámara</string>
+    <string name="video_creating_error">Se produjo un error al crear el archivo del video</string>
+    <string name="photo_not_saved">No se pudo guardar la foto</string>
+    <string name="video_recording_failed">La grabación del video falló, intente usar una resolución diferente</string>
+    <string name="camera_in_use_error">La cámara está siendo utilizada por otra aplicación, por favor cierre la aplicación y vuelva a intentar</string>
+    <string name="camera_configure_error">Se produjo un error al configurar la cámara</string>
+    <string name="camera_dnd_error">El modo \"No molestar\" está activado. Por favor desactívalo y vuelva a intentar</string>
+    <string name="photo_capture_failed">Falló la captura de la foto</string>
+    <string name="video_capture_insufficient_storage_error">La grabación del video falló debido a la falta de almacenamiento</string>
+    <string name="change_resolution">Cambiar resolución</string>
+    <string name="save_photos">Guardar fotos y videos en</string>
+    <string name="show_preview">Mostrar una vista previa de la foto después de capturarla</string>
+    <string name="photo">Foto</string>
+    <string name="video">Video</string>
 </resources>
