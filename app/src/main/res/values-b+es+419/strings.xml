@@ -20,4 +20,5 @@
     <string name="faq_1_title">¿Qué calidad de compresión de foto debería establecer?</string>
     <string name="show_preview">Mostrar una vista previa de la foto después de capturarla</string>
     <string name="photo_compression_quality">Calidad de compresión de las fotos</string>
+    <string name="app_launcher_name">Cámara</string>
 </resources>
