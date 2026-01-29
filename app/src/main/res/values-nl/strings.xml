@@ -45,4 +45,5 @@
     <string name="save_photo_video_location">Huidige locatie in foto\'s en video\'s opslaan</string>
     <string name="app_launcher_name">Camera</string>
     <string name="video">Video</string>
+    <string name="max_brightness">Maximale helderheid in voorbeeldweergave</string>
 </resources>
