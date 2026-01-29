@@ -45,4 +45,5 @@
     <string name="photo_compression_quality">Fotode pakkimise tase</string>
     <string name="shutter">Katik</string>
     <string name="video">Video</string>
+    <string name="max_brightness">Ekraani suurim eredus eelvaates</string>
 </resources>
