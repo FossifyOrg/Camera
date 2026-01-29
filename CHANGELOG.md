@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Added support for custom fonts
+- Option for maximum screen brightness in preview ([#234])
 
 ## [1.4.0] - 2025-10-29
 ### Changed
@@ -69,6 +70,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#97]: https://github.com/FossifyOrg/Camera/issues/97
 [#157]: https://github.com/FossifyOrg/Camera/issues/157
 [#177]: https://github.com/FossifyOrg/Camera/issues/177
+[#234]: https://github.com/FossifyOrg/Camera/issues/234
 
 [Unreleased]: https://github.com/FossifyOrg/Camera/compare/1.4.0...HEAD
 [1.4.0]: https://github.com/FossifyOrg/Camera/compare/1.3.1...1.4.0

@@ -52,6 +52,7 @@
     <string name="save_photo_video_location">Save photo and video location</string>
     <string name="photo_compression_quality">Photo compression quality</string>
     <string name="shutter">Shutter</string>
+    <string name="max_brightness">Max screen brightness in preview</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res

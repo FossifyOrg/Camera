@@ -22,6 +22,7 @@ const val SAVE_PHOTO_VIDEO_LOCATION = "save_photo_video_location"
 const val PHOTO_QUALITY = "photo_quality"
 const val CAPTURE_MODE = "capture_mode"
 const val TIMER_MODE = "timer_mode"
+const val MAX_BRIGHTNESS = "max_brightness"
 
 const val FLASH_OFF = 0
 const val FLASH_ON = 1
