@@ -45,4 +45,5 @@
     <string name="save_photo_video_location">Сохранять место съёмки фото и видео</string>
     <string name="photo_compression_quality">Качество фото после сжатия</string>
     <string name="shutter">Затвор</string>
+    <string name="max_brightness">Максимальная яркость экрана при просмотре</string>
 </resources>
