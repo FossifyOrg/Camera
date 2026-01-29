@@ -167,6 +167,21 @@
                         android:text="@string/volume_buttons_as_shutter" />
 
                 </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/settings_max_brightness_holder"
+                    style="@style/SettingsHolderCheckboxStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <org.fossify.commons.views.MyMaterialSwitch
+                        android:id="@+id/settings_max_brightness"
+                        style="@style/SettingsSwitchStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/max_brightness" />
+
+                </RelativeLayout>
             </LinearLayout>
 
             <include

@@ -94,6 +94,10 @@ class Config(context: Context) : BaseConfig(context) {
         )]
         set(captureMode) = prefs.edit().putInt(CAPTURE_MODE, captureMode.ordinal).apply()
 
+    var maxBrightness: Boolean
+        get() = prefs.getBoolean(MAX_BRIGHTNESS, false)
+        set(maxBrightness) = prefs.edit().putBoolean(MAX_BRIGHTNESS, maxBrightness).apply()
+
     var timerMode: TimerMode
         get() = TimerMode.values().getOrNull(prefs.getInt(TIMER_MODE, TimerMode.OFF.ordinal))
             ?: TimerMode.OFF

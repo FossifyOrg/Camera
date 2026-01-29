@@ -40,6 +40,7 @@ class SettingsActivity : SimpleActivity() {
         setupLanguage()
         setupSound()
         setupVolumeButtonsAsShutter()
+        setupMaxBrightness()
         setupFlipPhotos()
         setupSavePhotoMetadata()
         setupSavePhotoVideoLocation()
@@ -157,6 +158,14 @@ class SettingsActivity : SimpleActivity() {
         settingsVolumeButtonsAsShutterHolder.setOnClickListener {
             settingsVolumeButtonsAsShutter.toggle()
             config.volumeButtonsAsShutter = settingsVolumeButtonsAsShutter.isChecked
+        }
+    }
+
+    private fun setupMaxBrightness() = binding.apply {
+        settingsMaxBrightness.isChecked = config.maxBrightness
+        settingsMaxBrightnessHolder.setOnClickListener {
+            settingsMaxBrightness.toggle()
+            config.maxBrightness = settingsMaxBrightness.isChecked
         }
     }
 

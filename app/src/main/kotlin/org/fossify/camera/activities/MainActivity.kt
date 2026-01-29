@@ -68,6 +68,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
     private var mIsHardwareShutterHandled = false
     private var mLastHandledOrientation = 0
     private var countDownTimer: CountDownTimer? = null
+    private var mOriginalBrightness: Float? = null
 
     private val tabSelectedListener = object : TabSelectedListener {
         override fun onTabSelected(tab: TabLayout.Tab) {
@@ -128,8 +129,8 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         }
 
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        syncMaxBrightness()
         ensureTransparentNavigationBar()
-
         if (ViewCompat.getWindowInsetsController(window.decorView) == null) {
             window.decorView.systemUiVisibility =
                 View.SYSTEM_UI_FLAG_FULLSCREEN or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
@@ -1027,5 +1028,19 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
 
         timerText.beGone()
         shutter.setImageState(intArrayOf(-R.attr.state_timer_cancel), true)
+    }
+
+    private fun syncMaxBrightness() {
+        if (config.maxBrightness) {
+            mOriginalBrightness = mOriginalBrightness ?: window.attributes.screenBrightness
+            window.attributes = window.attributes.apply {
+                screenBrightness = WindowManager.LayoutParams.BRIGHTNESS_OVERRIDE_FULL
+            }
+        } else {
+            mOriginalBrightness?.let {
+                window.attributes = window.attributes.apply { screenBrightness = it }
+                mOriginalBrightness = null
+            }
+        }
     }
 }
