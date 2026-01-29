@@ -45,4 +45,5 @@
     <string name="save_photo_video_location">Zapisuj lokalizację zdjęć i wideo</string>
     <string name="photo_compression_quality">Jakość kompresji zdjęć</string>
     <string name="shutter">Migawka</string>
+    <string name="max_brightness">Maksymalna jasność ekranu na podglądzie</string>
 </resources>
