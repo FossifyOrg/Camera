@@ -129,7 +129,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         }
 
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
-        syncMaxBrightness()
+        mOriginalBrightness = window.updateBrightness(config.maxBrightness, mOriginalBrightness)
         ensureTransparentNavigationBar()
         if (ViewCompat.getWindowInsetsController(window.decorView) == null) {
             window.decorView.systemUiVisibility =
@@ -1028,19 +1028,5 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
 
         timerText.beGone()
         shutter.setImageState(intArrayOf(-R.attr.state_timer_cancel), true)
-    }
-
-    private fun syncMaxBrightness() {
-        if (config.maxBrightness) {
-            mOriginalBrightness = mOriginalBrightness ?: window.attributes.screenBrightness
-            window.attributes = window.attributes.apply {
-                screenBrightness = WindowManager.LayoutParams.BRIGHTNESS_OVERRIDE_FULL
-            }
-        } else {
-            mOriginalBrightness?.let {
-                window.attributes = window.attributes.apply { screenBrightness = it }
-                mOriginalBrightness = null
-            }
-        }
     }
 }
