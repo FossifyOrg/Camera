@@ -45,4 +45,5 @@
     <string name="save_photo_video_location">保存照片和视频位置</string>
     <string name="photo_compression_quality">照片压缩品质</string>
     <string name="shutter">快门</string>
+    <string name="max_brightness">预览时的最大屏幕亮度</string>
 </resources>
