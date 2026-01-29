@@ -54,7 +54,7 @@ class SettingsActivity : SimpleActivity() {
             arrayListOf(
                 settingsColorCustomizationLabel,
                 settingsGeneralSettingsLabel,
-                settingsShutterLabel,
+                settingsCameraLabel,
                 settingsSavingLabel,
             ).forEach {
                 it.setTextColor(properPrimaryColor)
