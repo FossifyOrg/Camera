@@ -45,4 +45,5 @@
     <string name="save_photo_video_location">Uložit polohu fotografie a videa</string>
     <string name="photo_compression_quality">Úroveň komprese fotografií</string>
     <string name="shutter">Spoušť</string>
+    <string name="max_brightness">Maximální jas obrazovky u náhledu</string>
 </resources>
