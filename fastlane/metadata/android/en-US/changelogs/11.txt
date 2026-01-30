@@ -1,0 +1,9 @@
+Added:
+
+• Added support for custom fonts
+• Option for maximum screen brightness in preview 
+
+Changed:
+
+• Updated translations
+
