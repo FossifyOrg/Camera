@@ -45,4 +45,5 @@
     <string name="photo_compression_quality">Fotoğraf sıkıştırma kalitesi</string>
     <string name="shutter">Deklanşör</string>
     <string name="video">Video</string>
+    <string name="max_brightness">Önizlemede en yüksek ekran parlaklığı</string>
 </resources>
