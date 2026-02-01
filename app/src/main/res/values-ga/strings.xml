@@ -45,4 +45,5 @@
     <string name="photo_capture_failed">Theip ar ghabháil grianghraf</string>
     <string name="change_resolution">Athrú Rún</string>
     <string name="faq_1_text">Braitheann sé ar do sprioc. Chun críocha cineálach, molann an chuid is mó daoine 75%-80% a úsáid, nuair a bhíonn an íomhá fós ar chaighdeán fíor-mhaith, ach laghdaítear méid an chomhaid go suntasach i gcomparáid le 100%.</string>
+    <string name="max_brightness">Uasmhéid gile scáileáin sa réamhamharc</string>
 </resources>
