@@ -45,4 +45,5 @@
     <string name="photo_compression_quality">Calidad de compresión de la fotográfica</string>
     <string name="shutter">Obturador</string>
     <string name="video">Vídeo</string>
+    <string name="max_brightness">Brillo máximo de la pantalla en la vista previa</string>
 </resources>
