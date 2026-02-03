@@ -27,7 +27,7 @@
     <string name="toggle_flash">Vaihda taskulampputilaa</string>
     <string name="toggle_timer">Kytke ajastimen tila</string>
     <string name="faq_1_title">Mitä valokuvan pakkauslaatua minun pitäisi käyttää?</string>
-    <string name="faq_1_text">Se riippuu tarkoituksestasi. Yleisissä tarkoituksissa useimmat ihmiset suosittelevat käyttämään 75-80%, kun kuva on edelleen todella hyvälaatuinen, mutta tiedoston koko pienenee huomattavasti verrattuna 100%:iin.</string>
+    <string name="faq_1_text">Se riippuu tarkoituksestasi. Yleisissä tarkoituksissa useimmat ihmiset suosittelevat käyttämään 75%-80%, kun kuva on edelleen todella hyvälaatuinen, mutta tiedoston koko pienenee huomattavasti verrattuna 100%:iin.</string>
     <string name="save_photos">Kuvien ja videoiden tallennuspaikka</string>
     <string name="show_preview">Näytä kuvan esikatselu kuvan ottamisen jälkeen</string>
     <string name="shutter_sound">Suljinääni</string>
@@ -45,4 +45,5 @@
     <string name="shutter">Suljin</string>
     <string name="video">Video</string>
     <string name="save_photo_video_location">Tallenna kuvien ja videoiden sijainnit</string>
+    <string name="max_brightness">Näytönkirkkauden maksimi esikatselussa</string>
 </resources>
