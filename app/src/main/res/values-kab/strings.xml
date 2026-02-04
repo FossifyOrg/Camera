@@ -26,4 +26,21 @@
     <string name="flip_front_camera_photos_horizontally">Zzi tkamiṛat n zdat s wudem aglawan</string>
     <string name="keep_settings_visible">Eǧǧ tiqeffilin n iɣewwaṛen ttbanent-d</string>
     <string name="always_open_back_camera">Dima leddi asnas s tkamra n deffir</string>
+    <string name="capture_mode">Askar n tuṭṭfa</string>
+    <string name="maximize_quality">Semɣer s wudem afellay taɣara</string>
+    <string name="minimize_latency">Simẓi akud n ugani</string>
+    <string name="video_mode_error">Asenfel ɣer uskar n uvidyu ur yeddi ara</string>
+    <string name="setting_resolution_failed">Asbadu n tbadut iwulmen ur yeddi ara</string>
+    <string name="video_recording_failed">Asekles n uvidyu ur yeddi ara, ɛreḍ ad tesqedceḍ tabadut-nniḍen</string>
+    <string name="camera_configure_error">Teḍra-d tuccḍa deg uswel n tkamiṛat</string>
+    <string name="camera_disabled_by_admin_error">Takamiṛat tensa sɣur unedbal</string>
+    <string name="video_capture_insufficient_storage_error">Asekles n tvidyut ur yeddi ara acku drus n tkatut usekles yellan</string>
+    <string name="toggle_photo_video">Qluqel ɣer uskar n tugna/tavidyut n tkamiṛat</string>
+    <string name="toggle_camera">Qluqel gar zdat/deffir n tkamiṛat</string>
+    <string name="save_photos">Sekles tiwlafin d tvidyutin ɣer</string>
+    <string name="show_preview">Sken-d taskant n tewlaft seld tuṭṭfa</string>
+    <string name="focus_before_capture">Sḍes send ad d-teṭṭfeḍ</string>
+    <string name="save_photo_video_location">Sekles adig n tewlaft akked tvidyut</string>
+    <string name="photo_compression_quality">Taɣara n usekkussem n tewlaft</string>
+    <string name="max_brightness">Abruṛeq n ugdil afellay deg teskant</string>
 </resources>
