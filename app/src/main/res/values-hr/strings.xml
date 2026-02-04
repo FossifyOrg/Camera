@@ -45,4 +45,5 @@
     <string name="shutter">Otvor objektiva</string>
     <string name="save_photo_video_location">Spremi lokaciju fotografije i videa</string>
     <string name="video">Video</string>
+    <string name="max_brightness">Maksimalna svjetlost ekrana u pregledu</string>
 </resources>
