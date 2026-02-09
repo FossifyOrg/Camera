@@ -45,4 +45,5 @@
     <string name="save_photo_video_location">Konservi lokon de fotoj kaj filmetoj</string>
     <string name="photo_compression_quality">Kvalito de fota densigo</string>
     <string name="change_resolution">Ŝanĝi distingivon</string>
+    <string name="max_brightness">Maksimuma ekranheleco en antaŭrigardo</string>
 </resources>
