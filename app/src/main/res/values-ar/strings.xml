@@ -45,4 +45,5 @@
     <string name="save_photo_video_location">حفظ موقع الصورة والفيديو</string>
     <string name="photo_compression_quality">جودة ضغط الصور</string>
     <string name="shutter">الغالق</string>
+    <string name="max_brightness">أقصى سطوع للشاشة في المعاينة</string>
 </resources>
