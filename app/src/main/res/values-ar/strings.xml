@@ -13,8 +13,8 @@
     <string name="click_to_resume_preview">انقر على الصورة لاستئناف المعاينة</string>
     <string name="photo_not_saved">تعذر حفظ الصورة</string>
     <string name="setting_resolution_failed">فشل إعداد الدقة المناسبة</string>
-    <string name="video_recording_failed">فشل تسجيل الفيديو ، حاول استخدام دقة مختلفة</string>
-    <string name="camera_in_use_error">الكاميرا قيد الاستخدام بواسطة تطبيق آخر ، يرجى إغلاق التطبيق والمحاولة مرة أخرى</string>
+    <string name="video_recording_failed">فشل تسجيل الفيديو، حاول استخدام دقة مختلفة</string>
+    <string name="camera_in_use_error">الكاميرا قيد الاستخدام بواسطة تطبيق آخر، يُرجى إغلاق التطبيق والمحاولة مرة أخرى</string>
     <string name="camera_configure_error">حدث خطأ أثناء تكوين الكاميرا</string>
     <string name="camera_disabled_by_admin_error">تم تعطيل الكاميرا من قبل المسؤول</string>
     <string name="camera_dnd_error">تم تمكين وضع عدم الإزعاج. يرجى تعطيله والمحاولة مرة أخرى</string>
