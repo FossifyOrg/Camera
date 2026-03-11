@@ -1,3 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    </resources>
+    <string name="app_launcher_name">กล้อง</string>
+    <string name="capture_mode">โหมดถ่ายภาพ</string>
+    <string name="maximize_quality">คุณภาพสูงสุด</string>
+    <string name="minimize_latency">ลดความหน่วงต่ำสุด</string>
+    <string name="camera_unavailable">ไม่สามารถใช้กล้องได้</string>
+    <string name="camera_open_error">เกิดข้อผิดพลาดในการเข้าถึงกล้อง</string>
+    <string name="video_creating_error">เกิดข้อผิดพลาดในการสร้างไฟล์วิดีโอ</string>
+    <string name="video_mode_error">การสลับไปยังโหมดวิดีโอล้มเหลว</string>
+    <string name="save_error_internal_storage">เกิดข้อผิดพลาด โฟลเดอร์บันทึกถูกเปลี่ยนไปยังหน่วยความจำภายใน</string>
+    <string name="camera_switch_error">การสลับกล้องล้มเหลว</string>
+    <string name="click_to_resume_preview">แตะที่รูปภาพเพื่อดูตัวอย่างต่อ</string>
+    <string name="photo_not_saved">ไม่สามารถบันทึกรูปภาพได้</string>
+    <string name="setting_resolution_failed">การตั้งค่าความละเอียดที่เหมาะสมล้มเหลว</string>
+    <string name="video_recording_failed">การบันทึกวิดีโอล้มเหลว ลองใช้ความละเอียดอื่น</string>
+    <string name="camera_in_use_error">กล้องกำลังถูกใช้งานโดยแอปอื่น กรุณาปิดแอปนั้นแล้วลองใหม่</string>
+    <string name="camera_configure_error">เกิดข้อผิดพลาดขณะกำหนดค่ากล้อง</string>
+    <string name="camera_disabled_by_admin_error">กล้องถูกปิดใช้งานโดยผู้ดูแลระบบ</string>
+    <string name="camera_dnd_error">โหมด ห้ามรบกวน กำลังเปิดใช้งานอยู่ กรุณาปิดแล้วลองใหม่</string>
+    <string name="photo_capture_failed">การถ่ายภาพล้มเหลว</string>
+    <string name="video_capture_insufficient_storage_error">การบันทึกวิดีโอล้มเหลวเนื่องจากพื้นที่จัดเก็บไม่เพียงพอ</string>
+    <string name="toggle_photo_video">สลับโหมดภาพ/วิดีโอ</string>
+    <string name="change_resolution">เปลี่ยนความละเอียด</string>
+    <string name="view_last_media">ดูสื่อที่ถ่ายล่าสุด</string>
+    <string name="toggle_camera">สลับกล้องหน้า/หลัง</string>
+    <string name="toggle_flash">สลับโหมดแฟลช</string>
+    <string name="toggle_timer">สลับโหมดตั้งเวลา</string>
+    <string name="faq_1_title">ควรตั้งค่าคุณภาพการบีบอัดภาพที่เท่าไร?</string>
+    <string name="faq_1_text">ขึ้นอยู่กับจุดประสงค์ของคุณ สำหรับการใช้งานทั่วไป ส่วนใหญ่แนะนำให้ใช้ 75%-80% ซึ่งภาพยังคงมีคุณภาพดี แต่ขนาดไฟล์ลดลงอย่างมากเมื่อเทียบกับ 100%</string>
+    <string name="save_photos">บันทึกรูปภาพและวิดีโอไปที่</string>
+    <string name="show_preview">แสดงตัวอย่างภาพหลังจากถ่าย</string>
+    <string name="shutter_sound">เสียงชัตเตอร์</string>
+    <string name="back_camera">ความละเอียดกล้องหลัง</string>
+    <string name="front_camera">ความละเอียดกล้องหน้า</string>
+    <string name="photo">ภาพถ่าย</string>
+    <string name="video">วิดีโอ</string>
+    <string name="focus_before_capture">โฟกัสก่อนถ่าย</string>
+    <string name="volume_buttons_as_shutter">ใช้ปุ่มระดับเสียงเป็นชัตเตอร์</string>
+    <string name="turn_flash_off_at_startup">ปิดแฟลชเมื่อเปิดแอป</string>
+    <string name="flip_front_camera_photos_horizontally">พลิกภาพกล้องหน้าในแนวนอน</string>
+    <string name="keep_settings_visible">แสดงปุ่มตั้งค่าไว้เสมอ</string>
+    <string name="always_open_back_camera">เปิดแอปด้วยกล้องหลังเสมอ</string>
+    <string name="save_photo_metadata">บันทึกข้อมูล EXIF ของภาพถ่าย</string>
+    <string name="save_photo_video_location">บันทึกตำแหน่งของภาพถ่ายและวิดีโอ</string>
+    <string name="photo_compression_quality">คุณภาพการบีบอัดภาพถ่าย</string>
+    <string name="shutter">ชัตเตอร์</string>
+    <string name="max_brightness">ความสว่างหน้าจอสูงสุดในโหมดดูตัวอย่าง</string>
+</resources>
