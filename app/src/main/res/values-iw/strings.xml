@@ -45,4 +45,5 @@
     <string name="toggle_camera">החלף בין מצלמה קדמית/אחורית</string>
     <string name="camera_configure_error">אירעה שגיאה במהלך הגדרת המצלמה</string>
     <string name="save_photo_video_location">שמור את מיקום התמונות והסרטונים</string>
+    <string name="max_brightness">בהירות מקסימלית בתצוגה מקדימה</string>
 </resources>
