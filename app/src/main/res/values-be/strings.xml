@@ -17,7 +17,7 @@
     <string name="photo_capture_failed">Збой фотаздымкі</string>
     <string name="video_capture_insufficient_storage_error">Збой запісу відэа з-за недахопу памяці</string>
     <string name="faq_1_title">Якую якасць сціску фатаграфій трэба ўсталяваць\?</string>
-    <string name="faq_1_text">Гэта залежыць ад вашай мэты. Для агульных мэтаў большасць людзей раяць выкарыстоўваць 75% -80%, калі малюнак па-ранейшаму сапраўды добрай якасці, але памер файла рэзка памяньшаецца ў параўнанні са 100%.</string>
+    <string name="faq_1_text">Гэта залежыць ад вашай мэты. Для агульных мэт большасць людзей раяць выкарыстоўваць 75%-80%, калі малюнак па-ранейшаму сапраўды добрай якасці, але памер файла рэзка памяншаецца ў параўнанні са 100%.</string>
     <string name="save_photos">Захаваць фатаграфіі і відэа ў</string>
     <string name="show_preview">Паказаць папярэдні прагляд фота пасля здымкі</string>
     <string name="shutter_sound">Гук затвора</string>
@@ -31,8 +31,19 @@
     <string name="flip_front_camera_photos_horizontally">Перавярнуць фатаграфіі франтальнай камеры па гарызанталі</string>
     <string name="keep_settings_visible">Трымайце кнопкі налад бачнымі</string>
     <string name="always_open_back_camera">Заўсёды адкрывайце праграму з задняй камерай</string>
-    <string name="save_photo_metadata">Захоўваць метаданые EXIF</string>
+    <string name="save_photo_metadata">Захоўваць метаданыя exif</string>
     <string name="photo_compression_quality">Якасць сціску фота</string>
     <string name="shutter">Затвор</string>
     <string name="app_launcher_name">Камера</string>
+    <string name="capture_mode">Рэжым здымкі</string>
+    <string name="maximize_quality">Максімальная якасць</string>
+    <string name="minimize_latency">Мінімальная затрымка</string>
+    <string name="toggle_photo_video">Пераключыць фота/відэа рэжым</string>
+    <string name="change_resolution">Змяніць раздзялянасць</string>
+    <string name="view_last_media">Прагляд апошняга здымка</string>
+    <string name="toggle_camera">Пераключыць камеру</string>
+    <string name="toggle_flash">Уключыць рэжым ліхтара</string>
+    <string name="toggle_timer">Пераключыць рэжым таймера</string>
+    <string name="save_photo_video_location">Захаваць месца для здымкаў і відэа</string>
+    <string name="max_brightness">Максімальная яркасць экрана пры праглядзе</string>
 </resources>
