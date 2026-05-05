@@ -9,7 +9,7 @@
     <string name="video_creating_error">Hiba történt a videó fájl létrehozásakor</string>
     <string name="video_mode_error">A videó üzemmódra váltás sikertelen</string>
     <string name="save_error_internal_storage">Hiba történt, a mentési mappa belső tárhelyre változott</string>
-    <string name="camera_switch_error">A kamera átkapcsolása nem sikerült</string>
+    <string name="camera_switch_error">A kamera átváltása sikertelen</string>
     <string name="click_to_resume_preview">Kattintson a képre az előnézet folytatásához</string>
     <string name="photo_not_saved">A fényképet nem lehetett elmenteni</string>
     <string name="setting_resolution_failed">A megfelelő felbontás beállítása nem sikerült</string>
