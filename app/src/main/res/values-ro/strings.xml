@@ -45,4 +45,5 @@
     <string name="save_photo_video_location">Salvează locația pentru poze și video</string>
     <string name="toggle_timer">Comutare temporizator</string>
     <string name="video">Video</string>
+    <string name="max_brightness">Luminozitatea maximă a ecranului în previzualizare</string>
 </resources>
