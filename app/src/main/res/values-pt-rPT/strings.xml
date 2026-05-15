@@ -45,4 +45,5 @@
     <string name="toggle_timer">Comutar modo temporizador</string>
     <string name="faq_1_title">Que qualidade de compressão de imagem devo definir?</string>
     <string name="save_photo_video_location">Guardar localização dos vídeos e das fotos</string>
+    <string name="max_brightness">Luminosidade máxima do ecrã na pré-visualização</string>
 </resources>
