@@ -46,6 +46,8 @@ class ImageSaver private constructor(
         private const val COPY_BUFFER_SIZE = 1024
         private const val PENDING = 1
         private const val NOT_PENDING = 0
+        private const val ROTATION_180 = 180
+        private const val DEGREES_IN_CIRCLE = 360
 
         fun saveImage(
             contentResolver: ContentResolver,
@@ -190,7 +192,7 @@ class ImageSaver private constructor(
             var flip = metadata.isReversedHorizontal
             if (metadata.isReversedVertical) {
                 flip = !flip
-                deg = (deg + 180) % 360
+                deg = (deg + ROTATION_180) % DEGREES_IN_CIRCLE
             }
             rotateDegrees = deg
             isFlipped = flip
