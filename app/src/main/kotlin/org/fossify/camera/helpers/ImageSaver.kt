@@ -3,6 +3,10 @@ package org.fossify.camera.helpers
 import android.annotation.SuppressLint
 import android.content.ContentResolver
 import android.content.ContentValues
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.graphics.ImageFormat
+import android.graphics.Matrix
 import android.net.Uri
 import android.provider.MediaStore
 import androidx.camera.core.ImageCapture
@@ -98,34 +102,35 @@ class ImageSaver private constructor(
         }
 
         try {
-            val output = FileOutputStream(tempFile)
-            val byteArray: ByteArray = imageToJpegByteArray(image, jpegQuality)
-            output.write(byteArray)
+            FileOutputStream(tempFile).use { output ->
+                val byteArray: ByteArray = imageToJpegByteArray(image, jpegQuality)
+                output.write(byteArray)
+            }
 
             if (saveExifAttributes) {
                 val exifInterface = ExifInterface(tempFile)
-                val imageByteArray = jpegImageToJpegByteArray(image)
-                val inputStream: InputStream = ByteArrayInputStream(imageByteArray)
-                ExifInterface(inputStream).copyTo(exifInterface)
-
-                // Overwrite the original orientation if the quirk exists.
+                if (image.format == ImageFormat.JPEG) {
+                    val imageByteArray = jpegImageToJpegByteArray(image)
+                    val inputStream: InputStream = ByteArrayInputStream(imageByteArray)
+                    ExifInterface(inputStream).copyTo(exifInterface)
+                }
                 if (!ExifRotationAvailability().shouldUseExifOrientation(image)) {
                     exifInterface.rotate(image.imageInfo.rotationDegrees)
                 }
-
                 if (metadata.isReversedHorizontal) {
                     exifInterface.flipHorizontally()
                 }
-
                 if (metadata.isReversedVertical) {
                     exifInterface.flipVertically()
                 }
-
                 if (metadata.location != null) {
                     exifInterface.setGpsInfo(metadata.location)
                 }
-
                 exifInterface.saveAttributes()
+            } else {
+                // Physically rotate pixels so orientation is correct with no EXIF stored.
+                // Bitmap.compress produces JPEG with no EXIF, satisfying the no-metadata setting.
+                rotatePixelsAndStrip(tempFile)
             }
         } catch (e: IOException) {
             saveError = SaveError.FILE_IO_FAILED
@@ -162,6 +167,53 @@ class ImageSaver private constructor(
         }
 
         return tempFile
+    }
+
+    @SuppressLint("RestrictedApi")
+    private fun rotatePixelsAndStrip(file: File) {
+        // Determine the correct orientation using an in-memory ExifInterface as a calculator.
+        val rotateDegrees: Int
+        val isFlipped: Boolean
+
+        if (image.format == ImageFormat.JPEG) {
+            val srcExif = ExifInterface(ByteArrayInputStream(jpegImageToJpegByteArray(image)))
+            if (!ExifRotationAvailability().shouldUseExifOrientation(image)) {
+                srcExif.rotate(image.imageInfo.rotationDegrees)
+            }
+            if (metadata.isReversedHorizontal) srcExif.flipHorizontally()
+            if (metadata.isReversedVertical) srcExif.flipVertically()
+            rotateDegrees = srcExif.rotationDegrees
+            isFlipped = srcExif.isFlipped
+        } else {
+            // YUV: no EXIF in source bytes; rotation is entirely in rotationDegrees.
+            var deg = image.imageInfo.rotationDegrees
+            var flip = metadata.isReversedHorizontal
+            if (metadata.isReversedVertical) {
+                flip = !flip
+                deg = (deg + 180) % 360
+            }
+            rotateDegrees = deg
+            isFlipped = flip
+        }
+
+        val matrix = Matrix()
+        if (isFlipped) matrix.postScale(-1f, 1f)
+        if (rotateDegrees != 0) matrix.postRotate(rotateDegrees.toFloat())
+
+        val decoded = BitmapFactory.decodeFile(file.absolutePath) ?: return
+        val finalBitmap = if (!matrix.isIdentity) {
+            Bitmap.createBitmap(decoded, 0, 0, decoded.width, decoded.height, matrix, true)
+                .also { decoded.recycle() }
+        } else {
+            decoded
+        }
+        try {
+            FileOutputStream(file).use { out ->
+                finalBitmap.compress(Bitmap.CompressFormat.JPEG, jpegQuality, out)
+            }
+        } finally {
+            finalBitmap.recycle()
+        }
     }
 
     /**
