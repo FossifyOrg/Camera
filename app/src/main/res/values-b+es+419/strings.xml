@@ -24,4 +24,26 @@
     <string name="camera_configure_error">Ocurrió un error mientras se configuraba la cámara</string>
     <string name="camera_disabled_by_admin_error">La cámara esta deshabilitada por el administrador</string>
     <string name="photo_not_saved">La foto no pudo ser guardada</string>
+    <string name="capture_mode">Modo de Captura</string>
+    <string name="maximize_quality">Maximizar calidad</string>
+    <string name="camera_unavailable">Cámara no disponible</string>
+    <string name="camera_open_error">Un error ha ocurrido al acceder la cámara</string>
+    <string name="save_error_internal_storage">Un error ha ocurrido, se movió la carpeta de guardados al almacenamiento interno</string>
+    <string name="camera_switch_error">Cambiar la cámara ha fallado</string>
+    <string name="click_to_resume_preview">Toca la imagen para continuar viendo</string>
+    <string name="setting_resolution_failed">Establecer la resolución apropiada ha fallado</string>
+    <string name="video_recording_failed">Grabar el video ha fallado, intenta usar una resolución diferente</string>
+    <string name="camera_in_use_error">La cámara está en uso por otra aplicación, por favor cierra la aplicación y vuelva a intentar</string>
+    <string name="camera_dnd_error">Modo No Molestar está activado. Por favor desactivalo y vuelva a intentar</string>
+    <string name="photo_capture_failed">Captura de foto ha fallado</string>
+    <string name="view_last_media">Ver el último contenido capturado</string>
+    <string name="toggle_camera">Cambiar camara frontal/trasera</string>
+    <string name="toggle_flash">Cambiar el modo linterna</string>
+    <string name="shutter_sound">Sonido obturador</string>
+    <string name="focus_before_capture">Concentrar antes de captura</string>
+    <string name="volume_buttons_as_shutter">Usar botones de volumen como obturador</string>
+    <string name="save_photo_metadata">Guardar la exif metadata de la foto</string>
+    <string name="save_photo_video_location">Guardar la ubicación de foto y video</string>
+    <string name="shutter">Obturador</string>
+    <string name="max_brightness">El brillo máximo de la pantalla es visible</string>
 </resources>
