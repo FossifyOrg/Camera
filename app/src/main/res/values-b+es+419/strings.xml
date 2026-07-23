@@ -24,7 +24,7 @@
     <string name="camera_configure_error">Ocurrió un error mientras se configuraba la cámara</string>
     <string name="camera_disabled_by_admin_error">La cámara esta deshabilitada por el administrador</string>
     <string name="photo_not_saved">La foto no pudo ser guardada</string>
-    <string name="capture_mode">Modo de Captura</string>
+    <string name="capture_mode">Modo de captura</string>
     <string name="maximize_quality">Maximizar calidad</string>
     <string name="camera_unavailable">Cámara no disponible</string>
     <string name="camera_open_error">Un error ha ocurrido al acceder a la cámara</string>
@@ -45,5 +45,5 @@
     <string name="save_photo_metadata">Guardar los metadatos EXIF de la foto</string>
     <string name="save_photo_video_location">Guardar la ubicación de foto y video</string>
     <string name="shutter">Obturador</string>
-    <string name="max_brightness">El brillo máximo de la pantalla es visible</string>
+    <string name="max_brightness">El brillo máximo de la pantalla en la vista previa</string>
 </resources>
