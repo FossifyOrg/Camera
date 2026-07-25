@@ -45,4 +45,5 @@
     <string name="toggle_timer">Slå timertilstand til/fra</string>
     <string name="video">Video</string>
     <string name="save_photo_video_location">Gem foto- og videoplacering</string>
+    <string name="max_brightness">Højeste skærmlysstyrke i forhåndsvisning</string>
 </resources>
