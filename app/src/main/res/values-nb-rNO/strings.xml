@@ -39,4 +39,6 @@
     <string name="save_photo_metadata">Lagre Exif-metadata i bilder</string>
     <string name="photo_compression_quality">Bildekompresjonskvalitet</string>
     <string name="shutter">Lukker</string>
+    <string name="maximize_quality">Maksimer kvalitet</string>
+    <string name="minimize_latency">Minimer forsinkelse</string>
 </resources>
