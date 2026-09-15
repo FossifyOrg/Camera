@@ -45,4 +45,5 @@
     <string name="toggle_timer">타이머 모드 전환</string>
     <string name="save_photo_video_location">사진과 비디오 위치 저장</string>
     <string name="shutter">셔터</string>
+    <string name="max_brightness">미리보기 시 화면 밝기 최대화</string>
 </resources>
