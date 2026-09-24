@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.1] - 2026-09-24
+### Changed
+- Updated translations
+
 ## [1.5.0] - 2026-01-30
 ### Added
 - Added support for custom fonts
@@ -77,7 +81,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#177]: https://github.com/FossifyOrg/Camera/issues/177
 [#234]: https://github.com/FossifyOrg/Camera/issues/234
 
-[Unreleased]: https://github.com/FossifyOrg/Camera/compare/1.5.0...HEAD
+[Unreleased]: https://github.com/FossifyOrg/Camera/compare/1.5.1...HEAD
+[1.5.1]: https://github.com/FossifyOrg/Camera/compare/1.5.0...1.5.1
 [1.5.0]: https://github.com/FossifyOrg/Camera/compare/1.4.0...1.5.0
 [1.4.0]: https://github.com/FossifyOrg/Camera/compare/1.3.1...1.4.0
 [1.3.1]: https://github.com/FossifyOrg/Camera/compare/1.3.0...1.3.1
