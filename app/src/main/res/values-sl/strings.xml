@@ -45,4 +45,5 @@
     <string name="shutter">Zaklopka</string>
     <string name="save_photo_video_location">Shrani lokacijo fotografij in videoposnetkov</string>
     <string name="toggle_timer">Vklop/izklop načina časovnika</string>
+    <string name="max_brightness">Največja svetlost zaslona v predogledu</string>
 </resources>
