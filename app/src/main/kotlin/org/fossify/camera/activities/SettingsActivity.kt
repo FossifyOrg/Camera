@@ -65,7 +65,7 @@ class SettingsActivity : SimpleActivity() {
     private fun refreshMenuItems() {
         binding.settingsToolbar.menu.apply {
             findItem(R.id.more_apps_from_us).isVisible =
-                !resources.getBoolean(org.fossify.commons.R.bool.hide_google_relations)
+                resources.getBoolean(org.fossify.commons.R.bool.is_google_play_build)
         }
     }
 
@@ -116,7 +116,7 @@ class SettingsActivity : SimpleActivity() {
             FAQItem(R.string.faq_1_title, R.string.faq_1_text)
         )
 
-        if (!resources.getBoolean(org.fossify.commons.R.bool.hide_google_relations)) {
+        if (resources.getBoolean(org.fossify.commons.R.bool.is_google_play_build)) {
             faqItems.add(
                 FAQItem(
                     org.fossify.commons.R.string.faq_2_title_commons,
@@ -217,26 +217,22 @@ class SettingsActivity : SimpleActivity() {
     }
 
     private fun setupSavePhotosFolder() = binding.apply {
-        settingsSavePhotosLabel.text = addLockedLabelIfNeeded(R.string.save_photos)
+        settingsSavePhotosLabel.text = getString(R.string.save_photos)
         settingsSavePhotos.text = getLastPart(config.savePhotosFolder)
         settingsSavePhotosHolder.setOnClickListener {
-            if (isOrWasThankYouInstalled()) {
-                FilePickerDialog(
-                    this@SettingsActivity,
-                    config.savePhotosFolder,
-                    false,
-                    showFAB = true
-                ) {
-                    val path = it
-                    handleSAFDialog(it) { success ->
-                        if (success) {
-                            config.savePhotosFolder = path
-                            settingsSavePhotos.text = getLastPart(config.savePhotosFolder)
-                        }
+            FilePickerDialog(
+                this@SettingsActivity,
+                config.savePhotosFolder,
+                false,
+                showFAB = true
+            ) {
+                val path = it
+                handleSAFDialog(it) { success ->
+                    if (success) {
+                        config.savePhotosFolder = path
+                        settingsSavePhotos.text = getLastPart(config.savePhotosFolder)
                     }
                 }
-            } else {
-                FeatureLockedDialog(this@SettingsActivity) { }
             }
         }
     }
