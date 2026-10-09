@@ -671,6 +671,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
             shutter,
             layoutTop.settings,
             lastPhotoVideoPreview,
+            timerText,
             layoutTimer.timerOff,
             layoutTimer.timer3s,
             layoutTimer.timer5s,
