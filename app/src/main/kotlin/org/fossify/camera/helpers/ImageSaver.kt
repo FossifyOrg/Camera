@@ -16,6 +16,7 @@ import org.fossify.camera.helpers.ImageUtil.imageToJpegByteArray
 import org.fossify.camera.helpers.ImageUtil.jpegImageToJpegByteArray
 import org.fossify.camera.models.MediaOutput
 import org.fossify.commons.extensions.copyTo
+import org.fossify.commons.extensions.removeValues
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.helpers.isQPlus
 import java.io.*
@@ -101,9 +102,9 @@ class ImageSaver private constructor(
             val output = FileOutputStream(tempFile)
             val byteArray: ByteArray = imageToJpegByteArray(image, jpegQuality)
             output.write(byteArray)
+            val exifInterface = ExifInterface(tempFile)
 
             if (saveExifAttributes) {
-                val exifInterface = ExifInterface(tempFile)
                 val imageByteArray = jpegImageToJpegByteArray(image)
                 val inputStream: InputStream = ByteArrayInputStream(imageByteArray)
                 ExifInterface(inputStream).copyTo(exifInterface)
@@ -126,6 +127,8 @@ class ImageSaver private constructor(
                 }
 
                 exifInterface.saveAttributes()
+            }else {
+                exifInterface.removeValues()
             }
         } catch (e: IOException) {
             saveError = SaveError.FILE_IO_FAILED
