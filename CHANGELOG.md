@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Fixed wrongly oriented photos and videos when opening in landscape ([#294])
+
 ## [1.5.0] - 2026-01-30
 ### Added
 - Added support for custom fonts
