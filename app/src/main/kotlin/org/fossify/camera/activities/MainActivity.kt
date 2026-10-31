@@ -678,7 +678,8 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
             layoutFlash.flashOff,
             layoutFlash.flashAuto,
             layoutFlash.flashOn,
-            layoutFlash.flashAlwaysOn
+            layoutFlash.flashAlwaysOn,
+            timerText
         )
         for (view in views) {
             rotate(view, degrees)
@@ -686,6 +687,20 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
         mediaSizeToggleGroup?.children?.forEach { child ->
             rotate(child, degrees)
         }
+    }
+
+    /**
+     * The on-screen rotation in degrees that matches the device's current
+     * physical orientation, as last seen by [mOrientationEventListener]. The
+     * controls rotate on each orientation change, but a view that was gone
+     * or built after the last change (such as the countdown [timerText])
+     * misses it and would open in portrait — so it needs the current value
+     * at the moment it becomes visible (#91).
+     */
+    private fun currentOrientationDegrees() = when (mLastHandledOrientation) {
+        ORIENT_LANDSCAPE_LEFT -> 90
+        ORIENT_LANDSCAPE_RIGHT -> -90
+        else -> 0
     }
 
     private fun rotate(view: View, degrees: Int) =
@@ -861,11 +876,7 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
             onSelect.invoke(index, selectedResolution.buttonViewId != clickedViewId)
         }
 
-        val currentDegrees = when (mLastHandledOrientation) {
-            ORIENT_LANDSCAPE_LEFT -> 90
-            ORIENT_LANDSCAPE_RIGHT -> -90
-            else -> 0
-        }
+        val currentDegrees = currentOrientationDegrees()
 
         resolutions.forEach {
             val button = createButton(it, onItemClick)
@@ -990,6 +1001,11 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
     private fun scheduleTimer(timerMode: TimerMode) {
         hideViewsOnTimerStart()
         binding.shutter.setImageState(intArrayOf(R.attr.state_timer_cancel), true)
+        // The timer text was built in portrait and only now becomes visible,
+        // so it has not received an orientation callback yet; show the first
+        // tick at the current orientation (#91). Any later rotation is kept
+        // in sync by [animateViews].
+        binding.timerText.rotation = currentOrientationDegrees().toFloat()
         binding.timerText.beVisible()
         var playSound = true
         countDownTimer = object : CountDownTimer(timerMode.millisInFuture, 1000) {
