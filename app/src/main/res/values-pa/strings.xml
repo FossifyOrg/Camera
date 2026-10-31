@@ -1,2 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_launcher_name">ਕੈਮਰਾ</string>
+    <string name="capture_mode">ਕੈਪਚਰ ਮੋਡ</string>
+    <string name="maximize_quality">ਗੁਣਵੱਤਾ ਨੂੰ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰੋ</string>
+    <string name="minimize_latency">ਦੇਰੀ ਘਟਾਓ</string>
+    <string name="camera_unavailable">ਕੈਮਰਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <string name="camera_open_error">ਕੈਮਰੇ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਵੇਲੇ ਇੱਕ ਤਰੁੱਟੀ ਆਈ</string>
+    <string name="video_creating_error">ਵੀਡੀਓ ਫਾਈਲ ਬਣਾਉਣ ਵੇਲੇ ਇੱਕ ਤਰੁੱਟੀ ਆਈ</string>
+    <string name="video_mode_error">ਵੀਡੀਓ ਮੋਡ \'ਤੇ ਬਦਲਣਾ ਅਸਫਲ ਰਿਹਾ</string>
+    <string name="save_error_internal_storage">ਇੱਕ ਤਰੁੱਟੀ ਆਈ ਹੈ, ਸੇਵ ਫੋਲਡਰ ਬਦਲ ਕੇ ਅੰਦਰੂਨੀ ਸਟੋਰੇਜ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ</string>
+    <string name="camera_switch_error">ਕੈਮਰਾ ਬਦਲਣ ਵਿੱਚ ਅਸਫਲਤਾ</string>
+    <string name="click_to_resume_preview">ਝਲਕ ਮੁੜ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤਸਵੀਰ \'ਤੇ ਕਲਿੱਕ ਕਰੋ</string>
+    <string name="photo_not_saved">ਫੋਟੋ ਸੇਵ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ</string>
+    <string name="setting_resolution_failed">ਸਹੀ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਸੈੱਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲਤਾ</string>
+    <string name="video_recording_failed">ਵੀਡੀਓ ਰਿਕਾਰਡਿੰਗ ਅਸਫਲ ਰਹੀ, ਕੋਈ ਵੱਖਰਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਵਰਤ ਕੇ ਦੇਖੋ</string>
+    <string name="camera_in_use_error">ਕੈਮਰਾ ਕਿਸੇ ਹੋਰ ਐਪ ਦੁਆਰਾ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ, ਕਿਰਪਾ ਕਰਕੇ ਉਸ ਐਪ ਨੂੰ ਬੰਦ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="camera_configure_error">ਕੈਮਰਾ ਕੌਂਫਿਗਰ ਕਰਨ ਵੇਲੇ ਇੱਕ ਤਰੁੱਟੀ ਆਈ</string>
+    <string name="camera_disabled_by_admin_error">ਕੈਮਰਾ ਐਡਮਿਨ ਦੁਆਰਾ ਅਸਮਰੱਥ ਕੀਤਾ ਗਿਆ ਹੈ</string>
+    <string name="camera_dnd_error">ਡੂ ਨਾਟ ਡਿਸਟਰਬ ਮੋਡ ਚਾਲੂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਇਸਨੂੰ ਬੰਦ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="photo_capture_failed">ਫੋਟੋ ਖਿੱਚਣ ਵਿੱਚ ਅਸਫਲਤਾ</string>
+    <string name="video_capture_insufficient_storage_error">ਨਾਕਾਫ਼ੀ ਸਟੋਰੇਜ ਕਾਰਨ ਵੀਡੀਓ ਰਿਕਾਰਡਿੰਗ ਅਸਫਲ ਰਹੀ</string>
+    <string name="toggle_photo_video">ਫੋਟੋ/ਵੀਡੀਓ ਮੋਡ ਬਦਲੋ</string>
+    <string name="change_resolution">ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਬਦਲੋ</string>
+    <string name="view_last_media">ਆਖਰੀ ਕੈਪਚਰ ਕੀਤਾ ਮੀਡੀਆ ਵੇਖੋ</string>
+</resources>
