@@ -105,7 +105,7 @@ class CameraXPreview(
 ) : MyPreview, DefaultLifecycleObserver {
 
     companion object {
-        // Auto focus is 1/6 of the area.
+        // Autofocus is 1/6 of the area.
         private const val AF_SIZE = 1.0f / 6.0f
         private const val AE_SIZE = AF_SIZE * 1.5f
         private const val CAMERA_MODE_SWITCH_WAIT_TIME = 500L
@@ -136,11 +136,9 @@ class CameraXPreview(
                     else -> Surface.ROTATION_0
                 }
 
-                if (lastRotation != rotation) {
-                    preview?.targetRotation = rotation
-                    imageCapture?.targetRotation = rotation
-                    videoCapture?.targetRotation = rotation
-                    lastRotation = rotation
+                if (targetRotation != rotation) {
+                    targetRotation = rotation
+                    applyCaptureRotation(rotation)
                 }
             }
         }
@@ -178,7 +176,7 @@ class CameraXPreview(
     private var cameraSelector = config.lastUsedCameraLens.toCameraSelector()
     private var flashMode = FLASH_MODE_OFF
     private var isPhotoCapture = initInPhotoMode
-    private var lastRotation = 0
+    private var targetRotation: Int? = null
     private var lastCameraStartTime = 0L
     private var simpleLocationManager: SimpleLocationManager? = null
 
@@ -200,7 +198,7 @@ class CameraXPreview(
                 videoQualityManager.initSupportedQualities(provider)
                 bindCameraUseCases()
                 setupCameraObservers()
-            } catch (e: Exception) {
+            } catch (_: Exception) {
                 val errorMessage =
                     if (switching) R.string.camera_switch_error else R.string.camera_open_error
                 activity.toast(errorMessage)
@@ -260,8 +258,14 @@ class CameraXPreview(
             )
         }
         preview = previewUseCase
+        applyCaptureRotation(targetRotation ?: rotation)
         setupZoomAndFocus()
         setFlashlightState(config.flashlightState)
+    }
+
+    private fun applyCaptureRotation(rotation: Int) {
+        imageCapture?.targetRotation = rotation
+        videoCapture?.targetRotation = rotation
     }
 
     private fun buildPreview(resolution: Size, rotation: Int): Preview {
@@ -269,7 +273,7 @@ class CameraXPreview(
             .setTargetRotation(rotation)
             .setResolutionSelector(getResolutionSelector(resolution))
             .build().apply {
-                setSurfaceProvider(previewView.surfaceProvider)
+                surfaceProvider = previewView.surfaceProvider
             }
     }
 
@@ -307,7 +311,7 @@ class CameraXPreview(
     private fun getResolutionSelector(resolution: Size): ResolutionSelector {
         return ResolutionSelector.Builder()
             .setResolutionStrategy(ResolutionStrategy(resolution, FALLBACK_RULE_CLOSEST_LOWER_THEN_HIGHER))
-            .setResolutionFilter { supportedSizes, rotationDegrees ->
+            .setResolutionFilter { supportedSizes, _ ->
                 // Sort by closest image ratio
                 supportedSizes.sortedBy {
                     size -> abs(size.width / size.height.toFloat() - resolution.width / resolution.height.toFloat())
@@ -316,6 +320,7 @@ class CameraXPreview(
             .setAllowedResolutionMode(getAllowedResolutionMode())
             .build()
     }
+
 
     private fun getAllowedResolutionMode(): Int {
         return when (config.captureMode) {
