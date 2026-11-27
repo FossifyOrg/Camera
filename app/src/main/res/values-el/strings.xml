@@ -45,4 +45,5 @@
     <string name="save_photo_video_location">Αποθήκευση τοποθεσίας φωτογραφιών και βίντεο</string>
     <string name="photo_compression_quality">Ποιότητα συμπίεσης φωτογραφιών</string>
     <string name="shutter">Κλείστρο</string>
+    <string name="max_brightness">Μέγιστη φωτεινότητα οθόνης στην προεπισκόπηση</string>
 </resources>
